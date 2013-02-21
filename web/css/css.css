@@ -1,0 +1,169 @@
+/* v1.0 | 20080212 :: http://meyerweb.com/eric/tools/css/reset/index.html */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+body { line-height: 1; font-family:  Gill, Trebuchet MS, Helvetica, sans-serif; padding: 2em 2em 0 2em; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+
+/*------------------------------------------------------------------------------
+	ROUND BORDERS in px
+------------------------------------------------------------------------------*/
+	.round_6{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	.round_bottm {
+		border-radius: 0 0 6px 6px;
+		-moz-border-radius: 0 0 6px 6px;
+		-webkit-border-radius: 0 0 6px 6px;
+	}
+
+
+/*------------------------------------------------------------------------------
+	GRADIENTS
+------------------------------------------------------------------------------*/
+/* light BLUE to dark BLUE */
+.gr_ltBlu_dkBlu {
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(4,68,128)), color-stop(1, rgb(82,185,240)));
+background: -moz-linear-gradient( center bottom, rgb(4,68,128) 0%, rgb(82,185,240) 100%);
+}
+
+/* dark BLUE to dark BLUE */
+.gr_dkBlu_dkBlue{
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(4,98,181)), color-stop(1, rgb(0,46,102)));
+background: -moz-linear-gradient( center bottom, rgb(4,98,181) 0%, rgb(0,46,102) 100%);
+}
+
+
+
+
+/*------------------------------------------------------------------------------
+	PUBLIC NAV
+------------------------------------------------------------------------------*/
+#admin_nav{
+	margin: 0px auto 10px auto;
+	padding: 5px 0 5px 0px;
+	width: 100%;
+	display: block;
+	clear:both;
+	font-family: Century Gothic, sans-serif;
+	/*background-color: #0461b4;*/
+}
+
+/* LEVEL ONE */
+ul.dropdown{ position: relative;
+	padding-left: 8px;
+}
+ul.dropdown li{
+	font-weight: bold;
+	float: left;
+	zoom: 1;
+}
+
+/*ul.dropdown a:hover{ color: #000; }
+ul.dropdown a:active{ color: #ffa500; }*/
+ul.dropdown li a{
+	display: block;
+	padding: 4px 8px;
+	color: #777;
+	line-height: 30px;
+}
+/* ul.dropdown li:last-child a { border-right: none; } Doesn't work in IE */
+
+ul.dropdown li:hover {
+	/*background: #F3D673;
+	background-color: #0461b4; light blue */
+	/*background-color:#c30; orangy
+	border-left: 1px solid #c30;
+	border-right: 1px solid #c30;*/
+	position: relative;
+}
+
+ul.dropdown li:hover a { color: #ff7d00; }
+
+/* LEVEL TWO */
+ul.dropdown ul{
+	width: 220px;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	/*border-radius: 0px;
+	-moz-border-radius: 0px;*/
+}
+ul.dropdown ul li{
+	font-weight: normal;
+	/*background: #0461b4;
+	color: #fff;*/
+	/*border-bottom: 1px solid #ccc;
+	border-left: 1px solid #0461b4#c30*/;
+	/*border-right: 1px solid #0461b4 #c30*/;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	float: none;
+}
+ul.dropdown ul li:hover {
+	border-color: #ff7d00;
+}
+ul.dropdown ul li a:hover {
+	color:#003366;
+}
+
+/* round off bottom of menu
+ul.dropdown ul li:last-child { border: 1px solid #0461b4; border-top: none; }
+ul.dropdown ul li:last-child:hover { border-color: #c30; } */
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a { border-right: none; width: 100%; display: inline-block;
+}
+
+/* LEVEL THREE */
+ul.dropdown ul ul { left: 100%; top: 0; }
+ul.dropdown li:hover > ul{ visibility: visible; }
+/* END NAV MENU STYLES */
+
+/*------------------------------------------------------------------------------
+	ADMIN - SUB-NAV
+------------------------------------------------------------------------------*/
+#sub_nav {
+	width: 90%;
+	border: 1px solid #000;
+	border-top-width: 0;
+	margin: -10px auto 1em auto;
+	padding: 0.5em;
+	background-color: #222;
+	}
+
+
+/*------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------*/

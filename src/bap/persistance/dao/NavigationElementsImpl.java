@@ -6,34 +6,52 @@
 package bap.persistance.dao;
 
 import bap.domain.NavigationSection;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Projections;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
  *
  * @author tomaszbrymora
  */
-public class NavigationElementsImpl extends HibernateDaoSupport implements NavigationElmentsDao {
+public class NavigationElementsImpl  implements NavigationElmentsDao {
 
-	public List pageNavElements() {
 
-		List contentPageNavElements =  this.getSession()
+    @Resource
+    private SessionFactory sessionFactory;
+    public void setSessionFactory(SessionFactory sessionFactory) {this.sessionFactory = sessionFactory; }
+    public SessionFactory getSessionFactory() { return sessionFactory; }
+
+
+    public List pageNavElements() {
+        List l;
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		 l =  s
 			.createCriteria(NavigationSection.class, "navigationSection").createAlias("contentPages", "cp")
 			.setProjection(  Projections.projectionList()
 			.add( Projections.property("navigationSection.id"), "id" )
 			.add( Projections.property("cp.linkLabel"), "linkLabel" )
 			.add( Projections.property("cp.linkHref"), "linkHref" )
 			).setCacheable(true).list();
-
-		return contentPageNavElements;
+        s.flush();
+        s.getTransaction().commit();
+		return l;
 
 	}
 
 	public List navigationElements() {
-		List navSectionElements = this.getSession()
+        List l;
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		 l = s
 			.createCriteria(NavigationSection.class, "navigationSection")
 			.setProjection( Projections.projectionList()
 			.add( Projections.property("navigationSection.id"), "id" )
@@ -41,7 +59,9 @@ public class NavigationElementsImpl extends HibernateDaoSupport implements Navig
 			.add( Projections.property("navigationSection.href"), "href" )
 			).addOrder( Order.asc("navigationSection.id")  ).setCacheable(true).list();
 
-		return navSectionElements;
+        s.flush();
+        s.getTransaction().commit();
+		return l;
 	}
 
 }

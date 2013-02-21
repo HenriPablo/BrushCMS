@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
+
+
+    <context:component-scan base-package="bap"/>
+
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+        <property  name="webBindingInitializer">
+            <bean class="bap.admin.controllers.bindinginitializers.DataBindingInitializer" >
+                <constructor-arg type="bap.persistance.dao.ImageDao" ref="imageDao"></constructor-arg>
+                <constructor-arg type="bap.persistance.dao.AlbumDao" ref="albumDao"></constructor-arg>
+                <constructor-arg type="bap.persistance.dao.TagDao" ref="tagDao"></constructor-arg>
+            </bean>
+        </property>
+    </bean>
+
+
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
+
+
+
+    <bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+
+        <!-- Connection properties -->
+        <property name="driverClass" value="org.postgresql.Driver"/>
+        <property name="jdbcUrl" value="jdbc:postgresql://localhost/brush_and_pixel"/>
+        <property name="user" value="postgres"/>
+        <property name="password" value="solaris"/>
+
+        <property name="debugUnreturnedConnectionStackTraces" value="false" />
+        <property name="unreturnedConnectionTimeout" value="100" />
+
+        <property name="numHelperThreads" value="9" />
+    </bean>
+
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="configLocation" value="classpath:bap/resources/hibernate.cfg.xml" />
+    <property name="dataSource" ref="myDataSource" />
+
+
+
+        <!--<property name="hibernateProperties">-->
+            <!--<props>-->
+                <!--<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</prop>-->
+                <!--<prop key="hibernate.show_sql">false</prop>-->
+
+                <!--&lt;!&ndash;HIBERNATE CONSOLE: comment out for query testing, something buggy in IntelliJ at this point  uncomment for production&ndash;&gt;-->
+                <!--<prop key="hibernate.connection.isolation">3</prop>-->
+                <!--<prop key="hibernate.connection.driver_class">org.postgresql.Driver</prop>-->
+                <!--<prop key="hibernate.connection.provider_class">org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</prop>-->
+                <!--<prop key="hibernate.connection.url">jdbc:postgresql://localhost:5432/brush_and_pixel</prop>-->
+                <!--<prop key="hibernate.connection.username">postgres</prop>-->
+                <!--<prop key="hibernate.connection.password">solaris</prop>-->
+
+                <!--<prop key="hibernate.c3p0.acquire_increment">2</prop>-->
+                <!--<prop key="hibernate.c3p0.idle_test_period">300</prop>-->
+                <!--<prop key="hibernate.c3p0.timeout">5000</prop>-->
+                <!--<prop key="hibernate.c3p0.max_size">10</prop>-->
+                <!--<prop key="hibernate.c3p0.max_statements">100</prop>-->
+                <!--<prop key="hibernate.c3p0.min_size">1</prop>-->
+                <!--&lt;!&ndash;&ndash;&gt;-->
+                <!--<prop key="hibernate.current_session_context_class">thread</prop>-->
+
+
+
+
+                <!--&lt;!&ndash; HIBERNATE CONSOLE: comment out&ndash;&gt;-->
+                <!--<prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</prop>-->
+
+
+                <!--&lt;!&ndash;HIBERNATE CONSOLE: dev testing setting only, comment out for production-->
+                <!--<prop key="hibernate.cache.provider_class">org.hibernate.cache.HashtableCacheProvider</prop>-->
+                <!--&ndash;&gt;-->
+
+                <!--&lt;!&ndash; -HIBERNATE CONSOLE: uncomment for production, IntelliJ does not seem to recognize ehcache.xml-->
+                    <!--or other settings, keeps throwring Ehcache related exceptions&ndash;&gt;-->
+
+				<!--<prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.SingletonEhCacheProvider</prop>-->
+
+				<!--<prop key="hibernate.cache.use_second_level_cache">true</prop>-->
+				<!--<prop key="net.sf.ehcache.configurationResourceName">/bap/cache/ehcache.xml</prop>-->
+
+            <!--</props>-->
+        <!--</property>-->
+
+
+
+        <property name="annotatedClasses" >
+            <list>
+                <value>bap.domain.Tag</value>
+                <value>bap.domain.Comment</value>
+                <value>bap.domain.Image</value>
+                <value>bap.domain.Navigation</value>
+                <value>bap.domain.NavigationSection</value>
+                <value>bap.domain.ContentPage</value>
+                <value>bap.domain.Album</value>
+                <value>bap.settings.SettingsGroup</value>
+                <value>bap.settings.Setting</value>
+            </list>
+        </property>
+
+        <!--<property name="mappingLocations">-->
+            <!--<list>-->
+                <!--<value>classpath:bap/settings/SettingsGroup.hbm.xml</value>-->
+            <!--</list>-->
+        <!--</property>-->
+
+    </bean>
+
+
+    <tx:annotation-driven transaction-manager="transactionManager" ></tx:annotation-driven>
+
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"  />
+
+    </bean>
+
+    <bean name="tagDao" class="bap.persistance.dao.TagDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="commentDao" class="bap.persistance.dao.CommentDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="imageDao" class="bap.persistance.dao.ImageDao" >
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="comment"  		    class="bap.domain.Comment" />
+    <bean name="timeDate" 		    class="bap.domain.TimeDate" />
+    <bean name="tag" 		        class="bap.domain.Tag" />
+    <bean name="navigation"		    class="bap.domain.Navigation" />
+    <bean name="navigationSection"	class="bap.domain.NavigationSection" />
+    <bean name="contentPage" 	    class="bap.domain.ContentPage" />
+    <bean name="image" 		        class="bap.domain.Image" />
+    <bean name="album"              class="bap.domain.Album" />
+    <bean name="settingsGroup"      class="bap.settings.SettingsGroup" />
+    <bean name="setting"            class="bap.settings.Setting" />
+
+
+
+    <bean id="pixThumbnailGenerator" class="bap.admin.controllers.utilities.PixThumbnailGenerator" ></bean>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10000000"/><!-- Max size in bytes. -->
+    </bean>
+
+    <bean name="contentPageDao" class="bap.persistance.dao.ContentPageDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="navigationDao" class="bap.persistance.dao.NavigationDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="navigationSectionDao" class="bap.persistance.dao.NavigationSectionDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="navigationElementsImpl" class="bap.persistance.dao.NavigationElementsImpl">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="albumDao" class="bap.persistance.dao.AlbumDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean name="settingsGroupDao" class="bap.persistance.dao.SettingGroupDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <!--
+    <bean name="settingDao" class="bap.persistance.dao.SettingDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    -->
+
+
+    <!-- ___________________ VIEW UTILITIES __________________________ -->
+
+    <bean name="adminViewBase" class="bap.admin.controllers.utilities.ViewBase" >
+        <property name="layout" value="admin/layout"/>
+        <property name="jsLib" value="colorbox"/>
+    </bean>
+
+
+
+    <!-- TAG -->
+    <bean name="tagIndexView" class="bap.admin.controllers.utilities.ViewComposit">
+        <property name="adminViewBase" ref="adminViewBase"/>
+        <property name="section" value="tag"/>
+        <property name="page" value="index"/>
+    </bean>
+    <bean name="tagFormView" class="bap.admin.controllers.utilities.ViewComposit">
+        <property name="adminViewBase" ref="adminViewBase"/>
+        <property name="section" value="tag"/>
+        <property name="page" value="index"/>
+        <property name="element" value="form_tag"/>
+    </bean>
+    <bean name="tagListView" class="bap.admin.controllers.utilities.ViewComposit">
+        <property name="adminViewBase" ref="adminViewBase"/>
+        <property name="section" value="tag"/>
+        <property name="page" value="index"/>
+        <property name="element" value="list"/>
+    </bean>
+
+
+
+
+</beans>

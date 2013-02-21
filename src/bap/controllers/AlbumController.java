@@ -8,7 +8,9 @@ package bap.controllers;
 import bap.admin.controllers.utilities.ViewBuilder;
 import bap.domain.Album;
 import bap.domain.DomainObject;
+import bap.persistance.dao.AlbumDao;
 import bap.persistance.dao.Dao;
+import bap.persistance.dao.ImageDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -24,12 +26,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class AlbumController {
 
     private static final String ALBUM = "album";
-    private Dao albumDao;
+    private AlbumDao albumDao;
 	private DomainObject album;
-	private Dao imageDao;
+	private ImageDao imageDao;
 
 	@Autowired
-	public AlbumController( Dao albumDao, DomainObject album, Dao imageDao ){
+	public AlbumController( AlbumDao albumDao, DomainObject album, ImageDao imageDao ){
 		this.albumDao = albumDao;
 		this.album = album;
 		this.imageDao = imageDao;

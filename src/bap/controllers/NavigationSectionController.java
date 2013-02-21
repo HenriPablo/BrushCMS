@@ -9,6 +9,8 @@ import bap.admin.controllers.utilities.ViewBuilder;
 import bap.domain.DomainObject;
 import bap.domain.NavigationSection;
 import bap.persistance.dao.Dao;
+import bap.persistance.dao.NavigationDao;
+import bap.persistance.dao.NavigationSectionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -24,17 +26,17 @@ import org.springframework.web.servlet.ModelAndView;
 public class NavigationSectionController {
 
     private static final String NAVIGATION_SECTION = "navigation_section";
-	private Dao navigationDao;
+	private NavigationDao navigationDao;
 
 	private DomainObject navigationSection;
-	private Dao navigationSectionDao;
+	private NavigationSectionDao navigationSectionDao;
 
 
 	@Autowired
 	public NavigationSectionController(
-		Dao navigationDao,
+		NavigationDao navigationDao,
 		DomainObject navigationSection,
-		Dao navigationSectionDao
+		NavigationSectionDao navigationSectionDao
 		){
 		this.navigationDao = navigationDao;
 		this.navigationSection = navigationSection;

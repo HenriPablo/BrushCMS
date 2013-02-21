@@ -10,9 +10,12 @@ import bap.domain.DomainObject;
 import bap.domain.Navigation;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Projections;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
+import javax.annotation.Resource;
 import javax.naming.OperationNotSupportedException;
 import java.util.List;
 
@@ -20,24 +23,54 @@ import java.util.List;
  *
  * @author tomaszbrymora
  */
-public class NavigationDao extends HibernateDaoSupport  {
+public class NavigationDao  {
+    @Resource
+    private SessionFactory sessionFactory;
+    public void setSessionFactory(SessionFactory sessionFactory) {this.sessionFactory = sessionFactory;}
+    public SessionFactory getSessionFactory() {return sessionFactory;}
 
 
 	public void save(DomainObject obj) {
-		this.getSession().saveOrUpdate(obj);
-		this.getSession().flush();
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		s.saveOrUpdate(obj);
+		s.flush();
+        s.getTransaction().commit();
 	}
 
 	public DomainObject get(int id) {
-		return this.getHibernateTemplate().get(Navigation.class, id);
+        DomainObject d;
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		d = (DomainObject) s.get(Navigation.class, id);
+        s.flush();
+        s.getTransaction().commit();
+        return  d;
 	}
 	
 	public DomainObject latest() {
-		Query q = this.getHibernateTemplate().getSessionFactory().openSession().createQuery( "from Navigation where id = ( select max( id ) from Navigation )");
-		return (Navigation) q.uniqueResult();
+        DomainObject d;
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		Query q = s.createQuery("from Navigation where id = ( select max( id ) from Navigation )");
+		d = (Navigation) q.uniqueResult();
+        s.flush();
+        s.getTransaction();
+        return  d;
 	}
+
 	public List list() {
-		return this.getHibernateTemplate().loadAll(Navigation.class );
+        List l;
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		l = s.createQuery("from Navigation" ).list();
+        s.flush();
+        s.getTransaction().commit();
+        return l;
 	}
 
 	/**
@@ -48,9 +81,14 @@ public class NavigationDao extends HibernateDaoSupport  {
 	 * 
 	 */
 	public DomainObject getLimited( int id ) throws OperationNotSupportedException{
-		Criteria c = this.getHibernateTemplate().getSessionFactory().openSession().createCriteria(ContentPage.class).setProjection(Projections.property("label")).setProjection(Projections.property("ahref"));
+        DomainObject d;
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		Criteria c = s.createCriteria(ContentPage.class).setProjection(Projections.property("label")).setProjection(Projections.property("ahref"));
 		c.setMaxResults( 1 );
-        return (DomainObject) c.list().get(1);
+        d = (DomainObject) c.list().get(1);
+        return d;
 	}
 
 	public void update(DomainObject obj) {
@@ -58,8 +96,13 @@ public class NavigationDao extends HibernateDaoSupport  {
 	}
 
 	public void delete(int id) {
-		Query query = this.getHibernateTemplate().getSessionFactory().openSession().createQuery("delete from Navigation where id = '" + id + "'" );
+        Session s = getSessionFactory().getCurrentSession();
+        s.getTransaction().begin();
+
+		Query query = s.createQuery("delete from Navigation where id = '" + id + "'");
 		query.executeUpdate();
+        s.flush();
+        s.getTransaction().commit();
 	}
 
     public DomainObject getArticleLink(String section) {

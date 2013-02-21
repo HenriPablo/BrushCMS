@@ -8,6 +8,8 @@ package bap.persistance.dao;
 import bap.domain.ContentPage;
 import bap.domain.DomainObject;
 import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,50 +20,93 @@ import java.util.List;
  * @author tomek
  */
 @Transactional
-public class ContentPageDao extends HibernateDaoSupport implements Dao {
+public class ContentPageDao  {
+
+    private SessionFactory sessionFactory;
+
 
 
     @Transactional
 	public void save(DomainObject obj) {
-			 this.getSession().saveOrUpdate(  obj) ;
-			 this.getSession().flush();
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
+
+			 s.saveOrUpdate(  obj) ;
+			s.flush();
+        s.getTransaction().commit();
 	}
 
 
 	@Transactional
 	public void update( DomainObject contentPage ) {
-		 this.getSession().update(contentPage); 
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
+		 s.update(contentPage);
+        s.flush();
+        s.getTransaction().commit();
 	}
 
 
 	@Transactional
 	public List list() {
-		return this.getHibernateTemplate() . loadAll(ContentPage.class);
+        List l;
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
+
+		l = s.createQuery( "from ContentPage " ).list();
+        s.flush();
+        s.getTransaction().commit();
+        return  l;
 	}
 
 
 	@Transactional
 	public ContentPage get(int id) {
-		return  (ContentPage) this.getSession().get(ContentPage.class, id)  ;
+        ContentPage cp;
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
+		cp =  (ContentPage) s.get(ContentPage.class, id) ;
+        s.flush();
+        s.getTransaction().commit();
+        return cp;
 	}
 
 
 	@Transactional
 	public void delete( int id ){
-		Query query = this.getSession().createQuery("delete from ContentPage where id = '" + id + "'" );
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
+
+		Query query = s.createQuery("delete from ContentPage where id = '" + id + "'" );
 		query.executeUpdate();
+        s.flush();
+        s.getTransaction().commit();
 	}
 
     public DomainObject getArticleLink(String section) {
+        DomainObject dm;
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
 
-        Query q = this.getSession().createQuery( "from ContentPage where linkHref = '"  + section + "'" );
-        return (ContentPage) q.uniqueResult();
+        Query q = s.createQuery( "from ContentPage where linkHref = '"  + section + "'" );
+        dm = (ContentPage) q.uniqueResult();
+        s.flush();
+        s.getTransaction().commit();
+        return dm;
     }
 
 	public DomainObject latest() {
-        Query q =  this.getSession().createQuery( "select cp   from ContentPage cp left join cp.tags as t where t.description ='article'  order by cp.modified desc");
+        DomainObject dm;
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
+
+        Query q =  s.createQuery( "select cp   from ContentPage cp left join cp.tags as t where t.description ='article'  order by cp.modified desc");
         q.setMaxResults(1);
-        return (ContentPage) q.uniqueResult();
+
+        dm = (ContentPage) q.uniqueResult();
+        s.flush();
+        s.getTransaction().commit();
+        return  dm;
 	}
 
 	public DomainObject getLatestArticle(){
@@ -77,14 +122,25 @@ public class ContentPageDao extends HibernateDaoSupport implements Dao {
      */
 
     public List getLatestByTagAndQty(String tagValue, int quntity ){
+        List l;
+        Session s = sessionFactory.getCurrentSession();
+        s.getTransaction().begin();
 
-        Query q = this.getSession().createQuery( "select cp from ContentPage cp left join cp.tags as t where t.description = " + tagValue + " order by cp.modified desc");
+        Query q = s.createQuery( "select cp from ContentPage cp left join cp.tags as t where t.description = " + tagValue + " order by cp.modified desc");
         q.setMaxResults( quntity );
-        return  q.list();
+        l =  q.list();
+        s.flush();
+        s.getTransaction().commit();
+        return l;
 
     }
 
 
+    public SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
 
-
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 }

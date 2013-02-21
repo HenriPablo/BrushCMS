@@ -9,7 +9,9 @@ import bap.admin.controllers.utilities.PixThumbnailGenerator;
 import bap.admin.controllers.utilities.ViewBuilder;
 import bap.domain.DomainObject;
 import bap.domain.Image;
+import bap.persistance.dao.AlbumDao;
 import bap.persistance.dao.Dao;
+import bap.persistance.dao.ImageDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -35,8 +37,8 @@ import java.util.logging.Logger;
 @Controller
 public class ImageController {
 	private DomainObject image;
-	private Dao imageDao;
-	private Dao albumDao;
+	private ImageDao imageDao;
+	private AlbumDao albumDao;
 	private PixThumbnailGenerator pixThumbnailGenerator;
 
     private static final String REDIRECT_ADMIN_IMAGE_READ_LIST = "redirect:/admin/image/read/list.html";
@@ -50,7 +52,7 @@ public class ImageController {
 
 
     @Autowired
-	public ImageController( Image image, Dao imageDao, Dao albumDao, PixThumbnailGenerator pixThumbnailGenerator ){
+	public ImageController( Image image, ImageDao imageDao, AlbumDao albumDao, PixThumbnailGenerator pixThumbnailGenerator ){
 		this.image = image;
 		this.imageDao = imageDao;
 		this.albumDao = albumDao;

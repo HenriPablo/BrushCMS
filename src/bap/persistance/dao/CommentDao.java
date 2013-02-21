@@ -21,7 +21,7 @@ import java.util.List;
  * @author tomaszbrymora
  */
 @Transactional(propagation = Propagation.REQUIRED)
-public class CommentDao implements Dao {
+public class CommentDao {
 
     private static final String NOT_SUPPORTED_YET = "Not supported yet.";
 

@@ -23,12 +23,12 @@ import java.io.IOException;
 @Controller
 public class PublicContentController {
 
-	private Dao contentPageDao;
+	private ContentPageDao contentPageDao;
 	private NavigationElmentsDao navigationElementsDaoImpl;
 
 
 	@Autowired
-	public PublicContentController( Dao contentPageDao, NavigationElmentsDao navigationElementsDaoImpl ) {
+	public PublicContentController( ContentPageDao contentPageDao, NavigationElmentsDao navigationElementsDaoImpl ) {
 		this.contentPageDao = contentPageDao;
 		this.navigationElementsDaoImpl = navigationElementsDaoImpl;
 	}
@@ -78,7 +78,7 @@ public class PublicContentController {
 	}
 
 	/** * @return the contentPageDao */
-	public final Dao getContentPageDao() { return contentPageDao; }
+	public final ContentPageDao getContentPageDao() { return contentPageDao; }
 
 	/** * @param contentPageDao the contentPageDao to set */
 	public final void setContentPageDao( ContentPageDao contentPageDao) { this.contentPageDao = contentPageDao; }

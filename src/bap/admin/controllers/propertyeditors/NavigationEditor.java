@@ -18,7 +18,7 @@ import java.beans.PropertyEditorSupport;
  */
 public class NavigationEditor extends PropertyEditorSupport {
 
-	private Dao navigationDao;
+	private NavigationDao navigationDao;
 
 	public NavigationEditor( NavigationDao navigationDao ){
 		this.navigationDao = navigationDao;

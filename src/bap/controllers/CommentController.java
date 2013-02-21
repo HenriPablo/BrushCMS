@@ -8,6 +8,7 @@ package bap.controllers;
 import bap.admin.controllers.utilities.ViewBuilder;
 import bap.domain.Comment;
 import bap.domain.DomainObject;
+import bap.persistance.dao.CommentDao;
 import bap.persistance.dao.Dao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class CommentController {
 	private DomainObject comment;
-	private Dao commentDao;
+	private CommentDao commentDao;
 
 
 
@@ -34,7 +35,7 @@ public class CommentController {
 	@Autowired
 	public CommentController(
 			DomainObject comment,
-			Dao commentDao
+			CommentDao commentDao
 			){
 		this.comment = comment;
 		this.commentDao = commentDao;

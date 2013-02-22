@@ -58,7 +58,7 @@ public class ContentPageDaoTest extends AbstractJUnit4SpringContextTests {
 
 	    SessionFactory sessionFactory = c.buildSessionFactory();
 	    instance = new ContentPageDao();
-	    instance.setSessionFactory(sessionFactory);
+	   // instance.setSessionFactory(sessionFactory);
     }
 
 	/**

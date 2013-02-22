@@ -29,8 +29,8 @@
         <!-- SQL dialect -->
         <property name="dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
 
-        <!-- Enable Hibernate's automatic session context management -->
-        <property name="current_session_context_class">thread</property>
+        <!-- Enable Hibernate's automatic session context management
+        <property name="current_session_context_class">thread</property>-->
 
         <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
 

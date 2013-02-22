@@ -11,6 +11,8 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -19,7 +21,7 @@ import java.util.List;
  *
  * @author tomaszbrymora
  */
-
+@Transactional(propagation = Propagation.REQUIRED)
 public class NavigationSectionDao  {
 
     @Resource
@@ -56,11 +58,11 @@ public class NavigationSectionDao  {
 	public List list() {
         List l;
         Session s = getSessionFactory().getCurrentSession();
-        s.getTransaction().begin();
+        //s.getTransaction().begin();
 
 		l = s.createQuery("from NavigationSection" ).list();
         s.flush();
-        s.getTransaction();
+        //s.getTransaction();
 
         return l;
 

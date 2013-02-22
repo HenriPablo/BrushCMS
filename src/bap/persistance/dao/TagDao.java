@@ -8,7 +8,9 @@ package bap.persistance.dao;
 import bap.domain.DomainObject;
 import bap.domain.Tag;
 import org.hibernate.Query;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
@@ -25,7 +27,7 @@ import java.util.List;
 @Transactional(propagation = Propagation.REQUIRED)
 public class TagDao {
 
-    @Resource
+    @Autowired
     private SessionFactory sessionFactory;
     public void setSessionFactory(SessionFactory sessionFactory) {this.sessionFactory = sessionFactory; }
     public SessionFactory getSessionFactory() { return sessionFactory; }
@@ -36,12 +38,15 @@ public class TagDao {
         return (Tag) getSessionFactory().getCurrentSession().get( Tag.class, id );// this.getSession().get( Setting.class, id );
 	}
 
-
+    //@Transactional
+    @Transactional(readOnly=true, propagation=Propagation.REQUIRES_NEW)
 	public List list(){
-        getSessionFactory().getCurrentSession().getTransaction().begin();
-        List<Tag> ls = getSessionFactory().getCurrentSession().createQuery( "from Tag " ).list();
-        getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
+        Session s = sessionFactory.getCurrentSession();
+        //getSessionFactory().getCurrentSession().getTransaction().begin();
+        List<Tag> ls = s.createQuery( "from Tag " ).list();
+        s.flush();
+        //getSessionFactory().getCurrentSession().flush();
+        //getSessionFactory().getCurrentSession().getTransaction().commit();
         return ls;
 	}
 

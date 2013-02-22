@@ -10,7 +10,8 @@ import bap.domain.DomainObject;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -19,11 +20,19 @@ import java.util.List;
  *
  * @author tomek
  */
-@Transactional
+@Transactional(propagation = Propagation.REQUIRED)
 public class ContentPageDao  {
 
+    @Autowired
     private SessionFactory sessionFactory;
 
+//    public SessionFactory getSessionFactory() {
+//        return sessionFactory;
+//    }
+//
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
 
     @Transactional
@@ -60,14 +69,14 @@ public class ContentPageDao  {
 	}
 
 
-	@Transactional
+    //@Transactional(readOnly=true,propagation=Propagation.REQUIRES_NEW)
 	public ContentPage get(int id) {
         ContentPage cp;
-        Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
-		cp =  (ContentPage) s.get(ContentPage.class, id) ;
-        s.flush();
-        s.getTransaction().commit();
+        //Session s = sessionFactory.getCurrentSession();
+        //s.getTransaction().begin();
+		cp =  (ContentPage) sessionFactory.getCurrentSession().get(ContentPage.class, id) ;
+        //s.flush();
+        //s.getTransaction().commit();
         return cp;
 	}
 
@@ -86,26 +95,26 @@ public class ContentPageDao  {
     public DomainObject getArticleLink(String section) {
         DomainObject dm;
         Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
+        //s.getTransaction().begin();
 
         Query q = s.createQuery( "from ContentPage where linkHref = '"  + section + "'" );
         dm = (ContentPage) q.uniqueResult();
         s.flush();
-        s.getTransaction().commit();
+        //s.getTransaction().commit();
         return dm;
     }
 
 	public DomainObject latest() {
         DomainObject dm;
         Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
+        //s.getTransaction().begin();
 
         Query q =  s.createQuery( "select cp   from ContentPage cp left join cp.tags as t where t.description ='article'  order by cp.modified desc");
         q.setMaxResults(1);
 
         dm = (ContentPage) q.uniqueResult();
         s.flush();
-        s.getTransaction().commit();
+        //s.getTransaction().commit();
         return  dm;
 	}
 
@@ -136,11 +145,5 @@ public class ContentPageDao  {
     }
 
 
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
-    }
 
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
 }

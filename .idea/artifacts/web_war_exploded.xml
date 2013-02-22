@@ -19,6 +19,8 @@
           <element id="library" level="project" name="commons-fileupload:commons-fileupload:1.2.1" />
           <element id="library" level="project" name="com.mchange.c3p0:com.springsource.com.mchange.v2.c3p0:0.9.1.2" />
           <element id="library" level="project" name="cglib:cglib:2.2.2" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
         </element>
       </element>
       <element id="dir-copy" path="$PROJECT_DIR$/web" />

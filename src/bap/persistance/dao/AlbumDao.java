@@ -52,10 +52,10 @@ public class AlbumDao  {
 //	@Override
 //	@Transactional
 	public List list() {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
+        //getSessionFactory().getCurrentSession().getTransaction().begin();
         List<Album> ls = getSessionFactory().getCurrentSession().createQuery( "from Album " ).list();// .load( Setting.class);// this.getHibernateTemplate().loadAll( Setting.class );
-        getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
+        //getSessionFactory().getCurrentSession().flush();
+        //getSessionFactory().getCurrentSession().getTransaction().commit();
         return ls;
 	}
 

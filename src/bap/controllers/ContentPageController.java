@@ -25,28 +25,19 @@ import org.springframework.web.servlet.ModelAndView;
 public class ContentPageController {
 
     private static final String CONTENT_PAGE = "content_page";
+
+    @Autowired
     private DomainObject contentPage;
-	private ContentPageDao contentPageDao;
-	private NavigationSectionDao navigationSectionDao;
-	private TagDao tagDao;
-	private AlbumDao albumDao;
+    @Autowired
+    private ContentPageDao contentPageDao;
+    @Autowired
+    private NavigationSectionDao navigationSectionDao;
+    @Autowired
+    private TagDao tagDao;
+    @Autowired
+    private AlbumDao albumDao;
 
 
-	@Autowired
-	public ContentPageController(
-			DomainObject contentPage,
-			ContentPageDao contentPageDao,
-			TagDao tagDao,
-			NavigationSectionDao navigationSectionDao,
-			AlbumDao albumDao
-			){
-		this.contentPage = contentPage;
-		this.contentPageDao = contentPageDao;
-
-		this.tagDao = tagDao;
-		this.navigationSectionDao = navigationSectionDao;
-		this.albumDao = albumDao;
-	}
 	/*----------------------------------------------------------------------
 		NEW
 	 ---------------------------------------------------------------------*/

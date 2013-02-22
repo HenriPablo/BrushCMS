@@ -49,10 +49,10 @@ public class ContentPageDao  {
 	@Transactional
 	public void update( DomainObject contentPage ) {
         Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
+        //s.getTransaction().begin();
 		 s.update(contentPage);
         s.flush();
-        s.getTransaction().commit();
+        //s.getTransaction().commit();
 	}
 
 
@@ -60,23 +60,16 @@ public class ContentPageDao  {
 	public List list() {
         List l;
         Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
 
 		l = s.createQuery( "from ContentPage " ).list();
         s.flush();
-        s.getTransaction().commit();
         return  l;
 	}
 
 
-    //@Transactional(readOnly=true,propagation=Propagation.REQUIRES_NEW)
 	public ContentPage get(int id) {
         ContentPage cp;
-        //Session s = sessionFactory.getCurrentSession();
-        //s.getTransaction().begin();
 		cp =  (ContentPage) sessionFactory.getCurrentSession().get(ContentPage.class, id) ;
-        //s.flush();
-        //s.getTransaction().commit();
         return cp;
 	}
 
@@ -84,37 +77,31 @@ public class ContentPageDao  {
 	@Transactional
 	public void delete( int id ){
         Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
 
 		Query query = s.createQuery("delete from ContentPage where id = '" + id + "'" );
 		query.executeUpdate();
         s.flush();
-        s.getTransaction().commit();
 	}
 
     public DomainObject getArticleLink(String section) {
         DomainObject dm;
         Session s = sessionFactory.getCurrentSession();
-        //s.getTransaction().begin();
 
         Query q = s.createQuery( "from ContentPage where linkHref = '"  + section + "'" );
         dm = (ContentPage) q.uniqueResult();
         s.flush();
-        //s.getTransaction().commit();
         return dm;
     }
 
 	public DomainObject latest() {
         DomainObject dm;
         Session s = sessionFactory.getCurrentSession();
-        //s.getTransaction().begin();
 
         Query q =  s.createQuery( "select cp   from ContentPage cp left join cp.tags as t where t.description ='article'  order by cp.modified desc");
         q.setMaxResults(1);
 
         dm = (ContentPage) q.uniqueResult();
         s.flush();
-        //s.getTransaction().commit();
         return  dm;
 	}
 
@@ -133,13 +120,11 @@ public class ContentPageDao  {
     public List getLatestByTagAndQty(String tagValue, int quntity ){
         List l;
         Session s = sessionFactory.getCurrentSession();
-        s.getTransaction().begin();
 
         Query q = s.createQuery( "select cp from ContentPage cp left join cp.tags as t where t.description = " + tagValue + " order by cp.modified desc");
         q.setMaxResults( quntity );
         l =  q.list();
         s.flush();
-        s.getTransaction().commit();
         return l;
 
     }

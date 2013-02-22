@@ -42,10 +42,10 @@ public class NavigationSectionDao  {
 	public DomainObject get(int id) {
         DomainObject d;
         Session s = getSessionFactory().getCurrentSession();
-        s.getTransaction().begin();
+       // s.getTransaction().begin();
 		d =  (DomainObject) s.get(NavigationSection.class, id);
         s.flush();
-        s.getTransaction();
+        //s.getTransaction();
         return d;
 	}
 

@@ -10,17 +10,21 @@
     </id>
     <property column="name" name="name"/>
     <property name="code" column="code" />
+      <!--<set name="setting" inverse="true">-->
+          <!--<key/>-->
+          <!--<one-to-many class="Setting"/>-->
+      <!--</set>-->
 
-    <bag name="children" inverse="true" table="settings_group">
+      <bag name="children" inverse="false" table="settings_group">
         <key column="parent_id" />
         <one-to-many class="bap.settings.SettingsGroup" />
     </bag>
 
 
-      <bag name="settings" inverse="true" table="setting">
+      <set inverse="true" table="setting" name="settings" >
           <key column="settings_group_id" />
           <one-to-many class="bap.settings.Setting" />
-      </bag>
+      </set>
 
   </class>
 

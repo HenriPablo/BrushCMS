@@ -12,13 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: tomekpilot
- * Date: 1/23/13
- * Time: 9:19 PM
- * To change this template use File | Settings | File Templates.
- */
+
 @Repository
 @Transactional(propagation = Propagation.REQUIRED)
 public class SettingDao  {
@@ -28,10 +22,8 @@ public class SettingDao  {
 
     @Transactional
     public void save(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().saveOrUpdate( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
     }
 
 
@@ -47,25 +39,19 @@ public class SettingDao  {
 
 
     public List<Setting> list() {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         List<Setting> ls = getSessionFactory().getCurrentSession().createQuery( "from Setting " ).list();// .load( Setting.class);// this.getHibernateTemplate().loadAll( Setting.class );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
         return ls;
     }
 
     public void update(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().merge( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
     }
 
     public void delete(int id) {
 
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().createQuery("delete from Setting where id = '" + id + "'" ).executeUpdate();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
 
 
     }

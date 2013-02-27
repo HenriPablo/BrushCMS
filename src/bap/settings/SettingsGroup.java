@@ -2,16 +2,16 @@ package bap.settings;
 
 
 import bap.domain.DomainObject;
+import org.hibernate.annotations.*;
 import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 
-
+import javax.persistence.Entity;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.*;
+import javax.persistence.Table;
 import java.io.Serializable;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -32,7 +32,7 @@ public class SettingsGroup implements Serializable, DomainObject {
     private String code;
 
     private List<SettingsGroup> children = new LinkedList<SettingsGroup>();
-    private List<Setting> settings = new LinkedList<Setting>();
+    private Set<Setting> settings = new HashSet<Setting>();
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "settings_group_id_seq")
@@ -75,14 +75,24 @@ public class SettingsGroup implements Serializable, DomainObject {
         this.children = children;
     }
 
-    @OneToMany( fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn( name = "settings_group_id")
+    @OneToMany( fetch = FetchType.LAZY, mappedBy = "settingsGroup")
+    @Cascade( value={ org.hibernate.annotations.CascadeType.SAVE_UPDATE })
     @OrderColumn
-    public List<Setting> getSettings() {
+    public Set<Setting> getSettings() {
         return settings;
     }
 
-    public void setSettings(List<Setting> settings) {
+    public void setSettings(Set<Setting> settings) {
         this.settings = settings;
     }
+
+    //private Collection<Setting> setting;
+
+    //public Collection<Setting> getSetting() {
+    //    return setting;
+    //}
+
+    //public void setSetting(Collection<Setting> setting) {
+    //    this.setting = setting;
+    //}
 }

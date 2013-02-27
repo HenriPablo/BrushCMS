@@ -111,4 +111,13 @@ public class SettingsGroupController {
         return "redirect:/admin/settings_group/edit/" + settingsGroup.getId() + ".html";
     }
 
+    /*----------------------------------------------------------------------
+         DELETE
+     ---------------------------------------------------------------------*/
+    @RequestMapping("/admin/settings_group/delete/{id}.html")
+    public final String deleteSettingsGroup( @PathVariable int id ){
+        settingsGroupDao.delete( id );
+        return "redirect:/admin/settings_group/read/list.html";
+    }
+
 }

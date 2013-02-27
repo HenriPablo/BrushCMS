@@ -12,13 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: tomekpilot
- * Date: 1/23/13
- * Time: 9:19 PM
- * To change this template use File | Settings | File Templates.
- */
+
 @Transactional(propagation = Propagation.REQUIRED)
 public class SettingGroupDao  {
 
@@ -29,18 +23,14 @@ public class SettingGroupDao  {
 
     @Transactional
     public void save(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().saveOrUpdate( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
     }
 
 
     //@Transactional
     public SettingsGroup get(int id) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         SettingsGroup sg = (SettingsGroup) getSessionFactory().getCurrentSession().get( SettingsGroup.class, id );
-        getSessionFactory().getCurrentSession().getTransaction().commit();
         return  sg;
     }
 
@@ -52,31 +42,20 @@ public class SettingGroupDao  {
     @Transactional
     public List<SettingsGroup> list() {
         List<SettingsGroup> ls;
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         ls = getSessionFactory().getCurrentSession().createQuery( "from SettingsGroup " ).list();
-        int lsSize = ls.size();
-
-        //getSessionFactory().getCurrentSession().flush();
-        //getSessionFactory().getCurrentSession().getTransaction().commit();
-        //getSessionFactory().getCurrentSession().evict(ls);
-
-
+        getSessionFactory().getCurrentSession().flush();
         return ls;
     }
 
     @Transactional
     public void update(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
-        getSessionFactory().getCurrentSession().merge( obj );
+        getSessionFactory().getCurrentSession().update( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
     }
 
     @Transactional
     public void delete(int id) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
-        getSessionFactory().getCurrentSession().createQuery("delete from SettingsGroup where id = '" + id + "'" ).executeUpdate();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
+        getSessionFactory().getCurrentSession().createQuery("delete from SettingsGroup where id = " + id + "" ).executeUpdate();
 
 
     }

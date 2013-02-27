@@ -11,27 +11,30 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 
-<link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/rte/rte.css" />
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-   <h2>Settings Group Form</h2>
+<div class="admin-col-single">
 
     <form:form method="post" commandName="settingsGroup" htmlEscape="true" action="${pageContext.servletContext.contextPath}${action}">
 
         <form:label path="id" for="id" title="id">id</form:label>
         <form:input path="id" id="id" size="5" readonly="true" />
+        <br />
 
         <form:label path="name" for="name" title="name" >name</form:label>
         <form:input path="name" size="55" id="name" />
+        <br />
 
         <form:label path="code" for="code" title="code" >code</form:label>
         <form:input path="code" size="55" id="code" />
-
-        <form:select path="children" items="${childrenList}" itemLabel="name" itemValue="id" multiple="false">
+        <br />
+        <form:select path="children" items="${childrenList}" itemLabel="name" itemValue="id" multiple="true">
 
         </form:select>
 
-        <br class="separator" /><br />
-        <input  type="submit" value="Save &amp; Continue Editing" />&nbsp;&nbsp;
+
+        <input type="submit" value="Save &amp; Continue Editing" class="save"/>
+
     </form:form>
+</div>

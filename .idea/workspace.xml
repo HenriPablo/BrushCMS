@@ -2,21 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/bap_log4j.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/controllers/ContentPageController.java" afterPath="$PROJECT_DIR$/src/bap/controllers/ContentPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/NavigationSectionDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/NavigationSectionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/TagDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/TagDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/tags/JQuery.tag" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/JQuery.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/settings/Setting.java" afterPath="$PROJECT_DIR$/src/bap/settings/Setting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml" afterPath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.java" afterPath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java" afterPath="$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" afterPath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" afterPath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -25,13 +39,13 @@
     <file path="/index.html" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360287985222" ignored="false" />
     <file path="/web.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360641220034" ignored="false" />
     <file path="$PROJECT_DIR$/../BandP-IntelliJ/web/WEB-INF/web.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360290621768" ignored="false" />
-    <file path="/applicationContext.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361334194318" ignored="false" />
+    <file path="/applicationContext.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361846687186" ignored="false" />
     <file path="/a.dummy" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360368279176" ignored="false" />
     <file path="/HibernateConfiguration.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360413586139" ignored="false" />
     <file path="/NavigationDaoTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360347734328" ignored="false" />
     <file path="/SettingDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360500709868" ignored="false" />
     <file path="/SettingDaoTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360465621467" ignored="false" />
-    <file path="/SettingGroupDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360555454497" ignored="false" />
+    <file path="/SettingGroupDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361850227915" ignored="false" />
     <file path="/SettingGroupDaoTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360555943578" ignored="false" />
     <file path="/CommentDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360637344826" ignored="false" />
     <file path="/TagDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361504890564" ignored="false" />
@@ -39,8 +53,8 @@
     <file path="/AlbumDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361334644710" ignored="false" />
     <file path="/TagController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335174596" ignored="false" />
     <file path="/ContentPageDataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335230516" ignored="false" />
-    <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361363543908" ignored="false" />
-    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361532083359" ignored="false" />
+    <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361846817839" ignored="false" />
+    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361878222110" ignored="false" />
     <file path="/ContentPageController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361405267100" ignored="false" />
     <file path="/NavigationEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361407900388" ignored="false" />
     <file path="/ContentPageDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361500645530" ignored="false" />
@@ -52,6 +66,19 @@
     <file path="/CommentController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418272584" ignored="false" />
     <file path="/AlbumController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418304059" ignored="false" />
     <file path="/NavigationElementsImpl.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418936507" ignored="false" />
+    <file path="/JQuery.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361587627018" ignored="false" />
+    <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361843901755" ignored="false" />
+    <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361735722443" ignored="false" />
+    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361935112372" ignored="false" />
+    <file path="/kendo-ui-admin-menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361935912023" ignored="false" />
+    <file path="/skin.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361675495376" ignored="false" />
+    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361934985526" ignored="false" />
+    <file path="/list.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361933743975" ignored="false" />
+    <file path="/SettingsGroupController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361844746656" ignored="false" />
+    <file path="/Setting.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361850421954" ignored="false" />
+    <file path="/SettingsGroup.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361878827936" ignored="false" />
+    <file path="/SettingEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361850804074" ignored="false" />
+    <file path="/SettingsGroup.hbm.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361930944164" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +93,36 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" line="51" class="bap.persistance.dao.SettingGroupDao" package="bap.persistance.dao">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java" line="91" class="bap.controllers.SettingsGroupController" package="bap.controllers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -109,82 +166,178 @@
     <favorites_list name="BRUSH" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="NavigationElementsImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/NavigationElementsImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="36" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentPageDao.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="0" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.8929889">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1361333234054" expanded="true" signature="590:619" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TagDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/TagDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="1" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentPageController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlbumDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/AlbumDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="10" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationSectionDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/NavigationSectionDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="10" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="NavigationSection.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/domain/NavigationSection.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="55" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#1131#1144#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/domain/Comment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="13" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Setting.hbm.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/settings/Setting.hbm.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SettingsGroup.hbm.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="41" selection-start="766" selection-end="766" vertical-scroll-proportion="-5.5833335">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="45" selection-start="536" selection-end="536" vertical-scroll-proportion="-10.583333">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin-layout.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="121" column="21" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kendo-ui-admin-menu.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="67" column="60" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.6815287">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="-6.8333335">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="68" column="83" selection-start="2748" selection-end="2819" vertical-scroll-proportion="8.166667">
+                  <folding>
+                    <marker date="1361735739825" expanded="true" signature="539:568" placeholder="{...}" />
+                    <marker date="1361735739825" expanded="true" signature="1184:1193" placeholder="{...}" />
+                    <marker date="1361735739825" expanded="true" signature="3549:3560" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Setting.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/settings/Setting.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="44" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ContentPage.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="184" column="4" selection-start="4680" selection-end="4680" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SettingsGroup.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/settings/SettingsGroup.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="82" column="31" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#867#882#0" expanded="true" />
+                    <element signature="e#933#942#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SettingDao.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SettingGroupDao.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ContentPageDao.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="52" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NavigationSection.hbm.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/domain/NavigationSection.hbm.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -202,22 +355,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/integration/SettingDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/CommentDao.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/NavigationDao.java" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/PublicContentController.java" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/ImageController.java" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/NavigationSectionController.java" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/CommentController.java" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/AlbumController.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/NavigationElementsImpl.java" />
-        <option value="$PROJECT_DIR$/integration/ContentPageDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/AlbumDao.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/NavigationSectionDao.java" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/ContentPageController.java" />
-        <option value="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/TagDao.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
+        <option value="$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java" />
+        <option value="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java" />
+        <option value="$PROJECT_DIR$/src/bap/settings/Setting.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/propertyeditors/SettingEditor.java" />
+        <option value="$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" />
+        <option value="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
+        <option value="$PROJECT_DIR$/src/bap/settings/SettingsGroup.java" />
+        <option value="$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
       </list>
     </option>
   </component>
@@ -259,8 +412,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,6 +536,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="settings_group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings_group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="content_page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,6 +669,10 @@
               <option name="myItemId" value="bap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -516,25 +735,119 @@
               <option name="myItemId" value="bap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="propertyeditors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bindinginitializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="179" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="181" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="181" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RoasterAuthority/out/artifacts/RoasterAuthority_war_exploded/WEB-INF/lib/jstl.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="184" />
@@ -550,13 +863,13 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="project.structure.side.proportion" value="0.32867134" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.side.proportion" value="0.32867134" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -724,19 +1037,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -765,6 +1065,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -778,6 +1091,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -801,17 +1121,17 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" show_console_on_std_out="true" show_console_on_std_err="true">
@@ -964,7 +1284,11 @@
       <created>1361505587459</created>
       <updated>1361505587459</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="continued cleanup">
+      <created>1361533489651</created>
+      <updated>1361533489651</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -977,7 +1301,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5319149" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5503546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8453901" sideWeight="0.39561856" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -990,8 +1314,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2242268" sideWeight="0.8056738" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432624" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2242268" sideWeight="0.7049645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29503545" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1037,7 +1361,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworking transaction management in DAO section" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued cleanup" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1057,6 +1381,7 @@
     <MESSAGE value="hibernate refactorings" />
     <MESSAGE value="final commit for the day" />
     <MESSAGE value="reworking transaction management in DAO section" />
+    <MESSAGE value="continued cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1066,104 +1391,123 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/NavigationDao.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/domain/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="915" selection-end="1011" vertical-scroll-proportion="1.2248521" />
+        <state line="25" column="13" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="4" selection-start="4680" selection-end="4680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.8905908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="10" selection-start="2523" selection-end="2523" vertical-scroll-proportion="2.52071">
+        <state line="26" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/settings/SettingsGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="1" selection-start="1799" selection-end="1799" vertical-scroll-proportion="3.2197802" />
+        <state line="82" column="31" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#867#882#0" expanded="true" />
+            <element signature="e#933#942#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/propertyeditors/NavigationSectionEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.82417583" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/propertyeditors/NavigationEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="546" selection-end="546" vertical-scroll-proportion="1.2362638" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ImageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="674" selection-end="911" vertical-scroll-proportion="0.08007117" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/NavigationElementsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="36" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.0">
+        <state line="26" column="52" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integration/ContentPageDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="9" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/bap/domain/NavigationSection.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/AlbumDao.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="10" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
+        <state line="17" column="41" selection-start="766" selection-end="766" vertical-scroll-proportion="-5.5833335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/NavigationSectionDao.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/domain/NavigationSection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="10" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+        <state line="40" column="55" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1131#1144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="45" selection-start="536" selection-end="536" vertical-scroll-proportion="-10.583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="21" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="68" column="83" selection-start="2748" selection-end="2819" vertical-scroll-proportion="8.166667">
           <folding>
-            <marker date="1361333234054" expanded="true" signature="590:619" placeholder="{...}" />
+            <marker date="1361735739825" expanded="true" signature="539:568" placeholder="{...}" />
+            <marker date="1361735739825" expanded="true" signature="1184:1193" placeholder="{...}" />
+            <marker date="1361735739825" expanded="true" signature="3549:3560" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.69979715">
+        <state line="13" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="-6.8333335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
+    <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/TagDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="1" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.8929889">
+        <state line="67" column="60" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.6815287">
           <folding />
         </state>
       </provider>

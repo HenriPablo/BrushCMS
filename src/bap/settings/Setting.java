@@ -33,7 +33,7 @@ public class Setting implements DomainObject {
     private String value = "";
     private String hint = "";
 
-    @ManyToOne( fetch = FetchType.EAGER)
+    @ManyToOne( fetch = FetchType.LAZY)
     @JoinColumn( name = "settings_group_id", nullable = false)
     private SettingsGroup settingsGroup;
 

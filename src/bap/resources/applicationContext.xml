@@ -17,11 +17,7 @@
 
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
         <property  name="webBindingInitializer">
-            <bean class="bap.admin.controllers.bindinginitializers.DataBindingInitializer" >
-                <constructor-arg type="bap.persistance.dao.ImageDao" ref="imageDao"></constructor-arg>
-                <constructor-arg type="bap.persistance.dao.AlbumDao" ref="albumDao"></constructor-arg>
-                <constructor-arg type="bap.persistance.dao.TagDao" ref="tagDao"></constructor-arg>
-            </bean>
+            <bean class="bap.admin.controllers.bindinginitializers.DataBindingInitializer" ></bean>
         </property>
     </bean>
 

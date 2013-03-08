@@ -32,7 +32,8 @@ $(document).ready(function() {
             "subscript",
             "superscript",
             "viewHtml"
-        ]
+        ] ,
+        encoded: false
     });
 
     $(".grid").kendoGrid({

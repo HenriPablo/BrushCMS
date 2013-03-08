@@ -83,7 +83,11 @@ public class ImageController {
 		SAVE UPLOADED
 	 ---------------------------------------------------------------------*/
 	@RequestMapping("/admin/image/save.html")
-	public final ModelAndView saveImage(  HttpServletRequest request, @ModelAttribute(IMAGE) Image image, @RequestParam( value="pix", required=true) MultipartFile pix ){
+	public final ModelAndView saveImage(
+            HttpServletRequest request,
+            @ModelAttribute(IMAGE) Image image,
+            @RequestParam( value="pix", required=true) MultipartFile pix
+    ){
 
 		try {
 			File f = new File(request.getSession().getServletContext().getRealPath(ART_UPLOAD), pix.getOriginalFilename());
@@ -128,29 +132,56 @@ public class ImageController {
 	/*----------------------------------------------------------------------
 		CROP - THUMBNAIL
 	 ---------------------------------------------------------------------*/
-	@RequestMapping(ADMIN_IMAGE_CROP)
-	public final ModelAndView cropImage( 
+    @RequestMapping("/admin/pix/crop.html")
+    public String testMe(
+
+            //HttpServletRequest r,
+            //@ModelAttribute(IMAGE) bap.domain.Image image,
+            //@RequestParam( "x1") int x1,
+            //@RequestParam( "y1") int y1,
+            //@RequestParam( "x2") int x2,
+            //@RequestParam( "y2") int y2,
+            //@RequestParam( "w" ) int w,
+            //@RequestParam( "h" ) int h,
+            @RequestParam( required = false, value = "cropOption" ) String cropOption,
+            @RequestParam( required = false, value = "thmPx" ) String thmPx,
+            @RequestParam( required = false, value = "orientation" ) String orientation
+
+    ){
+     return "redirect:/admin/image/read/list.html";
+    }
+
+
+    @RequestMapping( "/admin/image/crop.html" )
+	public final ModelAndView cropImage(
 		HttpServletRequest r,
-		@ModelAttribute(IMAGE) Image image,
-		@RequestParam( "x1") int x1,
-		@RequestParam( "y1") int y1,
-		@RequestParam( "x2") int x2,
-		@RequestParam( "y2") int y2,
-		@RequestParam( "w" ) int w,
-		@RequestParam( "h" ) int h,
+		@ModelAttribute(IMAGE) bap.domain.Image image,
+		@RequestParam( "x1") String x1,
+		@RequestParam( "y1") String y1,
+		@RequestParam( "x2") String x2,
+		@RequestParam( "y2") String y2,
+		@RequestParam( "w" ) String w,
+		@RequestParam( "h" ) String h,
 		@RequestParam( required = false, value = "cropOption" ) String cropOption,
-		@RequestParam( required = false, value = "thmPx" ) int thmPx,
+		@RequestParam( required = false, value = "thmPix" ) String thmPix,
 		@RequestParam( required = false, value = "orientation" ) String orientation
 		) {
 
-
+        System.out.println( "crop image called");
 
 		/* CROP ONLY */
 
-		if ( cropOption.equals("crop_only") ) {
+		if ( cropOption != null && cropOption.equals("crop_only") ) {
 			try {
 				/* read in original -> trim to size :-) */
-				BufferedImage cropped = ImageIO.read(new File( pixThumbnailGenerator.pathToArtUploadDir( r, null , image.getSrc() ))).getSubimage(x1, y1, w, h);
+				BufferedImage cropped = ImageIO.read(
+                        new File( pixThumbnailGenerator.pathToArtUploadDir( r, null , image.getSrc() )))
+                            .getSubimage(
+                                    Integer.parseInt(x1),
+                                    Integer.parseInt(y1),
+                                    Integer.parseInt(w),
+                                    Integer.parseInt(h)
+                            );
 
 				/* write thumbnail */
 				ImageIO.write(cropped, "jpg", new File( pixThumbnailGenerator.pathToArtUploadDir(r, null,  image.getSrc())));
@@ -162,17 +193,17 @@ public class ImageController {
 
 		/* THUMBNAIL ONLY */
 
-		if( cropOption.equals("thumbnail_only")){
+		if( cropOption != null && cropOption.equals("thumbnail_only")){
 
 			try {
 				/* read in original -> trim to size :-) */
 				BufferedImage original = ImageIO.read(new File( pixThumbnailGenerator.pathToArtUploadDir(r, null,   image.getSrc() ) ) );
-				BufferedImage cropped=  original.getSubimage(x1, y1, w, h);
+				BufferedImage cropped=  original.getSubimage(Integer.parseInt(x1), Integer.parseInt(y1), Integer.parseInt(w), Integer.parseInt(h) );
 
 				/* write thumbnail */
 				ImageIO.write(cropped, "jpg", new File(( pixThumbnailGenerator.pathToArtUploadDir(r, "thm" , image.getSrc()) )));
 
-				pixThumbnailGenerator.generateThumbnail( pixThumbnailGenerator.pathToArtUploadDir(r, "thm", image.getSrc()  ) , pixThumbnailGenerator.pathToArtUploadDir(r, "thm", image.getSrc()  ) , thmPx, orientation );
+				pixThumbnailGenerator.generateThumbnail( pixThumbnailGenerator.pathToArtUploadDir(r, "thm", image.getSrc()  ) , pixThumbnailGenerator.pathToArtUploadDir(r, "thm", image.getSrc()  ) , Integer.parseInt(thmPix), orientation );
 
 			} catch (IOException ex) {
 				Logger.getLogger(ImageController.class.getName()).log(Level.SEVERE, null, ex);
@@ -180,13 +211,13 @@ public class ImageController {
 		}
 
 		/*CROP & THUMBNAIL */
-		if ( cropOption.equals("crop_and_thumbnail")){
+		if ( cropOption != null && cropOption.equals("crop_and_thumbnail")){
 			try {
 				/* read in original */
 				BufferedImage origianl = ImageIO.read(new File(r.getSession().getServletContext().getRealPath(ART_UPLOAD + image.getSrc())));
 
 				/* trim to size :-) */
-				BufferedImage cropped = origianl.getSubimage(x1, y1, w, h);
+				BufferedImage cropped = origianl.getSubimage(Integer.parseInt(x1), Integer.parseInt(y1), Integer.parseInt(w), Integer.parseInt(h));
 
 				/* write thumbnail */
 				ImageIO.write(cropped, "jpg", new File(r.getSession().getServletContext().getRealPath(ART_UPLOAD + image.getSrc())));
@@ -197,7 +228,7 @@ public class ImageController {
 			pixThumbnailGenerator.generateThumbnail(
 				r.getSession().getServletContext().getRealPath(ART_UPLOAD + image.getSrc()),
 				r.getSession().getServletContext().getRealPath("/art/upload/thm/" + image.getSrc()),
-                    thmPx, orientation );
+                    Integer.parseInt(thmPix), orientation );
 		}
 
 		ViewBuilder vb = new ViewBuilder.Builder()
@@ -209,11 +240,12 @@ public class ImageController {
 			.section(IMAGE)
 			.page(INDEX)
 			.element("crop")
-			.action(ADMIN_IMAGE_CROP)
+			.action( ADMIN_IMAGE_CROP)
 			.build();
 		ModelAndView mov = new ModelAndView();
 		mov.addAllObjects(vb.getViewParts()).setViewName(vb.getLayout());
 		return mov;
+        //return "redirect:/admin/image/read/list.html";
 	} // cropImage
 
 	/*----------------------------------------------------------------------
@@ -221,7 +253,10 @@ public class ImageController {
 	 ---------------------------------------------------------------------*/
 	@RequestMapping( "/admin/image/edit/{id}.html" )
 	public final ModelAndView editImage( HttpServletRequest request, @PathVariable("id") int id ){
-		ViewBuilder vb = new ViewBuilder.Builder()
+
+        System.out.println( "edit image called");
+
+        ViewBuilder vb = new ViewBuilder.Builder()
 			.modelPart(IMAGE, imageDao.get(id))
 
             /* includes overrides of default form css for other crop details */
@@ -230,7 +265,7 @@ public class ImageController {
 			.section(IMAGE)
 			.page(INDEX)
 			.element("crop")
-			.action(ADMIN_IMAGE_CROP)
+			.action(  ADMIN_IMAGE_CROP )
 			.build();
 		ModelAndView mov = new ModelAndView();
 		mov.addAllObjects(vb.getViewParts()).setViewName(vb.getLayout());

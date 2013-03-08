@@ -54,8 +54,9 @@ public class SettingGroupDao  {
     }
 
     @Transactional
-    public void delete(int id) {
-        getSessionFactory().getCurrentSession().createQuery("delete from SettingsGroup where id = " + id + "" ).executeUpdate();
+    public void delete(DomainObject obj ) {
+        getSessionFactory().getCurrentSession().delete( obj );   ///createQuery("delete from SettingsGroup where id = " + id + "" ).executeUpdate();
+        getSessionFactory().getCurrentSession().flush();
 
 
     }

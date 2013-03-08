@@ -56,44 +56,44 @@
         </c:choose>
 
 
-		<script type="text/javascript">
-			$(document).ready(function(){
+		<%--<script type="text/javascript">--%>
+			<%--$(document).ready(function(){--%>
 
-				/* MAIN NAV MENU */
+				<%--/* MAIN NAV MENU */--%>
 
-				$("ul.dropdown li").hover(function(){
+				<%--$("ul.dropdown li").hover(function(){--%>
 
-					$(this).addClass("hover");
-					$('ul:first',this).css('visibility', 'visible');
+					<%--$(this).addClass("hover");--%>
+					<%--$('ul:first',this).css('visibility', 'visible');--%>
 
-				}, function(){
+				<%--}, function(){--%>
 
-					$(this).removeClass("hover");
-					$('ul:first',this).css('visibility', 'hidden');
+					<%--$(this).removeClass("hover");--%>
+					<%--$('ul:first',this).css('visibility', 'hidden');--%>
 
-				});
+				<%--});--%>
 
-				$("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+				<%--$("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");--%>
 
-				/*$("div.stuff").click(
-					function(){
-						alert('hi');
-						//$(this).next(toggle());
-						}
-					)
-				 */
-				/* HIDE AND SHOW TEXT AREAS */
-				if( disable_form_effects == false ) {
-				$("label").next().hide();
+				<%--/*$("div.stuff").click(--%>
+					<%--function(){--%>
+						<%--alert('hi');--%>
+						<%--//$(this).next(toggle());--%>
+						<%--}--%>
+					<%--)--%>
+				 <%--*/--%>
+				<%--/* HIDE AND SHOW TEXT AREAS */--%>
+				<%--if( disable_form_effects == false ) {--%>
+				<%--$("label").next().hide();--%>
 
-				$("label", this ).bind( 'click', (function(){
-					$(this).next( ).toggle();
-				}));
-				}
+				<%--$("label", this ).bind( 'click', (function(){--%>
+					<%--$(this).next( ).toggle();--%>
+				<%--}));--%>
+				<%--}--%>
 
 
 
-			});
-		</script>
+			<%--});--%>
+		<%--</script>--%>
 	</body>
 </html>

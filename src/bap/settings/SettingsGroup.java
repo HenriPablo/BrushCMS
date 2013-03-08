@@ -4,6 +4,7 @@ package bap.settings;
 import bap.domain.DomainObject;
 import org.hibernate.annotations.*;
 import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CascadeType;
 
 
 import javax.persistence.Entity;
@@ -75,8 +76,8 @@ public class SettingsGroup implements Serializable, DomainObject {
         this.children = children;
     }
 
-    @OneToMany( fetch = FetchType.LAZY, mappedBy = "settingsGroup")
-    @Cascade( value={ org.hibernate.annotations.CascadeType.SAVE_UPDATE })
+    @OneToMany( fetch = FetchType.LAZY, mappedBy = "settingsGroup" )
+    @Cascade( value={ org.hibernate.annotations.CascadeType.SAVE_UPDATE, CascadeType.DELETE_ORPHAN})
     @OrderColumn
     public Set<Setting> getSettings() {
         return settings;
@@ -86,13 +87,4 @@ public class SettingsGroup implements Serializable, DomainObject {
         this.settings = settings;
     }
 
-    //private Collection<Setting> setting;
-
-    //public Collection<Setting> getSetting() {
-    //    return setting;
-    //}
-
-    //public void setSetting(Collection<Setting> setting) {
-    //    this.setting = setting;
-    //}
 }

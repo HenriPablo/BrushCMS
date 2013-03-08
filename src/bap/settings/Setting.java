@@ -20,7 +20,7 @@ import javax.persistence.Table;
 @Entity
 @SequenceGenerator( name = "setting_id_seq", sequenceName = "setting_id_seq")
 @Cache( usage= CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@Table( name = "image")
+@Table( name = "setting")
 public class Setting implements DomainObject {
 
     @Id
@@ -33,8 +33,8 @@ public class Setting implements DomainObject {
     private String value = "";
     private String hint = "";
 
-    @ManyToOne( fetch = FetchType.LAZY)
-    @JoinColumn( name = "settings_group_id", nullable = false)
+    @ManyToOne( fetch = FetchType.LAZY )
+    @JoinColumn( name = "settings_group_id" )
     private SettingsGroup settingsGroup;
 
 

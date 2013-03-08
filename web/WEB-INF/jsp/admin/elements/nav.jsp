@@ -3,29 +3,7 @@
     Created on : Jun 28, 2010, 2:38:58 PM
     Author     : tomaszbrymora
 --%>
- <style>
-     #menu{
-         height: 45px;
-     }
 
-     ul#menu li{
-         font-weight: bold;
-         letter-spacing: 1px;
-         height: 35px; 
-         padding-top:10px;
-     }
-
-     ul#menu li ul{
-         height: auto;
-     }
-
-     ul#menu li ul li{
-         font-weight: normal;
-         letter-spacing: normal;
-         height: auto;
-         padding-top: 0;
-     }
- </style>
 
 <div class="admin-head">
     <ul id="menu">
@@ -94,10 +72,10 @@
                     settings
                     <ul>
                         <li>
-                            <a href="${pageContext.servletContext.contextPath}">list</a>
+                            <a href="${pageContext.servletContext.contextPath}/admin/setting/read/list.html">list</a>
                         </li>
                         <li>
-                            <a href="${pageContext.servletContext.contextPath}">new</a>
+                            <a href="${pageContext.servletContext.contextPath}/admin/setting/new.html">new</a>
                         </li>
                     </ul>
                 </li>

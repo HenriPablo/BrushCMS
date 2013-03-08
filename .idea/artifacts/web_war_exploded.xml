@@ -21,6 +21,7 @@
           <element id="library" level="project" name="cglib:cglib:2.2.2" />
           <element id="library" level="project" name="jstl" />
           <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="org.apache.directory.studio:org.apache.commons.io:2.1" />
         </element>
       </element>
       <element id="dir-copy" path="$PROJECT_DIR$/web" />

@@ -1,8 +1,9 @@
 html, body{
-    background-color: #ddd!important;
+    background-color: #ccc!important;
     height: 100%;
     background: none;
     font: 90% 'Lucida Sans Unicode','Lucida Grande',arial,helvetica,sans-serif!important;
+    background-image: url("seamlesstexture2_1200.jpg");
 
 }
 
@@ -26,6 +27,8 @@ html, body{
     display: block;
     height: 100%;
     margin-bottom: 10px;
+    border: 1px solid #111;
+    border-radius: 4px;
 }
 
 .admin-col-left, .admin-col-right, .admin-col-single{
@@ -77,14 +80,17 @@ select, input{
 select{
     width: 65%;
     padding: 0.5em;
-    background-color: #fff;
+    border:1px solid #d1d1d1;
+    border-radius: 3px;
+    background-color: #f9f9f9;
 }
 input[type='text']{
     width: 65%;
     padding: 0.5em;
-    border: #ddd solid thin;
-    border-radius: 1%;
+    border: #d1d1d1 solid 1px;
+    border-radius: 3px;
     color: #787878;
+    background-color: #f9f9f9;
 }
 .admin-editor-area-label{
     clear: both;

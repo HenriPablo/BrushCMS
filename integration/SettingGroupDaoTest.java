@@ -136,7 +136,7 @@ public class SettingGroupDaoTest extends AbstractJUnit4SpringContextTests {
         //int ls1 = settingsGroupDao.list().size();
         //System.out.println("Size after insert: " + ls1);
 
-        settingsGroupDao.delete(156);
+       // settingsGroupDao.delete(156);
 
 
         int ls2 = settingsGroupDao.list().size();

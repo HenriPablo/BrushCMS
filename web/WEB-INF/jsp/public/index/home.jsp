@@ -3,7 +3,7 @@
 
 <h1>${latest_article.title}</h1>
 <div class="content">
-	${latest_article.content}
+<c:out value="${latest_article.content}" ></c:out>
 </div>
 
 <%-- <c:forEach items="${latest_article.albums}" var="a"> <t:show_album album="${a}" /> </c:forEach> --%>

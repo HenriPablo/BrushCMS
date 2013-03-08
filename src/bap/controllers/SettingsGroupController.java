@@ -21,14 +21,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class SettingsGroupController {
 
+    @Autowired
     private SettingGroupDao settingsGroupDao;
+    @Autowired
     private SettingsGroup settingsGroup;
 
-    @Autowired
-    public SettingsGroupController(SettingGroupDao settingsGroupDao, SettingsGroup settingsGroup){
-        this.settingsGroupDao = settingsGroupDao;
-        this.settingsGroup = settingsGroup;
-    }
 
 	/*----------------------------------------------------------------------
 		NEW
@@ -116,7 +113,8 @@ public class SettingsGroupController {
      ---------------------------------------------------------------------*/
     @RequestMapping("/admin/settings_group/delete/{id}.html")
     public final String deleteSettingsGroup( @PathVariable int id ){
-        settingsGroupDao.delete( id );
+        SettingsGroup s = settingsGroupDao.get( id );
+        settingsGroupDao.delete( s );
         return "redirect:/admin/settings_group/read/list.html";
     }
 

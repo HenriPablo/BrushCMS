@@ -33,10 +33,8 @@ public class AlbumDao  {
 
     //	@Override
 	public void save(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().saveOrUpdate( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
 	}
 
 //	@Override
@@ -52,26 +50,20 @@ public class AlbumDao  {
 //	@Override
 //	@Transactional
 	public List list() {
-        //getSessionFactory().getCurrentSession().getTransaction().begin();
         List<Album> ls = getSessionFactory().getCurrentSession().createQuery( "from Album " ).list();// .load( Setting.class);// this.getHibernateTemplate().loadAll( Setting.class );
-        //getSessionFactory().getCurrentSession().flush();
-        //getSessionFactory().getCurrentSession().getTransaction().commit();
+        getSessionFactory().getCurrentSession().flush();
         return ls;
 	}
 
 //	@Override
 	public void update(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().merge( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
 	}
 
 //	@Override
 	public void delete(int id) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().createQuery("delete from Album where id = '" + id + "'" ).executeUpdate();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
 	}
 
     public DomainObject getArticleLink(String section) {

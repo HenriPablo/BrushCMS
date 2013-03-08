@@ -10,7 +10,7 @@
 	<c:forEach items="${album.images}" var="i" >
 		<div  class="def_pix">
 			<a href="${pageContext.servletContext.contextPath}/art/upload/${i.src}" rel="album1">
-			<img alt="${i.alt}" src="${pageContext.servletContext.contextPath}/art/upload/thm/${i.src}" <%--width="${i.width}" height="${i.height}"--%> id="${i.id}" />
+			<img alt="${i.alt}" src="${pageContext.servletContext.contextPath}/art/upload/thm/${i.src}" <%--width="${i.width}" height="${i.height}"--%> id="${i.id}" class="albumPix" />
 			</a>
 		</div>
 	</c:forEach>

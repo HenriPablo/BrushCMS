@@ -80,7 +80,7 @@
 
                     <c:forEach items="${content_page.albums}" var="a">
                         <ul>
-                            <li>
+                            <li>  ${a.name}
                                 <t:show_album album="${a}"/>
                             </li>
                         </ul>
@@ -91,7 +91,7 @@
 
 
             <label for="content" class="admin-editor-area-label" >Content:</label>
-            <form:textarea path="content" rows="8" cols="35" id="content" cssStyle="width: 100%"/>
+            <form:textarea path="content" rows="8" cols="35" id="content" cssStyle="width: 100%" htmlEscape="false" />
             <br class="separator"/><br/>
 
 

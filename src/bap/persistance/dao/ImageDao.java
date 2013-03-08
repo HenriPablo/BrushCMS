@@ -33,10 +33,8 @@ public class ImageDao {
 
 
 	public List list() {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         List<Image> ls = getSessionFactory().getCurrentSession().createQuery( "from Image " ).list();
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
         return ls;
 	}
 
@@ -58,10 +56,8 @@ public class ImageDao {
 	}
 
 	public void save(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().saveOrUpdate( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
 	}
 
 	public DomainObject latest() {
@@ -69,10 +65,8 @@ public class ImageDao {
 	}
 
 	public void update(DomainObject obj) {
-        getSessionFactory().getCurrentSession().getTransaction().begin();
         getSessionFactory().getCurrentSession().merge( obj );
         getSessionFactory().getCurrentSession().flush();
-        getSessionFactory().getCurrentSession().getTransaction().commit();
 	}
 
 }

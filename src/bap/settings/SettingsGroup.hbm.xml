@@ -21,7 +21,7 @@
     </bag>
 
 
-      <set inverse="true" table="setting" name="settings" >
+      <set inverse="false" table="setting" name="settings" cascade="save-update, delete-orphan" >
           <key column="settings_group_id" />
           <one-to-many class="bap.settings.Setting" />
       </set>

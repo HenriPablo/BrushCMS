@@ -4,7 +4,7 @@
 <%@taglib  tagdir="/WEB-INF/tags/" prefix="t" %>
 
 <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/selectList/css/selectlist.css" />
-
+<link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/css/admin/css.css" />
 <style type="text/css">
 body, textarea {
     font-family:sans-serif;
@@ -22,7 +22,9 @@ body, textarea {
 </div>
 
 <form:form method="post" commandName="album" htmlEscape="true"  action="${pageContext.servletContext.contextPath}${action}">
-			ID: <form:input path="id" id="id" readonly="true" cssStyle="border:none; background:none;"  />
+
+
+    ID: <form:input path="id" id="id" readonly="true" cssStyle="border:none; background:none;"  />
 
 	<form:select items="${images}" itemLabel="id" itemValue="id"  path="images" size="55" id="images" title="select image" />
 	<br class="separator" /><br />

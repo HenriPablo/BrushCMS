@@ -31,9 +31,56 @@ $(document).ready(function() {
             "insertImage",
             "subscript",
             "superscript",
-            "viewHtml"
+            "viewHtml",
+            {
+                name: "customTool",
+                tooltip: "Custom Tool",
+                exec: function(e) {
+                    var editor = $(this).data("kendoEditor");
+                    //console.log( editor );
+                    var p =  editor.getSelection();
+                    console.dir( p )
+                    // ...
+                }
+            }
         ] ,
-        encoded: false
+        encoded: false,
+
+        select : function( e ){
+
+            //console.log( e );
+            //console.log(e.sender.getSelection() );
+            var n =   $( e.sender.getSelection() );
+            console.log(n.innerHTML);
+
+            $( 'img', n ).each( function (){
+                console.log( $(this) );
+            })
+
+        },
+
+        imageBrowser: {
+            transport: {
+                read: {
+                    url: "/brush/imagebrowser/read.html" ,
+//                    contentType: "application/json"
+                    dataType: "json"
+                },
+
+
+                destroy: "/brush/imagebrowser/destroy.html",
+                create: "/brush/imagebrowser/createDirectory.html",
+                uploadUrl: "/brush/imagebrowser/upload.html",
+                thumbnailUrl: "/brush/imagebrowser/thumbnail.html",
+                //imageUrl: "/art/upload/thm/{0}"
+
+                imageUrl: "/brush/{0}"
+            },
+            path: "/art/upload/thm/",
+
+            fileTypes : ".png,.gif,.jpg,.jpeg, .JPG"
+        }
+
     });
 
     $(".grid").kendoGrid({

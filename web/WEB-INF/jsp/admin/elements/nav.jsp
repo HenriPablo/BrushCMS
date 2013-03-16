@@ -7,12 +7,11 @@
 
 <div class="admin-head">
     <ul id="menu">
-        <li > <%-- NAV SECTIONS --%>
-            navigation sections
-            <ul>
+        <%-- NAV SECTIONS --%>
+        <li>navigation sections
+            <ul class="first-sub-menu">
                 <li><a href="${pageContext.servletContext.contextPath}/admin/navigation_section/new.html">new</a></li>
-                <li><a href="${pageContext.servletContext.contextPath}/admin/navigation_section/read/list.html">list
-                    all</a></li>
+                <li class="x"><a href="${pageContext.servletContext.contextPath}/admin/navigation_section/read/list.html">list all</a></li>
             </ul>
         </li>
 

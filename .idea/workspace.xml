@@ -2,43 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/controllers/SettingController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting/elements/form.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting/elements/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_directory_studio_org_apache_commons_io_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/AlbumDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/AlbumDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_122.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/controllers/ImageController.java" afterPath="$PROJECT_DIR$/src/bap/controllers/ImageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/ImageDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/ImageDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/settings/Setting.java" afterPath="$PROJECT_DIR$/src/bap/settings/Setting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/SettingGroupDaoTest.java" afterPath="$PROJECT_DIR$/integration/SettingGroupDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml" afterPath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.java" afterPath="$PROJECT_DIR$/src/bap/settings/SettingsGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java" afterPath="$PROJECT_DIR$/src/bap/controllers/SettingsGroupController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" afterPath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/crop.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/crop.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" afterPath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/album/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/album/elements/form.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_crop_data.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_crop_data.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/public/index/home.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/public/index/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Jcrop/css/jquery.Jcrop.css" afterPath="$PROJECT_DIR$/web/js/Jcrop/css/jquery.Jcrop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Jcrop/js/jquery.Jcrop.js" afterPath="$PROJECT_DIR$/web/js/Jcrop/js/jquery.Jcrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Jcrop/js/jquery.Jcrop.min.js" afterPath="$PROJECT_DIR$/web/js/Jcrop/js/jquery.Jcrop.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -63,7 +49,7 @@
     <file path="/TagController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335174596" ignored="false" />
     <file path="/ContentPageDataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335230516" ignored="false" />
     <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361846817839" ignored="false" />
-    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362710909517" ignored="false" />
+    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363393299391" ignored="false" />
     <file path="/ContentPageController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361405267100" ignored="false" />
     <file path="/NavigationEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361407900388" ignored="false" />
     <file path="/ContentPageDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361500645530" ignored="false" />
@@ -76,12 +62,12 @@
     <file path="/AlbumController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418304059" ignored="false" />
     <file path="/NavigationElementsImpl.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418936507" ignored="false" />
     <file path="/JQuery.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361587627018" ignored="false" />
-    <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361843901755" ignored="false" />
+    <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362924525699" ignored="false" />
     <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361735722443" ignored="false" />
     <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362368910726" ignored="false" />
-    <file path="/kendo-ui-admin-menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362357004140" ignored="false" />
-    <file path="/skin.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362626346536" ignored="false" />
-    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362713207195" ignored="false" />
+    <file path="/kendo-ui-admin-menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363408774167" ignored="false" />
+    <file path="/skin.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362925678426" ignored="false" />
+    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362865324443" ignored="false" />
     <file path="/list.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362022217018" ignored="false" />
     <file path="/SettingsGroupController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362051073535" ignored="false" />
     <file path="/Setting.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362101883283" ignored="false" />
@@ -94,9 +80,15 @@
     <file path="/a.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362314714485" ignored="false" />
     <file path="/sample.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362314751205" ignored="false" />
     <file path="/form_crop_data.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362334568384" ignored="false" />
-    <file path="/home.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362348882263" ignored="false" />
-    <file path="/*.regexp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362368745908" ignored="false" />
+    <file path="/home.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363438033339" ignored="false" />
+    <file path="/*.regexp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363056604222" ignored="false" />
     <file path="/show_album.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362370451699" ignored="false" />
+    <file path="/color-lovers-brush-1-colors.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362851929942" ignored="false" />
+    <file path="/ImageBrowserEntry.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362958988037" ignored="false" />
+    <file path="/ImageBrowserDaoImpl.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363137439358" ignored="false" />
+    <file path="/ImageBrowserDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362959066101" ignored="false" />
+    <file path="/ImageBrowserController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363137298636" ignored="false" />
+    <file path="/dispatcher-servlet.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363342542907" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +103,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -174,8 +167,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java" line="31" class="bap.admin.controllers.kendo.ImageBrowserController" package="bap.admin.controllers.kendo">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -185,82 +191,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
+      <file leaf-file-name="ImageBrowserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="2060" selection-end="3033" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="1126" selection-end="1298" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/controllers/ImageController.java">
+      <file leaf-file-name="kendo-ui-admin-menu.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="0" selection-start="6291" selection-end="6291" vertical-scroll-proportion="0.0">
+            <state line="53" column="35" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skin.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/skin.css">
+      <file leaf-file-name="home.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="642" column="29" selection-start="15024" selection-end="15024" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="661" selection-end="808" vertical-scroll-proportion="0.7349666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp">
+      <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1362365425720" expanded="false" signature="539:568" placeholder="{...}" />
+                <marker date="1362365425720" expanded="false" signature="1184:1193" placeholder="{...}" />
+                <marker date="1362365425720" expanded="false" signature="3560:3571" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageBrowserController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-layout.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="29" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.80500895">
+            <state line="18" column="0" selection-start="996" selection-end="1070" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Image.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/domain/Image.java">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PixThumbnailGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/utilities/PixThumbnailGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_crop_data.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_crop_data.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_image_base_info.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_image_base_info.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="675" selection-end="1002" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -284,22 +276,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/ImageDao.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_crop_data.jsp" />
-        <option value="$PROJECT_DIR$/src/bap/controllers/ImageController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/public/index/home.jsp" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/album/elements/form.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag" />
-        <option value="$PROJECT_DIR$/web/js/Jcrop/js/jquery.Jcrop.min.js" />
-        <option value="$PROJECT_DIR$/web/js/Jcrop/js/jquery.Jcrop.js" />
-        <option value="$PROJECT_DIR$/web/js/Jcrop/css/jquery.Jcrop.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/crop.jsp" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/color-lovers-brush-1-colors.css" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo.web.min.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
         <option value="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserEntry.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDao.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDao.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp" />
       </list>
     </option>
   </component>
@@ -341,6 +333,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -409,7 +403,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,92 +462,6 @@
               <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -579,33 +495,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="art" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Kendo-UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jcrop" />
+              <option name="myItemId" value="upload" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,15 +517,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jcrop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="art" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -710,76 +596,6 @@
               <option name="myItemId" value="bap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utilities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -825,20 +641,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bindinginitializers" />
+              <option name="myItemId" value="kendo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="179" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.09832842" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="181" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
@@ -861,7 +675,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="Downloaded.Files.Path" value="jackson-mapper-asl" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
@@ -869,7 +683,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="project.structure.side.proportion" value="0.32867134" />
+    <property name="project.structure.side.proportion" value="0.3816651" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -1294,7 +1108,11 @@
       <created>1361964495146</created>
       <updated>1361964495146</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="styling changes backup">
+      <created>1362713813241</created>
+      <updated>1362713813241</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1322,26 +1140,26 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5503546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8453901" sideWeight="0.39561856" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54314005" sideWeight="0.4974227" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31643835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8453901" sideWeight="0.39561856" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54184395" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226804" sideWeight="0.47659576" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24226804" sideWeight="0.82978725" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17021276" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24226804" sideWeight="0.7078014" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29219857" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1387,7 +1205,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Kendo UI elements to views, Fixed Settings Group binding and editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling changes backup" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1409,6 +1227,7 @@
     <MESSAGE value="reworking transaction management in DAO section" />
     <MESSAGE value="continued cleanup" />
     <MESSAGE value="Added Kendo UI elements to views, Fixed Settings Group binding and editing" />
+    <MESSAGE value="styling changes backup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1418,99 +1237,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/show_image_list.tag">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="22" selection-start="424" selection-end="424" vertical-scroll-proportion="0.34642032" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/crop.jsp">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-orm.jar!/org/springframework/orm/hibernate4/support/OpenSessionInViewFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.9213052" />
+        <state line="16" column="19" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5196305" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="28" selection-start="6643" selection-end="6643" vertical-scroll-proportion="0.4803695" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="19" selection-start="7018" selection-end="7018" vertical-scroll-proportion="0.27251732" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.28406465" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.6189377" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-tx.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="809" selection-end="809" vertical-scroll-proportion="0.28406465" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.34180138" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.7575058" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1126" selection-end="1298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="42" selection-start="3190" selection-end="3190" vertical-scroll-proportion="-0.625" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1362365425720" expanded="false" signature="539:568" placeholder="{...}" />
+            <marker date="1362365425720" expanded="false" signature="1184:1193" placeholder="{...}" />
+            <marker date="1362365425720" expanded="false" signature="3560:3571" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/album/elements/form.jsp">
+    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="108" selection-start="492" selection-end="492" vertical-scroll-proportion="-0.625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="102" selection-start="994" selection-end="1085" vertical-scroll-proportion="-7.25">
+        <state line="31" column="0" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
+    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2060" selection-end="3033" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="675" selection-end="1002" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/domain/Image.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="996" selection-end="1070" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_crop_data.jsp">
+    <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+        <state line="53" column="35" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/form_image_base_info.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="0" selection-start="6291" selection-end="6291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/admin/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="494" column="1" selection-start="11391" selection-end="11391" vertical-scroll-proportion="1.6880734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/utilities/PixThumbnailGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/skin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="642" column="29" selection-start="15024" selection-end="15024" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="29" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.80500895">
+        <state line="22" column="0" selection-start="661" selection-end="808" vertical-scroll-proportion="0.7349666">
           <folding />
         </state>
       </provider>
@@ -1522,9 +1342,9 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="library" />
-              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
               <type id="artifact" />
             </show-content>
           </artifact-editor>
@@ -1532,7 +1352,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.32867134" />
+                <option value="0.3146853" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1545,7 +1365,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.32867134" />
+                <option value="0.22854477" />
               </list>
             </option>
           </splitter-proportions>
@@ -1581,7 +1401,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.32867134" />
+                <option value="0.22854477" />
               </list>
             </option>
           </splitter-proportions>
@@ -1601,11 +1421,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.apache.directory.studio:org.apache.commons.io:2.1</last-edited>
+          <last-edited>org.codehaus.jackson:jackson-mapper-asl:1.9.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.32867134" />
+                <option value="0.3816651" />
               </list>
             </option>
           </splitter-proportions>

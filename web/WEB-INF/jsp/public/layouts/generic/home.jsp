@@ -14,7 +14,12 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("div.content img").wrap('<a href="' + $("div.content img").attr("src").replace("thm/", "") +'" class="cb">')
+		$("img",  "div.content").each( function(){
+
+            $(this).wrap('<a href="' + $(this).attr("src").replace("thm/", "") +'" class="cb">');
+
+        });
+
 		$(".cb").bind('click',  function(){
 			$.fn.colorbox({href:$(this).attr('href'), open:true,  width:"80%", height:"90%"  });
 			return false;

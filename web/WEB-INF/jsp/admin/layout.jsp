@@ -11,20 +11,23 @@
     <meta charset="utf-8">
 
 		<title></title>
-
-        <link href="${pageContext.servletContext.contextPath}/js/Kendo-UI/examples-offline.css" rel="stylesheet">
-        <link href="${pageContext.servletContext.contextPath}/js/Kendo-UI/kendo.common.min.css" rel="stylesheet">
-        <%--<link href="${pageContext.servletContext.contextPath}/js/Kendo-UI/kendo.default.min.css" rel="stylesheet">--%>
-    <%--<link href="${pageContext.servletContext.contextPath}/js/Kendo-UI/kendo.metro.min.css" rel="stylesheet">--%>
-    <link href="${pageContext.servletContext.contextPath}/js/Kendo-UI/skin.css" rel="stylesheet">
-
-        <script src="${pageContext.servletContext.contextPath}/js/Kendo-UI/jquery.min.js"></script>
-        <script src="${pageContext.servletContext.contextPath}/js/Kendo-UI/kendo.web.min.js"></script>
-        <script src="${pageContext.servletContext.contextPath}/js/Kendo-UI/console.js"></script>
-		<%--<script type="text/javascript" src="<c:url value="${js_lib}"/>" ></script>--%>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
 
-    <link href="${pageContext.servletContext.contextPath}/js/Kendo-UI/admin-layout.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}/js/admin-utils/admin-layout.css" rel="stylesheet">
+
+    <link href="${pageContext.servletContext.contextPath}/js/colorbox/colorbox.css" rel="stylesheet">
+    <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/colorbox/jquery.colorbox-min.js" charset="utf-8"></script>
+
+
+
+    <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.css" charset="utf-8" />
+    <%-- WEB FONTS --%>
+    <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/admin-utils/brush_font_1/style.css" />
+
+
+
+
 	</head>
 	<body>
 		<%@include file="/WEB-INF/jsp/admin/elements/nav.jsp" %>
@@ -34,5 +37,8 @@
         </div>
 
         <script src="${pageContext.servletContext.contextPath}/js/Kendo-UI/kendo-ui-admin-menu.js"></script>
+        <script type="text/javascript">
+
+            </script>
 	</body>
 </html>

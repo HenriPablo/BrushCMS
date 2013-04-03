@@ -5,7 +5,6 @@
 
 
 
-
     <form:form method="post" commandName="content_page" htmlEscape="true"
                action="${pageContext.servletContext.contextPath}${action}" cssClass="form">
 
@@ -74,26 +73,68 @@
 
         <div class="admin-col-right">
 
-            <ul id="panelBar">
-                <li>
-                    <span style="color: #fff!important;">Album Images:</span>
-
-                    <c:forEach items="${content_page.albums}" var="a">
-                        <ul>
-                            <li>  ${a.name}
-                                <t:show_album album="${a}"/>
-                            </li>
-                        </ul>
-                    </c:forEach>
-
-                </li>
-            </ul>
 
 
-            <label for="content" class="admin-editor-area-label" >Content:</label>
-            <form:textarea path="content" rows="8" cols="35" id="content" cssStyle="width: 100%" htmlEscape="false" />
+            <div id="pixThumbs" style="display: none;">
+                <c:forEach items="${content_page.albums}" var="a">
+                <h2>album</h2>
+                        <div>
+                            <h3>  ${a.name} </h3>
+                            <t:show_album album="${a}"/>
+                        </div>
+
+                 </c:forEach>
+            </div>
+
+
+
+
+            <form:textarea path="content" rows="75" cols="35" id="content" cssStyle="width: 100%;" htmlEscape="false" />
             <br class="separator"/><br/>
 
+            <%--<div id="editorDiv">${content_page.content}</div>--%>
+            <div id="aceEditHideAway" style="display: none;">
+                <div id="aceEditWrapper" style="
+                    width: 90%;
+                    height:90%;
+                    padding:2%;
+                    /*border: 1px solid red;*/
+                    position:relative;
+                ">
+                   <div id="aceEditControlPanel"
+                           style="
+                           position: absolute;
+                           left: 0;
+
+
+                           width: 25%;
+                           /*border: 1px solid green;*/
+                           ">
+                       <a href="#" id="clsoeAceEdit">close</a>
+                   </div>
+                    <div id="aceEditor" style="
+                    position: absolute;
+                    right: 0;
+                    left: 30%;
+                    top: 0;
+                    bottom: 0;
+                    width: 70%;
+                    height: 100%;
+                    /*border: 1px solid #ffff00;*/
+
+                    ">
+                        <h1>some headline</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div id="imageBrowserHideaway" style="display: none;">
+                <div id="imageBrowser" style="
+                    width: 90%;
+                    height: 90%;
+                    border: 1px solid #ff8000;
+                "></div>
+            </div>
 
 
             <div class="clarFix"></div>
@@ -102,3 +143,49 @@
         </div>
     </form:form>
     <div class="clarFix"></div>
+<style type="text/css" media="screen">
+    #aceEditor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+
+
+<script src="${pageContext.servletContext.contextPath}/js/ace/vendor/modernizr-2.6.2.min.js"></script>
+
+
+<script src="${pageContext.servletContext.contextPath}/js/ace/plugins.js"></script>
+
+<%--<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>--%>
+<script src="${pageContext.servletContext.contextPath}/js/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.js" charset="utf-8"></script>
+
+<%-- JQUERY UI --%>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+
+<script>
+    var brushAce = ace.edit("aceEditor");
+    ace.config.set( "workerPath", "${pageContext.servletContext.contextPath}/js/ace/src-min-noconflict");
+    brushAce.setTheme("ace/theme/cobalt");
+    brushAce.getSession().setMode("ace/mode/html");
+
+
+    $('#content').jqte();
+</script>
+
+
+<script type="text/javascript">
+
+    $(document).ready( function(){
+ // simple accordion for pix albums
+
+
+        //$('#pixThumbs').accordion();
+
+    })
+</script>
+

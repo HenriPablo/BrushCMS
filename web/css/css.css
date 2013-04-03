@@ -35,6 +35,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 		-moz-border-radius: 6px;
 		-webkit-border-radius: 6px;
 	}
+
+    .round_3{
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+    }
 	.round_bottm {
 		border-radius: 0 0 6px 6px;
 		-moz-border-radius: 0 0 6px 6px;
@@ -74,10 +80,10 @@ background: -moz-linear-gradient( center bottom, rgb(4,98,181) 0%, rgb(0,46,102)
 }
 
 /* LEVEL ONE */
-ul.dropdown{ position: relative;
+ul.admin-menu-dropdown{ position: relative;
 	padding-left: 8px;
 }
-ul.dropdown li{
+ul.admin-menu-dropdown li{
 	font-weight: bold;
 	float: left;
 	zoom: 1;
@@ -85,7 +91,7 @@ ul.dropdown li{
 
 /*ul.dropdown a:hover{ color: #000; }
 ul.dropdown a:active{ color: #ffa500; }*/
-ul.dropdown li a{
+ul.admin-menu-dropdown li a{
 	display: block;
 	padding: 4px 8px;
 	color: #777;
@@ -93,7 +99,7 @@ ul.dropdown li a{
 }
 /* ul.dropdown li:last-child a { border-right: none; } Doesn't work in IE */
 
-ul.dropdown li:hover {
+ul.admin-menu-dropdown li:hover {
 	/*background: #F3D673;
 	background-color: #0461b4; light blue */
 	/*background-color:#c30; orangy
@@ -102,10 +108,10 @@ ul.dropdown li:hover {
 	position: relative;
 }
 
-ul.dropdown li:hover a { color: #ff7d00; }
+ul.admin-menu-dropdown li:hover a { color: #ff7d00; }
 
 /* LEVEL TWO */
-ul.dropdown ul{
+ul.admin-menu-dropdown ul{
 	width: 220px;
 	visibility: hidden;
 	position: absolute;
@@ -114,7 +120,7 @@ ul.dropdown ul{
 	/*border-radius: 0px;
 	-moz-border-radius: 0px;*/
 }
-ul.dropdown ul li{
+ul.admin-menu-dropdown ul li{
 	font-weight: normal;
 	/*background: #0461b4;
 	color: #fff;*/
@@ -125,10 +131,10 @@ ul.dropdown ul li{
 	border-radius: 4px;
 	float: none;
 }
-ul.dropdown ul li:hover {
+ul.admin-menu-dropdown ul li:hover {
 	border-color: #ff7d00;
 }
-ul.dropdown ul li a:hover {
+ul.admin-menu-dropdown ul li a:hover {
 	color:#003366;
 }
 
@@ -137,12 +143,12 @@ ul.dropdown ul li:last-child { border: 1px solid #0461b4; border-top: none; }
 ul.dropdown ul li:last-child:hover { border-color: #c30; } */
 
 /* IE 6 & 7 Needs Inline Block */
-ul.dropdown ul li a { border-right: none; width: 100%; display: inline-block;
+ul.admin-menu-dropdown ul li a { border-right: none; width: 100%; display: inline-block;
 }
 
 /* LEVEL THREE */
-ul.dropdown ul ul { left: 100%; top: 0; }
-ul.dropdown li:hover > ul{ visibility: visible; }
+ul.admin-menu-dropdown ul ul { left: 100%; top: 0; }
+ul.admin-menu-dropdown li:hover > ul{ visibility: visible; }
 /* END NAV MENU STYLES */
 
 /*------------------------------------------------------------------------------

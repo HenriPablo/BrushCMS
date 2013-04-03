@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_122.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_9.xml" />
+    <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="solved kendo ui image browser dilemma">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/brush_font_1.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/seamlesstexture2_1200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/color-lovers-brush-1-colors.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/kendo-ui-admin-menu.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" afterPath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/css.css" afterPath="$PROJECT_DIR$/web/css/css.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" afterPath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" afterPath="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,7 +46,7 @@
     <file path="/TagController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335174596" ignored="false" />
     <file path="/ContentPageDataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335230516" ignored="false" />
     <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361846817839" ignored="false" />
-    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363393299391" ignored="false" />
+    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364900646086" ignored="false" />
     <file path="/ContentPageController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361405267100" ignored="false" />
     <file path="/NavigationEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361407900388" ignored="false" />
     <file path="/ContentPageDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361500645530" ignored="false" />
@@ -62,12 +59,12 @@
     <file path="/AlbumController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418304059" ignored="false" />
     <file path="/NavigationElementsImpl.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418936507" ignored="false" />
     <file path="/JQuery.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361587627018" ignored="false" />
-    <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362924525699" ignored="false" />
-    <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361735722443" ignored="false" />
-    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362368910726" ignored="false" />
+    <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364956645829" ignored="false" />
+    <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364988715592" ignored="false" />
+    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364590059477" ignored="false" />
     <file path="/kendo-ui-admin-menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363408774167" ignored="false" />
     <file path="/skin.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362925678426" ignored="false" />
-    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362865324443" ignored="false" />
+    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364956713980" ignored="false" />
     <file path="/list.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362022217018" ignored="false" />
     <file path="/SettingsGroupController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362051073535" ignored="false" />
     <file path="/Setting.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362101883283" ignored="false" />
@@ -81,7 +78,7 @@
     <file path="/sample.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362314751205" ignored="false" />
     <file path="/form_crop_data.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362334568384" ignored="false" />
     <file path="/home.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363438033339" ignored="false" />
-    <file path="/*.regexp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363056604222" ignored="false" />
+    <file path="/*.regexp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364945874840" ignored="false" />
     <file path="/show_album.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362370451699" ignored="false" />
     <file path="/color-lovers-brush-1-colors.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362851929942" ignored="false" />
     <file path="/ImageBrowserEntry.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362958988037" ignored="false" />
@@ -89,6 +86,8 @@
     <file path="/ImageBrowserDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362959066101" ignored="false" />
     <file path="/ImageBrowserController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363137298636" ignored="false" />
     <file path="/dispatcher-servlet.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363342542907" ignored="false" />
+    <file path="/jquery-te-1.3.3.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364562141314" ignored="false" />
+    <file path="/dummy.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364165033979" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,41 +102,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingGroupDao.java" line="51" class="bap.persistance.dao.SettingGroupDao" package="bap.persistance.dao">
         <option name="ENABLED" value="true" />
@@ -182,6 +146,41 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -190,75 +189,96 @@
     <favorites_list name="BRUSH" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ImageBrowserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1126" selection-end="1298" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kendo-ui-admin-menu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="35" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="661" selection-end="808" vertical-scroll-proportion="0.7349666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1362365425720" expanded="false" signature="539:568" placeholder="{...}" />
-                <marker date="1362365425720" expanded="false" signature="1184:1193" placeholder="{...}" />
-                <marker date="1362365425720" expanded="false" signature="3560:3571" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageBrowserController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="996" selection-end="1070" vertical-scroll-proportion="-11.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="675" selection-end="1002" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.82146895">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="ImageBrowserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="0" selection-start="1126" selection-end="1298" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jquery-te-1.3.3.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="803" column="29" selection-start="28494" selection-end="28494" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <marker date="1364562151543" expanded="false" signature="7692:7724" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="layout.jsp" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="-0.25581396">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nav.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="70" column="44" selection-start="2638" selection-end="2638" vertical-scroll-proportion="3.125">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kendo-ui-admin-menu.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/kendo-ui-admin-menu.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="0" selection-start="208" selection-end="496" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/index/home.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="91" column="50" selection-start="3344" selection-end="3344" vertical-scroll-proportion="-0.625">
+                  <folding>
+                    <marker date="1364590180570" expanded="true" signature="538:567" placeholder="{...}" />
+                    <marker date="1364590180570" expanded="true" signature="1183:1192" placeholder="{...}" />
+                    <marker date="1364590180570" expanded="true" signature="3379:3391" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="admin-layout.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="390" column="0" selection-start="11234" selection-end="11394" vertical-scroll-proportion="-3.156177">
+                  <folding>
+                    <element signature="e#3618#5933#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -276,22 +296,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/image/elements/crop.jsp" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/color-lovers-brush-1-colors.css" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo.web.min.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/skin.css" />
-        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserEntry.java" />
-        <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDao.java" />
         <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDao.java" />
         <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ContentInitializerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp" />
+        <option value="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.css" />
+        <option value="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
+        <option value="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
+        <option value="$PROJECT_DIR$/web/css/css.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
+        <option value="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
       </list>
     </option>
   </component>
@@ -334,7 +354,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +422,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -440,6 +481,36 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -477,6 +548,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -495,11 +622,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="art" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
+              <option name="myItemId" value="admin-utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,149 +644,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="art" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kendo" />
+              <option name="myItemId" value="colorbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="179" />
-    <property name="project.structure.proportion" value="0.09832842" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="181" />
+    <property name="project.structure.proportion" value="0.09832842" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RoasterAuthority/out/artifacts/RoasterAuthority_war_exploded/WEB-INF/lib/jstl.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="184" />
@@ -674,20 +682,20 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="jackson-mapper-asl" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.3816651" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -853,6 +861,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -879,19 +900,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -937,17 +945,17 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" show_console_on_std_out="true" show_console_on_std_err="true">
@@ -1112,7 +1120,11 @@
       <created>1362713813241</created>
       <updated>1362713813241</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="solved kendo ui image browser dilemma">
+      <created>1363445842125</created>
+      <updated>1363445842125</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1143,6 +1155,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14184397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31643835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1151,19 +1164,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54184395" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5417256" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226804" sideWeight="0.47659576" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24226804" sideWeight="0.7078014" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29219857" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42525774" sideWeight="0.69929075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30070922" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3602837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1205,7 +1217,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling changes backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved kendo ui image browser dilemma" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1228,60 +1240,18 @@
     <MESSAGE value="continued cleanup" />
     <MESSAGE value="Added Kendo UI elements to views, Fixed Settings Group binding and editing" />
     <MESSAGE value="styling changes backup" />
+    <MESSAGE value="solved kendo ui image browser dilemma" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="424" selection-end="424" vertical-scroll-proportion="0.34642032" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-orm.jar!/org/springframework/orm/hibernate4/support/OpenSessionInViewFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5196305" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="28" selection-start="6643" selection-end="6643" vertical-scroll-proportion="0.4803695" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="7018" selection-end="7018" vertical-scroll-proportion="0.27251732" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.28406465" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.6189377" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-tx.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="809" selection-end="809" vertical-scroll-proportion="0.28406465" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.34180138" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.7575058" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="1126" selection-end="1298" vertical-scroll-proportion="0.0">
@@ -1289,48 +1259,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
+    <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="34" column="0" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-8.892473" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="803" column="29" selection-start="28494" selection-end="28494" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1362365425720" expanded="false" signature="539:568" placeholder="{...}" />
-            <marker date="1362365425720" expanded="false" signature="1184:1193" placeholder="{...}" />
-            <marker date="1362365425720" expanded="false" signature="3560:3571" placeholder="{...}" />
+            <marker date="1364562151543" expanded="false" signature="7692:7724" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/kendo/ImageBrowserController.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="675" selection-end="1002" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="996" selection-end="1070" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="35" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="91" column="50" selection-start="3344" selection-end="3344" vertical-scroll-proportion="-0.625">
+          <folding>
+            <marker date="1364590180570" expanded="true" signature="538:567" placeholder="{...}" />
+            <marker date="1364590180570" expanded="true" signature="1183:1192" placeholder="{...}" />
+            <marker date="1364590180570" expanded="true" signature="3379:3391" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="661" selection-end="808" vertical-scroll-proportion="0.7349666">
+        <state line="27" column="83" selection-start="822" selection-end="822" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="8" selection-start="2711" selection-end="2711" vertical-scroll-proportion="1.977492">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="679" selection-end="687" vertical-scroll-proportion="0.3448276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1009" column="29" selection-start="34601" selection-end="34601" vertical-scroll-proportion="0.9339207">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2338" selection-end="4735" vertical-scroll-proportion="0.14096916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/index/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="44" selection-start="2638" selection-end="2638" vertical-scroll-proportion="3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/kendo-ui-admin-menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="208" selection-end="496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="390" column="0" selection-start="11234" selection-end="11394" vertical-scroll-proportion="-3.156177">
+          <folding>
+            <element signature="e#3618#5933#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="-0.25581396">
           <folding />
         </state>
       </provider>

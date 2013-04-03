@@ -8,7 +8,7 @@
 <div class="admin-head">
     <ul id="menu">
         <%-- NAV SECTIONS --%>
-        <li>navigation sections
+        <li><a href="#">navigation sections</a>
             <ul class="first-sub-menu">
                 <li><a href="${pageContext.servletContext.contextPath}/admin/navigation_section/new.html">new</a></li>
                 <li class="x"><a href="${pageContext.servletContext.contextPath}/admin/navigation_section/read/list.html">list all</a></li>
@@ -17,7 +17,7 @@
 
         <%-- TAGS --%>
         <li>
-            tags
+            <a href="#">tags</a>
             <ul>
                 <li><a href="${pageContext.servletContext.contextPath}/admin/tag/new.html">new tag</a></li>
                 <li><a href="${pageContext.servletContext.contextPath}/admin/tag/read/list.html">view all</a></li>
@@ -26,7 +26,7 @@
 
         <%-- CONTENT PAGES --%>
        <li>
-            content pages
+           <a href="#">content pages</a>
             <ul>
 
                 <li><a href="${pageContext.servletContext.contextPath}/admin/content_page/new.html">new</a></li>
@@ -38,7 +38,7 @@
 
         <%-- ALBUM--%>
         <li>
-            albums
+            <a href="#">albums</a>
             <ul>
                 <li><a href="${pageContext.servletContext.contextPath}/admin/album/new.html">new album</a></li>
                 <li><a href="${pageContext.servletContext.contextPath}/admin/album/read/list.html">view all</a></li>
@@ -48,16 +48,16 @@
 
         <%-- IMAGES --%>
         <li>
-            images
+            <a href="#">images</a>
             <ul>
                 <li><a href="${pageContext.servletContext.contextPath}/admin/image/upload.html">new mage</a></li>
                 <li><a href="${pageContext.servletContext.contextPath}/admin/image/read/list.html">view all</a></li>
             </ul>
         </li>
         <li>
-            settings &amp; groups
+            <a href="#">settings &amp; groups</a>
             <ul>
-                <li>sessting group
+                <li><a href="#">sessting group</a>
                     <ul>
                         <li>
                             <a href="${pageContext.servletContext.contextPath}/admin/settings_group/read/list.html">list</a>
@@ -68,7 +68,7 @@
                     </ul>
                 </li>
                 <li>
-                    settings
+                    <a href="#">settings</a>
                     <ul>
                         <li>
                             <a href="${pageContext.servletContext.contextPath}/admin/setting/read/list.html">list</a>

@@ -14,8 +14,10 @@
 
 
 
-		<link rel="stylesheet" href="<c:url value="/css/css.css"/>" type="text/css" media="screen" />
-		<%-- <link rel="stylesheet" href="<c:url value="/css/admin/css.css"/>" type="text/css" media="screen" /> --%>
+		<link rel="stylesheet" href="<c:url value="/css/public/css.css"/>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<c:url value="/css/public/nav.css"/>" type="text/css" media="screen" />
+
+
 		<utils:JQuery />
 	</head>
 	<body>

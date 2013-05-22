@@ -9,6 +9,7 @@ $(document).ready(function() {
          *
          */
 
+    /* TODO: NEED to do a browser check compatible with new jQuery
         if ($.browser.msie && $.browser.version.substr(0,1)<7)
         {
             $('li').has('ul').mouseover(function(){
@@ -17,10 +18,23 @@ $(document).ready(function() {
                     $(this).children('ul').hide();
                 })
         }
+        */
 
 
 
-
+     /* PIX ALBUM DISPLAY */
+    if( parseInt(  $('.pixThumbAlbumCount').text(), 10 ) > 0 ){
+        $('.pixThumbsTitle').on('click', function(){
+            $('.pixThumbsAlbumName').toggle( function(){
+                if ( $('.thumbs').css('display') === 'block' ){
+                    $('.thumbs').css('display', 'none');
+                }
+            }) /*.css('height','auto')*/
+                .on( 'click', function(){
+                    $(this).next( '.thumbs').toggle(); //.css('height', 'auto')
+                });
+        })
+    }
 
 
 

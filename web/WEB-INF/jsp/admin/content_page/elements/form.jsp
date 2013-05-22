@@ -3,13 +3,17 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@taglib tagdir="/WEB-INF/tags/" prefix="t" %>
 
+    <div id="breadcrumbs">
+        <div class="crumb">
+            ID: ${content_page.id} &gt;
+        </div>
+    </div>
 
-
-    <form:form method="post" commandName="content_page" htmlEscape="true"
+    <form:form method="post" commandName="content_page" htmlEscape="true" id="layoutForm"
                action="${pageContext.servletContext.contextPath}${action}" cssClass="form">
 
         <div class="admin-col-left">
-            ID: <form:input path="id" id="id" readonly="true" cssStyle="border:none; background:none;"/>
+             <form:hidden  path="id" id="id" />
 
                 <%--
                     <label for="positionOrder">Nav Menu Position:</label>
@@ -75,17 +79,17 @@
 
 
 
-            <div id="pixThumbs" style="display: none;">
+            <div id="pixThumbs">
+                <p class="pixThumbsTitle">albums: <span class="pixThumbAlbumCount">${content_page.albums.size() }</span></p>
                 <c:forEach items="${content_page.albums}" var="a">
-                <h2>album</h2>
-                        <div>
-                            <h3>  ${a.name} </h3>
+                        <div class="pixThumbsAlbumWrapper">
+                            <h3 class="pixThumbsAlbumName">  ${a.name} </h3>
                             <t:show_album album="${a}"/>
                         </div>
 
                  </c:forEach>
             </div>
-
+            <br class="separator"/><br/>
 
 
 

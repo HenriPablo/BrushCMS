@@ -36,9 +36,7 @@
 		    <jsp:include page="/WEB-INF/jsp/admin/${section}/${page}.jsp"></jsp:include>
         </div>
 
-        <script src="${pageContext.servletContext.contextPath}/js/Kendo-UI/kendo-ui-admin-menu.js"></script>
-        <script type="text/javascript">
+        <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/menu.js"></script>
 
-            </script>
 	</body>
 </html>

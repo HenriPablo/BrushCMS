@@ -6,11 +6,11 @@
 <%@attribute  name="album" type="bap.domain.Album" required="false" %>
 
 
-<div id="thums">
+<div class="thumbs">
 	<c:forEach items="${album.images}" var="i" >
-		<div  class="def_pix">
-			<a href="${pageContext.servletContext.contextPath}/art/upload/${i.src}" rel="album1">
-			<img alt="${i.alt}" src="${pageContext.servletContext.contextPath}/art/upload/thm/${i.src}" <%--width="${i.width}" height="${i.height}"--%> id="${i.id}" class="albumPix" />
+		<div  class="pixThumbLinkWrapper">
+			<a href="${pageContext.servletContext.contextPath}/art/upload/${i.src}" rel="album1" class="pixThumbLink">
+			    <img alt="${i.alt}" src="${pageContext.servletContext.contextPath}/art/upload/thm/${i.src}" <%--width="${i.width}" height="${i.height}"--%> id="${i.id}" class="pixThumbImg" />
 			</a>
 		</div>
 	</c:forEach>

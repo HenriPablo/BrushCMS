@@ -68,6 +68,7 @@
                 <value>bap.domain.Album</value>
                 <value>bap.settings.SettingsGroup</value>
                 <value>bap.settings.Setting</value>
+
             </list>
         </property>
 
@@ -93,16 +94,17 @@
         <property name="sessionFactory" ref="sessionFactory"></property>
     </bean>
 
-    <bean name="comment" class="bap.domain.Comment"/>
-    <bean name="timeDate" class="bap.domain.TimeDate"/>
-    <bean name="tag" class="bap.domain.Tag"/>
-    <bean name="navigation" class="bap.domain.Navigation"/>
-    <bean name="navigationSection" class="bap.domain.NavigationSection"/>
-    <bean name="contentPage" class="bap.domain.ContentPage"/>
-    <bean name="image" class="bap.domain.Image"/>
-    <bean name="album" class="bap.domain.Album"/>
-    <bean name="settingsGroup" class="bap.settings.SettingsGroup"/>
-    <bean name="setting" class="bap.settings.Setting"/>
+    <bean name="comment"            class="bap.domain.Comment"/>
+    <bean name="timeDate"           class="bap.domain.TimeDate"/>
+    <bean name="tag"                class="bap.domain.Tag"/>
+    <bean name="navigation"         class="bap.domain.Navigation"/>
+    <bean name="navigationSection"  class="bap.domain.NavigationSection"/>
+    <bean name="contentPage"        class="bap.domain.ContentPage"/>
+    <bean name="image"              class="bap.domain.Image"/>
+    <!--<bean name="mainPix"        class="bap.domain.Image" />-->
+    <bean name="album"              class="bap.domain.Album"/>
+    <bean name="settingsGroup"      class="bap.settings.SettingsGroup"/>
+    <bean name="setting"            class="bap.settings.Setting"/>
 
 
     <bean id="pixThumbnailGenerator" class="bap.admin.controllers.utilities.PixThumbnailGenerator"></bean>

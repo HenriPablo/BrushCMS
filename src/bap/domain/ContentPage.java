@@ -35,6 +35,9 @@ public class ContentPage implements Serializable, DomainObject {
 	private String title = "temp title";
 	private String subTitle = "default subtitle";
 	private String content = "default content";
+
+    private Image mainPix;
+
 	private Set<Album> albums = new HashSet<Album>(0);
 	private Set<Tag> tags = new HashSet<Tag>(0);
 	private boolean allowComments;
@@ -135,9 +138,19 @@ public class ContentPage implements Serializable, DomainObject {
 	}
 
 
+    public  void setMainPix( Image mainPix ){
+        this.mainPix = mainPix;
+    }
+    @ManyToOne( cascade =  CascadeType.DETACH)
+    @JoinTable( name = "content_page_main_pix", joinColumns = {
+            @JoinColumn( name = "content_page_id")}, inverseJoinColumns = {
+            @JoinColumn( name = "main_pix_id")
+    })
+    public Image getMainPix(){
+        return this.mainPix;
+    }
 
 	@ManyToMany( cascade = CascadeType.ALL )
-//	@Basic(fetch = FetchType.EAGER)
 	@JoinTable( name= "content_page_album", joinColumns = {
 		@JoinColumn( name="content_page_id")}, inverseJoinColumns ={
 		@JoinColumn( name="album_id" ) } )

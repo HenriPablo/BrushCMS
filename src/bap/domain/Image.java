@@ -42,6 +42,15 @@ private static final long serialVersionUID = -5323335702067723307L;
 	@ManyToMany(mappedBy="images")
 	private List <Album> albums;
 
+//    @ManyToOne( cascade = CascadeType.ALL)
+//    private ContentPage contentPage;
+//    public void setContentPage( ContentPage contentPage){
+//        this.contentPage = contentPage;
+//    }
+//    public ContentPage getContentPage(){
+//        return this.contentPage;
+//    }
+
 	/** * @return the id */
 	public int getId() {
 		return id;

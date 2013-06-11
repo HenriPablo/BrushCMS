@@ -27,6 +27,7 @@ public class ImageEditor extends PropertyEditorSupport {
 	public void setAsText( String text ) {
 		int id  = Integer.parseInt(text);
 		Image i = (Image) imageDao.get(id);
+        System.out.println( "\n\n IMAGE  NAME IN EDITOR:  "  + i.getSrc() + "\n\n");
 		setValue(i);
 	}
 

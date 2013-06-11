@@ -44,6 +44,7 @@ public class DataBindingInitializer implements WebBindingInitializer{
 		binder.registerCustomEditor( Navigation.class,          new NavigationEditor( navigationDao ));
 		binder.registerCustomEditor( Album.class,               new AlbumEditor(albumDao));
 		binder.registerCustomEditor( Image.class,               new ImageEditor(imageDao));
+//        binder.registerCustomEditor( Image.class,               new MainPixEditor(imageDao));
         binder.registerCustomEditor( Setting.class,             new SettingEditor( settingDao));
         binder.registerCustomEditor( SettingsGroup.class,       new SettingsGropuEditor( settingGroupDao));
 	}

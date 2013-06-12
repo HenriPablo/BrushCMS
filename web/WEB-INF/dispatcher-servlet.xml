@@ -16,7 +16,7 @@
     <!--we need to scan components that use JACKSON for sending back json responses, otherwise we get a 406 error-->
     <!--if we scan using bap as base, we get errors about property converters not working-->
 
-    <context:component-scan base-package="bap.admin.controllers.kendo" />
+    <context:component-scan base-package="bap.admin.controllers.ajax" />
 
 
 

@@ -5,7 +5,7 @@
 
     <div id="breadcrumbs">
         <div class="crumb">
-            ID: ${content_page.id} &gt;
+            ID: <span id="pageId">${content_page.id}</span> &gt;
         </div>
     </div>
 
@@ -29,7 +29,7 @@
 
 
             <form:select items="${navigation_sections}" itemLabel="label" itemValue="id" path="navigationSection"
-                         id="navigationSection" cssStyle="width:70%">
+                         id="navigationSection">
             </form:select>
 
             <br class="separator"/><br/>
@@ -69,26 +69,57 @@
             <form:input path="linkLabel" size="55" id="linkLabel"/>
 
 
-            <input type="submit" value="Save &amp; Continue Editing" class="save"/>
+            <input type="submit" value="Save &amp; Continue Editing" class="save articleSave"/>
 
-            <div class="clarFix"></div>
+            <div class="clearFix"></div>
 
         </div>
 
         <div class="admin-col-right">
 
 
+            <div id="pixControlPanel">
+                <p id="albumsTab"  class="controlTab show" data-show-or-hide="pixes">Albums: <span class="pixThumbAlbumCount">${content_page.albums.size() }</span></p>
+                <p id="mainPixTab" class="controlTab show" data-show-or-hide="mainPix">Main Pix:${content_page.mainPix.id} <span>none</span></p>
+                <span id="mainPixAjaxResponse"></span>
+                <div class="clearFix"></div>
+            </div>
 
-            <div id="pixThumbs">
-                <p class="pixThumbsTitle">albums: <span class="pixThumbAlbumCount">${content_page.albums.size() }</span></p>
+            <div id="pixes" class="contentPanel closed">
+
                 <c:forEach items="${content_page.albums}" var="a">
                         <div class="pixThumbsAlbumWrapper">
-                            <h3 class="pixThumbsAlbumName">  ${a.name} </h3>
+                            <p class="pixThumbsAlbumName">  ${a.name} </p>
                             <t:show_album album="${a}"/>
                         </div>
 
                  </c:forEach>
+                <div class="clearFix"></div>
             </div>
+
+
+
+            <div id="mainPix" class="contentPanel closed">
+
+                <div id="thumbsToChooseFrom" style="float:left;">
+
+                </div>
+
+                <div id="draggableTargetWrapper" style="float: right; border-left:1px solid #ccc; padding: 10px; min-width: 150px;" >
+                    <p>Drag main pix selection here.</p>
+                    <div id="draggableTarget" style="min-height: 120px; border: 1px solid #006f1c; text-align: center; padding:10px; background-color: #fff;" >
+                        <c:if test="${content_page.mainPix != null}">
+                            <img src="<c:url value="/art/upload/thm/${content_page.mainPix.src}" />" />
+                        </c:if>
+                    </div>
+                    <div id="removeMainPix">---x---</div>
+                    <form:hidden path="mainPix.id" id="mainPixId" />
+                </div>
+                <div class="clearFix"></div>
+
+            </div>
+
+
             <br class="separator"/><br/>
 
 
@@ -141,12 +172,12 @@
             </div>
 
 
-            <div class="clarFix"></div>
+            <div class="clearFix"></div>
 
 
         </div>
     </form:form>
-    <div class="clarFix"></div>
+    <div class="clearFix"></div>
 <style type="text/css" media="screen">
     #aceEditor {
         position: absolute;
@@ -170,26 +201,4 @@
 <%-- JQUERY UI --%>
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
-
-<script>
-    var brushAce = ace.edit("aceEditor");
-    ace.config.set( "workerPath", "${pageContext.servletContext.contextPath}/js/ace/src-min-noconflict");
-    brushAce.setTheme("ace/theme/cobalt");
-    brushAce.getSession().setMode("ace/mode/html");
-
-
-    $('#content').jqte();
-</script>
-
-
-<script type="text/javascript">
-
-    $(document).ready( function(){
- // simple accordion for pix albums
-
-
-        //$('#pixThumbs').accordion();
-
-    })
-</script>
-
+<script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/content_page.js" charset="utf-8"></script>

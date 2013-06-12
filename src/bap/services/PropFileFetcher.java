@@ -17,7 +17,7 @@ import java.util.Properties;
 public class PropFileFetcher {
 
     public void myProps(){
-        Resource resource = new ClassPathResource("/resources/properties/Pix.properties");
+        Resource resource = new ClassPathResource("/bap/resources/properties/Pix.properties");
         try {
             Properties props = PropertiesLoaderUtils.loadProperties(resource);
             System.out.println( props.getProperty("pix.width"));

@@ -22,24 +22,12 @@ $(document).ready(function() {
 
 
 
-     /* PIX ALBUM DISPLAY */
-    if( parseInt(  $('.pixThumbAlbumCount').text(), 10 ) > 0 ){
-        $('.pixThumbsTitle').on('click', function(){
-            $('.pixThumbsAlbumName').toggle( function(){
-                if ( $('.thumbs').css('display') === 'block' ){
-                    $('.thumbs').css('display', 'none');
-                }
-            }) /*.css('height','auto')*/
-                .on( 'click', function(){
-                    $(this).next( '.thumbs').toggle(); //.css('height', 'auto')
-                });
-        })
-    }
 
 
 
 
 
+   /*
     var adminH = $(".admin-body").height();
     var adminLeftColH = $(".admin-col-left").height();
     var adminRightColH = $(".admin-col-right").height();
@@ -61,6 +49,6 @@ $(document).ready(function() {
             return ( ($('.admin-col-single').outerHeight())  );
         }
 
-    });
+    });   */
 
 });

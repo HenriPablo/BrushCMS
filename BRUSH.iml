@@ -17,8 +17,10 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="bap:resources:hibernate.cfg.xml" />
           <unit-entry name="sessionFactory" value="c2ca7d72-854d-49a6-b855-aa3cea447b5b" />
         </datasource-map>
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/bap/resources/hibernate.cfg.xml" />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">

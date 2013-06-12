@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1453917377">
-    <data-source source="LOCAL" name="myDataSource" product="PostgreSQL" version="9.1.8" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="c2ca7d72-854d-49a6-b855-aa3cea447b5b">
+  <component name="DataSourceManagerImpl" format="xml" hash="3364593414">
+    <data-source source="LOCAL" name="myDataSource" product="PostgreSQL" version="9.1.9" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="c2ca7d72-854d-49a6-b855-aa3cea447b5b">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost/brush_and_pixel</jdbc-url>

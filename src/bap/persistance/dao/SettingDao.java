@@ -4,12 +4,18 @@ import bap.domain.DomainObject;
 import bap.settings.Setting;
 //import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Restrictions;
 import org.postgresql.core.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.ParameterExpression;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 
@@ -31,6 +37,20 @@ public class SettingDao  {
         return (Setting) getSessionFactory().getCurrentSession().get( Setting.class, id );// this.getSession().get( Setting.class, id );
 
     }
+
+    public Setting getSettingByCode(String settingCode) {
+
+        List s = getSessionFactory()
+                .getCurrentSession()
+                .createCriteria( Setting.class)
+                .add( Restrictions.like("code", settingCode))
+                .addOrder( Order.asc("code"))
+                .setMaxResults( 1 )
+                .list();
+
+        return (Setting) s.get(0);
+    }
+
 
 
     public DomainObject latest() {
@@ -67,4 +87,6 @@ public class SettingDao  {
     public SessionFactory getSessionFactory() {
         return sessionFactory;
     }
+
+
 }

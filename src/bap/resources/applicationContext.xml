@@ -68,6 +68,7 @@
                 <value>bap.domain.Album</value>
                 <value>bap.settings.SettingsGroup</value>
                 <value>bap.settings.Setting</value>
+                <!--<value>bap.services.PropFileFetcher</value>-->
 
             </list>
         </property>
@@ -105,6 +106,9 @@
     <bean name="album"              class="bap.domain.Album"/>
     <bean name="settingsGroup"      class="bap.settings.SettingsGroup"/>
     <bean name="setting"            class="bap.settings.Setting"/>
+    <bean name="propFileFetcher"    class="bap.services.PropFileFetcher" />
+    <bean name="propDBFetcher"      class="bap.services.PropDBFetcher" />
+    <bean name="propHolderService"  class="bap.services.PropHolderService" />
 
 
     <bean id="pixThumbnailGenerator" class="bap.admin.controllers.utilities.PixThumbnailGenerator"></bean>

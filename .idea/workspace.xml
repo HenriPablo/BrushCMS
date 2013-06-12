@@ -6,41 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="trying to deploy to appFog">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/te-editor/ace-tab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/te-editor/ace-tab32x22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/annotations-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-io-2.1-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-io-2.1-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-io-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.apache.commons.io-2.1-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.apache.commons.io-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/public/css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/public/nav.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/js/admin-utils/kendo-ui-admin-menu.js" afterPath="$PROJECT_DIR$/web/js/admin-utils/menu.js" />
+    <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration/PropFileFetcherTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/content_page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" afterPath="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/services/PropFileFetcher.java" afterPath="$PROJECT_DIR$/src/bap/services/PropFileFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" afterPath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" afterPath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" afterPath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/menu.js" afterPath="$PROJECT_DIR$/web/js/admin-utils/menu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,11 +36,11 @@
     <file path="/index.html" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360287985222" ignored="false" />
     <file path="/web.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360641220034" ignored="false" />
     <file path="$PROJECT_DIR$/../BandP-IntelliJ/web/WEB-INF/web.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360290621768" ignored="false" />
-    <file path="/applicationContext.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1366771460805" ignored="false" />
+    <file path="/applicationContext.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370997477471" ignored="false" />
     <file path="/a.dummy" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362367753379" ignored="false" />
     <file path="/HibernateConfiguration.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360413586139" ignored="false" />
     <file path="/NavigationDaoTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360347734328" ignored="false" />
-    <file path="/SettingDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360500709868" ignored="false" />
+    <file path="/SettingDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371000609448" ignored="false" />
     <file path="/SettingDaoTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360465621467" ignored="false" />
     <file path="/SettingGroupDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362050930029" ignored="false" />
     <file path="/SettingGroupDaoTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1360555943578" ignored="false" />
@@ -63,8 +50,8 @@
     <file path="/AlbumDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361334644710" ignored="false" />
     <file path="/TagController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335174596" ignored="false" />
     <file path="/ContentPageDataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335230516" ignored="false" />
-    <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361846817839" ignored="false" />
-    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369192063273" ignored="false" />
+    <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370053735186" ignored="false" />
+    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370991968783" ignored="false" />
     <file path="/ContentPageController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361405267100" ignored="false" />
     <file path="/NavigationEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361407900388" ignored="false" />
     <file path="/ContentPageDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361500645530" ignored="false" />
@@ -79,10 +66,10 @@
     <file path="/JQuery.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361587627018" ignored="false" />
     <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364956645829" ignored="false" />
     <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369020537061" ignored="false" />
-    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369108021863" ignored="false" />
+    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370577251511" ignored="false" />
     <file path="/kendo-ui-admin-menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363408774167" ignored="false" />
     <file path="/skin.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362925678426" ignored="false" />
-    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369190586694" ignored="false" />
+    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370405963223" ignored="false" />
     <file path="/list.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362022217018" ignored="false" />
     <file path="/SettingsGroupController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362051073535" ignored="false" />
     <file path="/Setting.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362101883283" ignored="false" />
@@ -96,14 +83,14 @@
     <file path="/sample.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362314751205" ignored="false" />
     <file path="/form_crop_data.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362334568384" ignored="false" />
     <file path="/home.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363438033339" ignored="false" />
-    <file path="/*.regexp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369018126910" ignored="false" />
+    <file path="/*.regexp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370920529677" ignored="false" />
     <file path="/show_album.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369104844884" ignored="false" />
     <file path="/color-lovers-brush-1-colors.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362851929942" ignored="false" />
     <file path="/ImageBrowserEntry.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362958988037" ignored="false" />
     <file path="/ImageBrowserDaoImpl.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363137439358" ignored="false" />
     <file path="/ImageBrowserDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362959066101" ignored="false" />
     <file path="/ImageBrowserController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363137298636" ignored="false" />
-    <file path="/dispatcher-servlet.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363342542907" ignored="false" />
+    <file path="/dispatcher-servlet.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370482748844" ignored="false" />
     <file path="/jquery-te-1.3.3.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364562141314" ignored="false" />
     <file path="/dummy.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364165033979" ignored="false" />
     <file path="/DummyFile.xpath" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1365997371825" ignored="false" />
@@ -111,6 +98,17 @@
     <file path="/nav.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1366942696306" ignored="false" />
     <file path="/jquery-te-1.3.3.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369106505283" ignored="false" />
     <file path="/menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369191281832" ignored="false" />
+    <file path="/ContentPage.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370090419324" ignored="false" />
+    <file path="/MainPixEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370053392871" ignored="false" />
+    <file path="/Image.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370087145133" ignored="false" />
+    <file path="/content_page.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370577310319" ignored="false" />
+    <file path="/ImageAjaxController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370692451854" ignored="false" />
+    <file path="/Pix.properties" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370836240999" ignored="false" />
+    <file path="/PropHolderService.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370912981126" ignored="false" />
+    <file path="/PropFileFetcher.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370913688763" ignored="false" />
+    <file path="/PropFileFetcherTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371000368031" ignored="false" />
+    <file path="/fragment.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370920272294" ignored="false" />
+    <file path="/PropDBFetcher.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370998865266" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +116,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
@@ -170,7 +178,7 @@
     <favorites_list name="BRUSH" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5083763">
+    <splitter split-orientation="horizontal" split-proportion="0.33891752">
       <split-first>
         <leaf>
           <file leaf-file-name="layout.jsp" pinned="false" current="false" current-in-tab="false">
@@ -185,10 +193,9 @@
           <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="82" selection-start="3086" selection-end="3112" vertical-scroll-proportion="-0.625">
+                <state line="83" column="44" selection-start="3409" selection-end="3409" vertical-scroll-proportion="0.0">
                   <folding>
-                    <marker date="1369108025575" expanded="true" signature="1262:1271" placeholder="{...}" />
-                    <marker date="1369108025575" expanded="true" signature="3626:3638" placeholder="{...}" />
+                    <marker date="1370577278779" expanded="true" signature="5012:5024" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -197,16 +204,7 @@
           <file leaf-file-name="show_album.tag" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="18" selection-start="270" selection-end="276" vertical-scroll-proportion="-5.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="menu.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/menu.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="53" selection-start="898" selection-end="898" vertical-scroll-proportion="0.29734218">
+                <state line="12" column="187" selection-start="639" selection-end="650" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -221,19 +219,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="navigation.tag" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag">
+          <file leaf-file-name="nav.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/css/public/nav.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="17" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+                <state line="27" column="62" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nav.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/css/public/nav.css">
+          <file leaf-file-name="SettingDaoTest.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+                <state line="34" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.45801526">
                   <folding />
                 </state>
               </provider>
@@ -243,19 +241,79 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="admin-layout.css" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
+          <file leaf-file-name="PropFileFetcher.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/services/PropFileFetcher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="571" column="17" selection-start="15595" selection-end="15595" vertical-scroll-proportion="0.62458473">
+                <state line="16" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jquery-te-1.3.3.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.css">
+          <file leaf-file-name="PropDBFetcher.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/services/PropDBFetcher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="99" selection-start="1667" selection-end="1760" vertical-scroll-proportion="0.0">
+                <state line="18" column="68" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SettingDao.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="41" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.3129771">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PropFileFetcherTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="110" column="36" selection-start="4563" selection-end="4563" vertical-scroll-proportion="-6.122449">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PropHolderService.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/services/PropHolderService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="content_page.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="128" column="26" selection-start="3592" selection-end="3592" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin-layout.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="584" column="20" selection-start="15919" selection-end="15919" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -282,30 +340,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/css/css.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/kendo-ui-admin-menu.js" />
-        <option value="$PROJECT_DIR$/web/js/Kendo-UI/admin-layout.css" />
-        <option value="$PROJECT_DIR$/appFogMaven/pom.xml" />
-        <option value="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" />
-        <option value="$PROJECT_DIR$/web/css/public/css.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag" />
-        <option value="$PROJECT_DIR$/web/css/public/nav.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag" />
-        <option value="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/propertyeditors/ImageEditor.java" />
+        <option value="$PROJECT_DIR$/src/bap/domain/Image.java" />
+        <option value="$PROJECT_DIR$/src/bap/domain/ContentPage.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java" />
         <option value="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" />
-        <option value="$PROJECT_DIR$/web/js/admin-utils/menu.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
+        <option value="$PROJECT_DIR$/web/js/admin-utils/content_page.js" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java" />
+        <option value="$PROJECT_DIR$/src/bap/resources/properties/Pix.properties" />
+        <option value="$PROJECT_DIR$/src/bap/services/PropHolderService.java" />
+        <option value="$PROJECT_DIR$/src/bap/services/PropFileFetcher.java" />
+        <option value="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" />
+        <option value="$PROJECT_DIR$/integration/PropFileFetcherTest.java" />
+        <option value="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -319,6 +377,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
@@ -351,135 +412,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lib">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="scopes">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="libraries">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="copyright">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BRUSH">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="artifacts">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,11 +454,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,33 +468,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="bap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,15 +490,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="bap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="te-editor" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,20 +512,184 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="propertyeditors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bindinginitializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="178" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
     <property name="project.structure.proportion" value="0.106269926" />
@@ -648,7 +722,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="project.structure.side.proportion" value="0.24976614" />
+    <property name="project.structure.side.proportion" value="0.34251103" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -661,11 +735,12 @@
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bap/resources/properties" />
       <recent name="$PROJECT_DIR$/web/css/public" />
       <recent name="$PROJECT_DIR$/src/bap/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7">
+  <component name="RunManager" selected="JUnit.PropFileFetcherTest">
     <configuration default="false" name="SettingDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -680,62 +755,6 @@
       <option name="MAIN_CLASS_NAME" value="bap.test.integration.SettingDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SettingGroupDaoTest.testSave" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.test.bap.persistance.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.SettingGroupDaoTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SettingDaoTest.testSave" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.test.bap.persistance.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.SettingDaoTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -792,6 +811,62 @@
       <option name="MAIN_CLASS_NAME" value="bap.test.integration.CommentDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PropFileFetcherTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BRUSH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PropFileFetcherTest.readTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BRUSH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
+      <option name="METHOD_NAME" value="readTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -995,18 +1070,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SettingDaoTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SettingGroupDaoTest.testSave" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SettingDaoTest.testSave" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SettingDaoTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SettingDaoTest.testSave" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SettingGroupDaoTest.testSave" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SettingDaoTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1095,7 +1170,15 @@
       <created>1365998411378</created>
       <updated>1365998411378</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="routine backup commit">
+      <created>1369192236384</created>
+      <updated>1369192236384</updated>
+    </task>
+    <task id="LOCAL-00016" summary="routine backup commit">
+      <created>1370919321230</created>
+      <updated>1370919321230</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1122,32 +1205,32 @@
     <frame x="0" y="24" width="1600" height="852" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68033946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.67943263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31643835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31631204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8453901" sideWeight="0.39561856" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281471" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5517731" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58014184" sideWeight="0.29639176" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226804" sideWeight="0.47659576" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14626288" sideWeight="0.1929078" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2822165" sideWeight="0.90921986" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09078014" sideWeight="0.59987116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253866" sideWeight="0.9843972" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.015602837" sideWeight="0.7036083" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1768034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4893617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1193,7 +1276,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to deploy to appFog" />
+    <option name="LAST_COMMIT_MESSAGE" value="routine backup commit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1221,6 +1304,7 @@
     <MESSAGE value="got rid of kendo front end crap" />
     <MESSAGE value="trying to figure out this git stuff with intellij" />
     <MESSAGE value="trying to deploy to appFog" />
+    <MESSAGE value="routine backup commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1236,104 +1320,132 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js">
+    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="803" column="29" selection-start="28494" selection-end="28494" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/index/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="86" selection-start="1410" selection-end="1489" vertical-scroll-proportion="0.18931298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/public/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2337" selection-end="4734" vertical-scroll-proportion="0.6171171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="108" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/public/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="99" selection-start="1667" selection-end="1760" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="82" selection-start="3086" selection-end="3112" vertical-scroll-proportion="-0.625">
-          <folding>
-            <marker date="1369108025575" expanded="true" signature="1262:1271" placeholder="{...}" />
-            <marker date="1369108025575" expanded="true" signature="3626:3638" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/show_album.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="270" selection-end="276" vertical-scroll-proportion="-5.0">
+        <state line="128" column="26" selection-start="3592" selection-end="3592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="571" column="17" selection-start="15595" selection-end="15595" vertical-scroll-proportion="0.62458473">
+        <state line="584" column="20" selection-start="15919" selection-end="15919" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/menu.js">
+    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="53" selection-start="898" selection-end="898" vertical-scroll-proportion="0.29734218">
+        <state line="21" column="13" selection-start="606" selection-end="606" vertical-scroll-proportion="-0.21444201">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="40" selection-start="78" selection-end="79" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5196305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="59" selection-start="1380" selection-end="1380" vertical-scroll-proportion="1.3215859">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/public/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="62" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.45801526">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="36" selection-start="4563" selection-end="4563" vertical-scroll-proportion="-6.122449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/resources/properties/Pix.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="28" selection-end="28" vertical-scroll-proportion="0.027777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/services/PropFileFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/services/PropHolderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/services/PropDBFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="68" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.3129771">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,9 +1456,9 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
-              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
               <type id="library" />
             </show-content>
           </artifact-editor>
@@ -1354,7 +1466,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24976614" />
+                <option value="0.34251103" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1363,11 +1475,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (BRUSH)|Web</last-edited>
+          <last-edited>Hibernate (BRUSH)|Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24976614" />
+                <option value="0.34251103" />
               </list>
             </option>
           </splitter-proportions>
@@ -1391,7 +1503,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34251103" />
               </list>
             </option>
           </splitter-proportions>
@@ -1403,7 +1515,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24976614" />
+                <option value="0.34251103" />
               </list>
             </option>
           </splitter-proportions>
@@ -1427,7 +1539,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24976614" />
+                <option value="0.34251103" />
               </list>
             </option>
           </splitter-proportions>

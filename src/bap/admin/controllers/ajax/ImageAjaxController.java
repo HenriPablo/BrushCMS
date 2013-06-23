@@ -25,7 +25,12 @@ public class ImageAjaxController {
     //@Autowired
     //ContentPage contentPage;
 
-    @RequestMapping( value = {"/image/mainPix/save.html"}, method = RequestMethod.POST, produces = "application/json" )
+    @RequestMapping(
+            value = {"/image/mainPix/save.html" },
+            method = RequestMethod.POST,
+            produces = "application/json"
+            )
+
     public @ResponseBody String saveMainPix(
             @RequestParam final String pixId,
             @RequestParam final String pageId

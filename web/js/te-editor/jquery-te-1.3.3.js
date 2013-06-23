@@ -1005,12 +1005,35 @@ You should have received a copy of the GNU General Public License along with thi
                             //alert( $('#content').val() );
 
                             brushAce.setValue( $('#content').val(), 0 );
+                            brushAce.gotoLine( 1 );
 
                             $('#clsoeAceEdit').on( 'click', function(){
-                                alert( brushAce.getValue() )
+
                                 $('.jqte_editor').html( brushAce.getValue() );
                                 //$('#content').val( brushAce.getValue() );
                                 $.colorbox.close()
+                            });
+
+                            $('.aceEditTheme').on('mouseover', function(){
+                                $('#aceEditMsgBoard').css('border-top-width', '1px').html( 'Ace Editor Theme: </br>' + $(this).attr( 'data-aceEditTheme'));
+                            });
+                            $('.aceEditTheme').on('mouseout', function(){
+                                $('#aceEditMsgBoard').css('border-top-width', 0).empty();
+                            });
+
+                            $('.aceEditTheme').on('click', function(){
+
+                                brushAce.setTheme("ace/theme/" + $(this).attr( 'data-aceEditTheme'));
+
+                            });
+
+                            $('#saveContents').on( 'click', function(){
+                                contentPage.saveContent({
+                                    contentToSAve : brushAce.getValue(),
+                                    endMethod : 'saveContent'
+                                }
+
+                                );
                             });
 
                             $.colorbox({ inline:true, href: '#aceEditWrapper', width:'90%', height:'90%' } );

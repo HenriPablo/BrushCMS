@@ -33,10 +33,20 @@
 		<%@include file="/WEB-INF/jsp/admin/elements/nav.jsp" %>
 
         <div class="admin-body">
+            <div id="breadcrumbs">
+                <%--<div class="crumb">--%>
+                    <%--ID: <span id="pageId">${content_page.id}</span> &gt;--%>
+                <%--</div>--%>
+            </div>
+
 		    <jsp:include page="/WEB-INF/jsp/admin/${section}/${page}.jsp"></jsp:include>
+
+
+            <div class="clearFix"></div>
         </div>
 
         <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/menu.js"></script>
+    <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin/breadcrumbs.js"></script>
 
 	</body>
 </html>

@@ -7,25 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/integration/PropFileFetcherTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin-utils/content_page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ContentPageAjaxController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/aceEditPanel.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/admin/breadcrumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/imageBrowserPanel.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java" afterPath="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" afterPath="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/services/PropFileFetcher.java" afterPath="$PROJECT_DIR$/src/bap/services/PropFileFetcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" afterPath="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" afterPath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" afterPath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/content_page.js" afterPath="$PROJECT_DIR$/web/js/admin-utils/content_page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" afterPath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting/elements/form.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" afterPath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/menu.js" afterPath="$PROJECT_DIR$/web/js/admin-utils/menu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
@@ -51,7 +52,7 @@
     <file path="/TagController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335174596" ignored="false" />
     <file path="/ContentPageDataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335230516" ignored="false" />
     <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370053735186" ignored="false" />
-    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370991968783" ignored="false" />
+    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858358229" ignored="false" />
     <file path="/ContentPageController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361405267100" ignored="false" />
     <file path="/NavigationEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361407900388" ignored="false" />
     <file path="/ContentPageDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361500645530" ignored="false" />
@@ -65,11 +66,11 @@
     <file path="/NavigationElementsImpl.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361418936507" ignored="false" />
     <file path="/JQuery.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361587627018" ignored="false" />
     <file path="/nav.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364956645829" ignored="false" />
-    <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1369020537061" ignored="false" />
-    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370577251511" ignored="false" />
+    <file path="/layout.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371396930965" ignored="false" />
+    <file path="/form.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371953357878" ignored="false" />
     <file path="/kendo-ui-admin-menu.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363408774167" ignored="false" />
     <file path="/skin.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362925678426" ignored="false" />
-    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370405963223" ignored="false" />
+    <file path="/admin-layout.css" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371862910482" ignored="false" />
     <file path="/list.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362022217018" ignored="false" />
     <file path="/SettingsGroupController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362051073535" ignored="false" />
     <file path="/Setting.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362101883283" ignored="false" />
@@ -91,7 +92,7 @@
     <file path="/ImageBrowserDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1362959066101" ignored="false" />
     <file path="/ImageBrowserController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1363137298636" ignored="false" />
     <file path="/dispatcher-servlet.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370482748844" ignored="false" />
-    <file path="/jquery-te-1.3.3.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364562141314" ignored="false" />
+    <file path="/jquery-te-1.3.3.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371864323183" ignored="false" />
     <file path="/dummy.xml" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1364165033979" ignored="false" />
     <file path="/DummyFile.xpath" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1365997371825" ignored="false" />
     <file path="/navigation.tag" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1366339626288" ignored="false" />
@@ -101,14 +102,27 @@
     <file path="/ContentPage.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370090419324" ignored="false" />
     <file path="/MainPixEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370053392871" ignored="false" />
     <file path="/Image.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370087145133" ignored="false" />
-    <file path="/content_page.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370577310319" ignored="false" />
+    <file path="/content_page.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371954465925" ignored="false" />
     <file path="/ImageAjaxController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370692451854" ignored="false" />
     <file path="/Pix.properties" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370836240999" ignored="false" />
     <file path="/PropHolderService.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370912981126" ignored="false" />
     <file path="/PropFileFetcher.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370913688763" ignored="false" />
     <file path="/PropFileFetcherTest.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371000368031" ignored="false" />
     <file path="/fragment.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370920272294" ignored="false" />
-    <file path="/PropDBFetcher.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370998865266" ignored="false" />
+    <file path="/PropDBFetcher.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371006511201" ignored="false" />
+    <file path="/breadcrumbs.js" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371524635986" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364924" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364924" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364924" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364924" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364925" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364925" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858364925" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2_1.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858385699" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858385700" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371858385701" ignored="false" />
+    <file path="/aceEditPanel.jsp" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371862982392" ignored="false" />
+    <file path="/ContentPageAjaxController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1371949676061" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,24 +192,44 @@
     <favorites_list name="BRUSH" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33891752">
+    <splitter split-orientation="horizontal" split-proportion="0.19587629">
       <split-first>
         <leaf>
           <file leaf-file-name="layout.jsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="108" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
+                <state line="35" column="32" selection-start="1309" selection-end="1320" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="83" column="44" selection-start="3409" selection-end="3409" vertical-scroll-proportion="0.0">
+                <state line="123" column="13" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.54310346">
                   <folding>
-                    <marker date="1370577278779" expanded="true" signature="5012:5024" placeholder="{...}" />
+                    <marker date="1371953660253" expanded="true" signature="4909:4921" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="aceEditPanel.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/aceEditPanel.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="85" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-14.375">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ImageAjaxController.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="48" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -210,28 +244,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="layout.jsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="nav.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/css/public/nav.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="62" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+                <state line="27" column="17" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SettingDaoTest.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SettingDaoTest.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.45801526">
+                <state line="34" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -240,86 +265,92 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="PropFileFetcher.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/bap/services/PropFileFetcher.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PropDBFetcher.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/bap/services/PropDBFetcher.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="68" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SettingDao.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.3129771">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PropFileFetcherTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="110" column="36" selection-start="4563" selection-end="4563" vertical-scroll-proportion="-6.122449">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PropHolderService.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/bap/services/PropHolderService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="content_page.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="128" column="26" selection-start="3592" selection-end="3592" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="admin-layout.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="584" column="20" selection-start="15919" selection-end="15919" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.8857556">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="43" column="0" selection-start="1419" selection-end="1425" vertical-scroll-proportion="-23.541666">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="PropFileFetcherTest.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="PropHolderService.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/bap/services/PropHolderService.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="15" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="content_page.js" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="10" column="4" selection-start="195" selection-end="195" vertical-scroll-proportion="0.17384106">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ContentPageAjaxController.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/ajax/ContentPageAjaxController.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="45" column="36" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="jquery-te-1.3.3.js" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="1031" column="49" selection-start="37776" selection-end="37789" vertical-scroll-proportion="0.0">
+                      <folding>
+                        <marker date="1371864427612" expanded="true" signature="7692:7724" placeholder="..." />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="admin-layout.css" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="825" column="15" selection-start="25252" selection-end="25252" vertical-scroll-proportion="0.0">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="content_page.js" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="172" column="56" selection-start="5153" selection-end="5153" vertical-scroll-proportion="1.428808">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -340,22 +371,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/bap/admin/controllers/propertyeditors/ImageEditor.java" />
-        <option value="$PROJECT_DIR$/src/bap/domain/Image.java" />
-        <option value="$PROJECT_DIR$/src/bap/domain/ContentPage.java" />
-        <option value="$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java" />
+        <option value="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
+        <option value="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting/elements/form.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/imageBrowserPanel.jsp" />
+        <option value="$PROJECT_DIR$/web/js/admin/breadcrumbs.js" />
+        <option value="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
+        <option value="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
         <option value="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/aceEditPanel.jsp" />
+        <option value="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java" />
+        <option value="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ContentPageAjaxController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
         <option value="$PROJECT_DIR$/web/js/admin-utils/content_page.js" />
-        <option value="$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java" />
-        <option value="$PROJECT_DIR$/src/bap/resources/properties/Pix.properties" />
-        <option value="$PROJECT_DIR$/src/bap/services/PropHolderService.java" />
-        <option value="$PROJECT_DIR$/src/bap/services/PropFileFetcher.java" />
-        <option value="$PROJECT_DIR$/src/bap/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/bap/services/PropDBFetcher.java" />
-        <option value="$PROJECT_DIR$/integration/PropFileFetcherTest.java" />
-        <option value="$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java" />
       </list>
     </option>
   </component>
@@ -412,6 +443,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -454,6 +486,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BRUSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -473,32 +523,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,51 +566,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utilities" />
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,36 +589,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="propertyeditors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bindinginitializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,37 +618,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BRUSH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="178" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
     <property name="project.structure.proportion" value="0.106269926" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="178" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
@@ -713,21 +648,21 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="jackson-mapper-asl" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="Downloaded.Files.Path" value="jackson-mapper-asl" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.CSS" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="project.structure.side.proportion" value="0.34251103" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.side.proportion" value="0.34251103" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -740,35 +675,7 @@
       <recent name="$PROJECT_DIR$/src/bap/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PropFileFetcherTest">
-    <configuration default="false" name="SettingDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.test.bap.persistance.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.SettingDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7">
     <configuration default="false" name="ContentPageDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -881,6 +788,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="PropFileFetcherTest.readDbTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BRUSH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
+      <option name="METHOD_NAME" value="readDbTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -893,19 +828,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -934,6 +856,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -979,17 +914,17 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" show_console_on_std_out="true" show_console_on_std_err="true">
@@ -1069,19 +1004,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SettingDaoTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readDbTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SettingDaoTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readDbTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1178,7 +1113,11 @@
       <created>1370919321230</created>
       <updated>1370919321230</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added stub for file and db based setting reading">
+      <created>1371001253492</created>
+      <updated>1371001253492</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1225,8 +1164,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253866" sideWeight="0.9843972" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.015602837" sideWeight="0.7036083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925257" sideWeight="0.91205674" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08794326" sideWeight="0.7036083" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1276,7 +1215,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="routine backup commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stub for file and db based setting reading" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1305,6 +1244,7 @@
     <MESSAGE value="trying to figure out this git stuff with intellij" />
     <MESSAGE value="trying to deploy to appFog" />
     <MESSAGE value="routine backup commit" />
+    <MESSAGE value="added stub for file and db based setting reading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,97 +1260,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
+    <entry file="file://$PROJECT_DIR$/web/js/admin/breadcrumbs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="26" selection-start="3592" selection-end="3592" vertical-scroll-proportion="0.0">
+        <state line="30" column="4" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
+    <entry file="file://$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="584" column="20" selection-start="15919" selection-end="15919" vertical-scroll-proportion="0.0">
+        <state line="1038" column="29" selection-start="35562" selection-end="35562" vertical-scroll-proportion="0.8648649">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/bindinginitializers/DataBindingInitializer.java">
+    <entry file="file://$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="606" selection-end="606" vertical-scroll-proportion="-0.21444201">
+        <state line="6" column="10582" selection-start="10781" selection-end="10781" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/aceEditPanel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="85" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-14.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="40" selection-start="78" selection-end="79" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5196305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="59" selection-start="1380" selection-end="1380" vertical-scroll-proportion="1.3215859">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/public/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="62" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.45801526">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="36" selection-start="4563" selection-end="4563" vertical-scroll-proportion="-6.122449">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7714748">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/properties/Pix.properties">
+    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/admin-layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="28" selection-end="28" vertical-scroll-proportion="0.027777778">
+        <state line="825" column="15" selection-start="25252" selection-end="25252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/services/PropFileFetcher.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="23" column="13" selection-start="597" selection-end="597" vertical-scroll-proportion="-4.478645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1031" column="49" selection-start="37776" selection-end="37789" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1371864427612" expanded="true" signature="7692:7724" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/ajax/ImageAjaxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="48" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1419" selection-end="1425" vertical-scroll-proportion="-23.541666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1422,30 +1357,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/services/PropDBFetcher.java">
+    <entry file="file://$PROJECT_DIR$/src/bap/admin/controllers/ajax/ContentPageAjaxController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="68" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="45" column="36" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+        <state line="123" column="13" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.54310346">
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1371953660253" expanded="true" signature="4909:4921" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/SettingDao.java">
+    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.3129771">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="10" column="4" selection-start="195" selection-end="195" vertical-scroll-proportion="0.17384106">
+          <folding />
         </state>
       </provider>
     </entry>

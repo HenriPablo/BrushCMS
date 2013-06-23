@@ -16,6 +16,6 @@ public class PropDBFetcher {
     SettingDao settingDao;
 
     public String getSetting( String settingCode ){
-        return  settingDao.getSettingByCode( settingCode ).getCode();
+        return  settingDao.getSettingByCode( settingCode ).getValue();
     }
 }

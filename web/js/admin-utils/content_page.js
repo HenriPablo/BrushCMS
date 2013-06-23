@@ -8,12 +8,15 @@
 
 
 $(document).ready(function () {
+  /* text area content could have been uri encoded during incremental save by ajax call */
+  $('#content').html( decodeURIComponent( $('#content').html() ) );
 
-    var brushAce = ace.edit("aceEditor");
-    ace.config.set("workerPath", "${pageContext.servletContext.contextPath}/js/ace/src-min-noconflict");
+
+    brushAce = ace.edit("aceEditor");
+
+    ace.config.set("workerPath",  location.hostname + "/js/ace/src-min-noconflict");
     brushAce.setTheme("ace/theme/cobalt");
     brushAce.getSession().setMode("ace/mode/html");
-
 
     $('#content').jqte();
 
@@ -36,7 +39,7 @@ $(document).ready(function () {
                 $('.pixThumbImg').clone().prependTo('#thumbsToChooseFrom');
 
                 $('img, #thumbsToChooseFrom').draggable({
-//                            appendTo: '.draggableTarget',
+                    // appendTo: '.draggableTarget',
                     revert: true
                 });
 
@@ -141,21 +144,48 @@ $(document).ready(function () {
        })
     });
 
-//        if( parseInt(  $('.pixThumbAlbumCount').text(), 10 ) > 0 ){
-//
-//            $('.pixThumbsTitle').on('click', function(){
-//                $('.pixThumbsAlbumName').toggle( function(){
-//                    $('.thumbs', $(this) /* $('#pixThumbs') */ ).each( function(){
-//                        if ( $(this).css('display') === 'block' ){
-//                            $(this).hide( 'slow' );//css('display', 'none')
-//                        }
-//                    });
-//                })
-//                .on( 'click', function(){
-//                    $(this).next( '.thumbs').toggle( 'slow' );
-//                });
-//            })
-//
-//        }
 
-})
+
+});
+
+var contentPage = {
+
+    init : function(){},
+
+    callServer : function( data ){
+        var callType = 'POST';
+        var destination = '/brush/contentPage/'  + data.endMethod + '.html';
+        var payload = {
+            'contentToSave' :   encodeURIComponent( data.contentToSAve ).replace(/\-/g, "%2D").replace(/\_/g, "%5F").replace(/\./g, "%2E").replace(/\!/g, "%21").replace(/\~/g, "%7E").replace(/\*/g, "%2A").replace(/\'/g, "%27").replace(/\(/g, "%28").replace(/\)/g, "%29"),
+            //'contentToSAve' : data.contentToSAve,
+            'pageId' : $('#id').val()
+        };// $(data.contentToSAve).serialize();
+
+        var payloadType = 'html';
+
+        console.log( "data in callServer")
+        console.log( data );
+
+        var ajaxCall = $.ajax({
+            type : callType,
+            url : destination,
+            /*contentType: "application/json; charset=utf-8", */
+            data :  payload  /*JSON.stringify( payload )*/  ,
+            dataType: payloadType
+        });
+        ajaxCall.done( function( msg ){
+            console.log( "message in done ajax call")
+            console.log( msg );
+        });
+        ajaxCall.fail( function( jqXHR, textStatus ){
+            console.log( "ajax call  failed")
+            console.dir( jqXHR + " : " + textStatus + " : "  );
+        })
+
+
+    },
+    'saveContent' : function( data ){
+        contentPage.callServer( data );
+    }
+
+};

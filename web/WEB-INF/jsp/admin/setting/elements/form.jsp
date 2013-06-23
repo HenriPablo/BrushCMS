@@ -35,6 +35,12 @@
         <form:input path="hint" size="55" id="label" />
         <br />
 
+        <form:label path="value" for="value" title="value">value</form:label>
+        <form:input path="value" size="55"  id="value" />
+        <br />
+
+
+        <form:label path="settingsGroup" for="settingsGroup" title="Settings Group">Settigns Group</form:label>
         <form:select path="settingsGroup" items="${settingsGroupList}" itemLabel="name" itemValue="id" multiple="false">
 
         </form:select>

@@ -3,11 +3,10 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@taglib tagdir="/WEB-INF/tags/" prefix="t" %>
 
-    <div id="breadcrumbs">
-        <div class="crumb">
-            ID: <span id="pageId">${content_page.id}</span> &gt;
-        </div>
-    </div>
+<%@ page import="java.net.URLDecoder"%>
+
+
+
 
     <form:form method="post" commandName="content_page" htmlEscape="true" id="layoutForm"
                action="${pageContext.servletContext.contextPath}${action}" cssClass="form">
@@ -124,52 +123,15 @@
 
 
 
-            <form:textarea path="content" rows="75" cols="35" id="content" cssStyle="width: 100%;" htmlEscape="false" />
+            <form:textarea path="content" rows="75" cols="35" id="content" cssStyle="width: 100%;" htmlEscape="false"  />
             <br class="separator"/><br/>
 
-            <%--<div id="editorDiv">${content_page.content}</div>--%>
-            <div id="aceEditHideAway" style="display: none;">
-                <div id="aceEditWrapper" style="
-                    width: 90%;
-                    height:90%;
-                    padding:2%;
-                    /*border: 1px solid red;*/
-                    position:relative;
-                ">
-                   <div id="aceEditControlPanel"
-                           style="
-                           position: absolute;
-                           left: 0;
 
 
-                           width: 25%;
-                           /*border: 1px solid green;*/
-                           ">
-                       <a href="#" id="clsoeAceEdit">close</a>
-                   </div>
-                    <div id="aceEditor" style="
-                    position: absolute;
-                    right: 0;
-                    left: 30%;
-                    top: 0;
-                    bottom: 0;
-                    width: 70%;
-                    height: 100%;
-                    /*border: 1px solid #ffff00;*/
+            <jsp:include page="aceEditPanel.jsp" />
 
-                    ">
-                        <h1>some headline</h1>
-                    </div>
-                </div>
-            </div>
 
-            <div id="imageBrowserHideaway" style="display: none;">
-                <div id="imageBrowser" style="
-                    width: 90%;
-                    height: 90%;
-                    border: 1px solid #ff8000;
-                "></div>
-            </div>
+            <jsp:include page="imageBrowserPanel.jsp" />
 
 
             <div class="clearFix"></div>
@@ -177,16 +139,8 @@
 
         </div>
     </form:form>
-    <div class="clearFix"></div>
-<style type="text/css" media="screen">
-    #aceEditor {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-</style>
+
+
 
 
 <script src="${pageContext.servletContext.contextPath}/js/ace/vendor/modernizr-2.6.2.min.js"></script>
@@ -196,9 +150,12 @@
 
 <%--<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>--%>
 <script src="${pageContext.servletContext.contextPath}/js/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.js" charset="utf-8"></script>
+
 
 <%-- JQUERY UI --%>
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+
+
+<script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.js" charset="utf-8"></script>
 <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/content_page.js" charset="utf-8"></script>

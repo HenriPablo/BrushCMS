@@ -32,7 +32,7 @@
             <a href="#" id="clsoeAceEdit" class="aceFauxBtn btnRed">close</a>
             <a href="#" id="saveContents" class="aceFauxBtn btnGrn">save</a>
 
-            <div id="aceEditMsgBoard"></div>
+            <div id="aceEditMsgBoard" class="messageBoard"></div>
         </div>
 
     </div>

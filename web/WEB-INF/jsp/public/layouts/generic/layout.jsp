@@ -25,7 +25,26 @@
 <nav:navigation header_nav="true"  nav_elements="${nav_elements}" page_nav_elements="${page_nav_elements}" />
 
 <h3>LAYOUT JSP</H3>
+
 <hr/>
+<%@ page import="java.net.URLDecoder"%>
+<%@ page import="bap.domain.ContentPage" %>
+
+
+<%
+   //bap.domain.ContentPage x = (ContentPage) request.getAttribute( "page_contents" );
+    //if( x != null){
+      //  out.println( URLDecoder.decode( x.getContent(),  "UTF-8" ) );
+    //}
+%>
+
+<div>
+    ${page_contents.content}
+</div>
+
+
+
+
 
         <c:choose>
 

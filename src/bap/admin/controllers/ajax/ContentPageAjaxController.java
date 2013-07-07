@@ -44,8 +44,8 @@ public class ContentPageAjaxController {
         ContentPage cp = contentPageDao.get( id );
         cp.setContent( contentToSave );
         contentPageDao.update( cp );
-        System.out.println( " PAGE ID: " + id + "\n\nCONTENTS: " + contentToSave );
-        return "saveContent called, for real::  PAGE ID: "; // + id + "\n\nCONTENTS: " + contentToSave ;
+
+        return "Contents Updated";
 
     }
 }

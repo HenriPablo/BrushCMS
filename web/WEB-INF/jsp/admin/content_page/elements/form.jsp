@@ -78,41 +78,57 @@
 
 
             <div id="pixControlPanel">
-                <p id="albumsTab"  class="controlTab show" data-show-or-hide="pixes">Albums: <span class="pixThumbAlbumCount">${content_page.albums.size() }</span></p>
-                <p id="mainPixTab" class="controlTab show" data-show-or-hide="mainPix">Main Pix:${content_page.mainPix.id} <span>none</span></p>
-                <span id="mainPixAjaxResponse"></span>
+                <div id="albumsTab"  class="controlTab show" data-show-or-hide="pixes">Albums: <span class="pixThumbAlbumCount">${content_page.albums.size() }</span></div>
+                <div id="messageBoardMainPix" class="messageBoard"></div>
                 <div class="clearFix"></div>
             </div>
 
-            <div id="pixes" class="contentPanel closed">
-
-                <c:forEach items="${content_page.albums}" var="a">
-                        <div class="pixThumbsAlbumWrapper">
-                            <p class="pixThumbsAlbumName">  ${a.name} </p>
-                            <t:show_album album="${a}"/>
-                        </div>
-
-                 </c:forEach>
-                <div class="clearFix"></div>
-            </div>
+            <div class="contentPanel closed">
 
 
 
-            <div id="mainPix" class="contentPanel closed">
+                <div id="pixes">
 
-                <div id="thumbsToChooseFrom" style="float:left;">
+                    <c:forEach items="${content_page.albums}" var="a">
+                            <div class="pixThumbsAlbumWrapper">
+                                <p class="pixThumbsAlbumName">  ${a.name} </p>
+                                <t:show_album album="${a}"/>
+                            </div>
 
+                     </c:forEach>
+                    <div class="clearFix"></div>
                 </div>
 
-                <div id="draggableTargetWrapper" style="float: right; border-left:1px solid #ccc; padding: 10px; min-width: 150px;" >
-                    <p>Drag main pix selection here.</p>
-                    <div id="draggableTarget" style="min-height: 120px; border: 1px solid #006f1c; text-align: center; padding:10px; background-color: #fff;" >
-                        <c:if test="${content_page.mainPix != null}">
-                            <img src="<c:url value="/art/upload/thm/${content_page.mainPix.src}" />" />
-                        </c:if>
+
+                <div id="mainPix">
+
+                    <div id="thumbsToChooseFrom" style="float:left;">
+
+                        <div id="draggableTargetWrapper"  >
+
+                            <div id="mainPixStatus">Main Pix Id: ${content_page.mainPix.id} </div>
+                            <div class="clearFix"></div>
+                            <div id="draggableTarget" style="min-height: 120px; border: 1px solid #006f1c; text-align: center; padding:10px; background-color: #fff;" >
+                                <c:choose>
+                                    <c:when test="${content_page.mainPix != null}">
+                                        <img src="<c:url value="/art/upload/thm/${content_page.mainPix.src}" />" />
+                                    </c:when>
+
+                                    <c:when test="${content_page.mainPix == null}">
+                                    <p>This page has no main pix assign to it. To add one, drag one from the left here.</p>
+                                    </c:when>
+                                </c:choose>
+                            </div>
+                            <div id="removeMainPix" class="btnRed">X</div>
+                            <form:hidden path="mainPix.id" id="mainPixId" />
+
+
+                        </div>
+                        <div class="clearFix"></div>
                     </div>
-                    <div id="removeMainPix">---x---</div>
-                    <form:hidden path="mainPix.id" id="mainPixId" />
+
+                    <div class="clearFix"></div>
+
                 </div>
                 <div class="clearFix"></div>
 
@@ -158,4 +174,5 @@
 
 
 <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.js" charset="utf-8"></script>
+
 <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/content_page.js" charset="utf-8"></script>

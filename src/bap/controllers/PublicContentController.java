@@ -5,6 +5,7 @@
 
 package bap.controllers;
 
+import bap.domain.ContentPage;
 import bap.persistance.dao.ContentPageDao;
 import bap.persistance.dao.Dao;
 import bap.persistance.dao.NavigationElmentsDao;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.io.IOException;
+import java.net.URLDecoder;
 
 /**
  *
@@ -38,6 +40,11 @@ public class PublicContentController {
 
 		ModelAndView mov = new ModelAndView();
 
+        ContentPage cp = (ContentPage) this.contentPageDao.latest();
+        cp.setContent( URLDecoder.decode( cp.getContent(), "UTF-8") );
+
+        //URLDecoder.decode( x.getContent(),  "UTF-8" )
+
 
         mov.addObject("layout", "generic");
 		mov.addObject("page", "home");
@@ -45,9 +52,10 @@ public class PublicContentController {
 		mov.addObject("nav_elements", navigationElementsDaoImpl.navigationElements());
 		mov.addObject("page_nav_elements", navigationElementsDaoImpl.pageNavElements());
 
-		mov.addObject("latest_article", this.contentPageDao.latest());
+//        mov.addObject("latest_article", cp);// this.contentPageDao.latest());
+        mov.addObject("latest_article", this.contentPageDao.latest());
 
-		mov.setViewName("public/layouts/generic/layout");
+        mov.setViewName("public/layouts/generic/layout");
 		return mov;
 	}//index
 

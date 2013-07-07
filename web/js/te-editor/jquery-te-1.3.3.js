@@ -7,6 +7,44 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
  *
 */
+function pasteHtmlAtCaret(html) {
+    var sel, range;
+    if (window.getSelection) {
+        // IE9 and non-IE
+        sel = window.getSelection();
+        if (sel.getRangeAt && sel.rangeCount) {
+            range = sel.getRangeAt(0);
+            range.deleteContents();
+
+            // Range.createContextualFragment() would be useful here but is
+            // non-standard and not supported in all browsers (IE9, for one)
+            var el = document.createElement("div");
+            el.innerHTML = html;
+            var frag = document.createDocumentFragment(), node, lastNode;
+            while ( (node = el.firstChild) ) {
+                lastNode = frag.appendChild(node);
+            }
+            range.insertNode(frag);
+
+            // Preserve the selection
+            if (lastNode) {
+                range = range.cloneRange();
+                range.setStartAfter(lastNode);
+                range.collapse(true);
+                sel.removeAllRanges();
+                sel.addRange(range);
+            }
+        }
+    } else if (document.selection && document.selection.type != "Control") {
+        // IE < 9
+        document.selection.createRange().pasteHTML(html);
+    }
+}
+
+
+
+
+
 
 (function($){
   $.fn.jqte = function(options){
@@ -911,7 +949,7 @@ You should have received a copy of the GNU General Public License along with thi
                         // if the img button is clicked
                         if( $(this).data('command') == 'img')
                         {
-                            var pixes = $('img', $('#pixThumbs'));
+                            var pixes = $('img', $('#pixes'));
                             //console.dir( pixes)
 
                             var pixSrcToInsert = "";
@@ -920,6 +958,7 @@ You should have received a copy of the GNU General Public License along with thi
                             var sg = s.getRangeAt( 0 );
                             console.log( "after -> colorbox call: " + pixSrcToInsert)
                             console.log( "selection: " + s );
+                            console.log( "value of sg: " + sg );
                             /*
                             $.colorbox( { inline:true, href:'#imageBrowser', width: '90%', height: '90%',
 
@@ -962,11 +1001,20 @@ You should have received a copy of the GNU General Public License along with thi
                                    });
 
                                    $('.pixToInsert').on( 'click', function(){
-                                       var img = document.createElement('img');
-                                       img.src =  $(this).attr('src'); //'/brush/art/upload/thm/6-3-2011-Untitled_Panorama1.jpg';
-                                       var selection = document.defaultView.getSelection();
-                                       var range = selection.getRangeAt(0 );
-                                       range.insertNode(img);
+                                       //var img = document.createElement('img');
+                                       //img.src =  $(this).attr('src'); //'/brush/art/upload/thm/6-3-2011-Untitled_Panorama1.jpg';
+
+                                       //var selection = document.defaultView.getSelection();
+                                       //var range = selection.getRangeAt(0 );
+                                       //range.insertNode(img);
+
+                                       pasteHtmlAtCaret( '<img src="'+ $(this).attr('src') + '" />' );
+                                       //pasteHtmlAtCaret("<div><h2>hi</h2></div>");
+
+
+                                           //console.log( "value of range: " + range );
+                                       //var cursorPosition = $('.jqte_editor').prop("selectionStart");
+
 
                                        $( '#panelWrapper' ).remove();
 

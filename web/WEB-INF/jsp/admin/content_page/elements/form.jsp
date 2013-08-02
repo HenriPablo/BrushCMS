@@ -161,10 +161,11 @@
 
 <script src="${pageContext.servletContext.contextPath}/js/ace/vendor/modernizr-2.6.2.min.js"></script>
 
+<link href="${pageContext.servletContext.contextPath}/js/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script src="${pageContext.servletContext.contextPath}/js/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
 
 <script src="${pageContext.servletContext.contextPath}/js/ace/plugins.js"></script>
-
-<%--<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>--%>
 <script src="${pageContext.servletContext.contextPath}/js/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 
 
@@ -173,6 +174,7 @@
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
 
 
-<script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.js" charset="utf-8"></script>
 
 <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/content_page.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.js" charset="utf-8"></script>

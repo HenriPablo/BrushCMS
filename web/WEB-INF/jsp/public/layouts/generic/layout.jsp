@@ -26,9 +26,9 @@
 
 <h3>LAYOUT JSP</H3>
 
-<hr/>
-<%@ page import="java.net.URLDecoder"%>
-<%@ page import="bap.domain.ContentPage" %>
+<%--<hr/>--%>
+<%--<%@ page import="java.net.URLDecoder"%>--%>
+<%--<%@ page import="bap.domain.ContentPage" %>--%>
 
 
 <%
@@ -38,9 +38,9 @@
     //}
 %>
 
-<div>
-    ${page_contents.content}
-</div>
+<%--<div>--%>
+    <%--${page_contents.content}--%>
+<%--</div>--%>
 
 
 
@@ -77,44 +77,5 @@
         </c:choose>
 
 
-		<%--<script type="text/javascript">--%>
-			<%--$(document).ready(function(){--%>
-
-				<%--/* MAIN NAV MENU */--%>
-
-				<%--$("ul.dropdown li").hover(function(){--%>
-
-					<%--$(this).addClass("hover");--%>
-					<%--$('ul:first',this).css('visibility', 'visible');--%>
-
-				<%--}, function(){--%>
-
-					<%--$(this).removeClass("hover");--%>
-					<%--$('ul:first',this).css('visibility', 'hidden');--%>
-
-				<%--});--%>
-
-				<%--$("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");--%>
-
-				<%--/*$("div.stuff").click(--%>
-					<%--function(){--%>
-						<%--alert('hi');--%>
-						<%--//$(this).next(toggle());--%>
-						<%--}--%>
-					<%--)--%>
-				 <%--*/--%>
-				<%--/* HIDE AND SHOW TEXT AREAS */--%>
-				<%--if( disable_form_effects == false ) {--%>
-				<%--$("label").next().hide();--%>
-
-				<%--$("label", this ).bind( 'click', (function(){--%>
-					<%--$(this).next( ).toggle();--%>
-				<%--}));--%>
-				<%--}--%>
-
-
-
-			<%--});--%>
-		<%--</script>--%>
 	</body>
 </html>

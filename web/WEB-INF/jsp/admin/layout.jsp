@@ -24,7 +24,8 @@
     <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/te-editor/jquery-te-1.3.3.css" charset="utf-8" />
     <%-- WEB FONTS --%>
     <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/admin-utils/brush_font_1/style.css" />
-
+    <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/menu.js"></script>
+    <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin/breadcrumbs.js"></script>
 
 
 
@@ -45,8 +46,7 @@
             <div class="clearFix"></div>
         </div>
 
-        <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/menu.js"></script>
-    <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin/breadcrumbs.js"></script>
+
 
 	</body>
 </html>

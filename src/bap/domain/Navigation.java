@@ -30,6 +30,8 @@ public class Navigation implements Serializable, DomainObject {
 	private static final long serialVersionUID = 3938577804803201035L;
 
 	private int id;
+    private String label;
+    private String code;
 	/*
 	 * reference about swapping array elements for ordering navigation elements display order
 	 * http://www.java-examples.com/swap-elements-java-arraylist-example
@@ -40,7 +42,7 @@ public class Navigation implements Serializable, DomainObject {
 	/**
 	 * @return the navigationSections
 	 */
-	@OneToMany(fetch=FetchType.EAGER, mappedBy="navigation", targetEntity=NavigationSection.class)
+	@OneToMany(fetch=FetchType.LAZY, mappedBy="navigation", targetEntity=NavigationSection.class)
 	@Cascade( value={ CascadeType.SAVE_UPDATE, CascadeType.DELETE_ORPHAN })
 	public Set<NavigationSection> getNavigationSections() {
 		return navigationSections;
@@ -70,4 +72,19 @@ public class Navigation implements Serializable, DomainObject {
 		this.id = id;
 	}
 
+    public String getLabel() {
+        return label;
+    }
+
+    public void setLabel(String label) {
+        this.label = label;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 }

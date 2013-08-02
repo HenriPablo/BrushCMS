@@ -989,42 +989,67 @@ function pasteHtmlAtCaret(html) {
                             var p = {
                                ss : function() {
 
-                                   $('<div id="imageBrowserPanel"><div id="imageBrowserPanelTitleBar">Insert Image<span id="closeImageBrowserPanel">&#xe09f;</span></div></div>').appendTo('body');
-                                   pixes.clone().appendTo( '#imageBrowserPanel');
-                                   $('#imageBrowserPanel').draggable().resizable();
+                                   if( ! $( "#imageBrowserPanel" ).length > 0  ){
 
-                                   $('img', '#imageBrowserPanel').each(  function(){
-                                       $(this).addClass('pixToInsert');
-                                       $(this).wrap('<div class="pixWrapper"></div>');
-                                       $(this).parent().append('<span class="pixActionStrip"><span class="pixActionInsert">&#x7d;</span><span class="pixActionEdit">&#x26;</span><span class="pixActionDelete">&#xe09f;</span></span>');
+                                       $('<div id="imageBrowserPanel"><div id="imageBrowserPanelTitleBar">Insert Image<span id="closeImageBrowserPanel">&#xe09f;</span></div></div>').appendTo('body');
 
-                                   });
+                                       $("<div id='imageBrowserPanelThumbsPanel'></div>").appendTo("#imageBrowserPanel");
 
-                                   $('.pixToInsert').on( 'click', function(){
-                                       //var img = document.createElement('img');
-                                       //img.src =  $(this).attr('src'); //'/brush/art/upload/thm/6-3-2011-Untitled_Panorama1.jpg';
+                                       pixes.clone().appendTo( '#imageBrowserPanelThumbsPanel');
+                                       $( "#imageBrowserPanelThumbsPanel" ).mCustomScrollbar({
+                                           autoDraggerLength: true,
+                                           updateOnContentResize: true
+                                       });
 
-                                       //var selection = document.defaultView.getSelection();
-                                       //var range = selection.getRangeAt(0 );
-                                       //range.insertNode(img);
+                                            /* we want to drag and drop that image */
+                                            $( "img", "#imageBrowserPanel").addClass("floatingThumb").draggable({
+                                                revert:true,
+                                                appendTo: 'body',
+                                                containment: 'window',
+                                                scroll: false,
+                                                helper: 'clone'
+                                            });
+                                               $('.jqte_editor').addClass('floatThumbDroppable');
 
-                                       pasteHtmlAtCaret( '<img src="'+ $(this).attr('src') + '" />' );
-                                       //pasteHtmlAtCaret("<div><h2>hi</h2></div>");
-
-
-                                           //console.log( "value of range: " + range );
-                                       //var cursorPosition = $('.jqte_editor').prop("selectionStart");
-
-
-                                       $( '#panelWrapper' ).remove();
-
-                                    });
-
-                                   $('#closeImageBrowserPanel').on('click', function(){
-                                        $('#imageBrowserPanel').remove();
-                                   })
+                                            $(".floatThumbDroppable").droppable({
+                                                   activeClass: 'pixDropped',
+                                                   drop: /* function(){ alert("hi")}*/ addPixToEditor
+                                               });
 
 
+                                           $('#imageBrowserPanel').draggable().resizable();
+
+                                           $('img', '#imageBrowserPanel').each(  function(){
+                                               $(this).addClass('pixToInsert');
+                                               $(this).wrap('<div class="pixWrapper"></div>');
+                                               $(this).parent().append('<span class="pixActionStrip"><span class="pixActionInsert">&#x7d;</span><span class="pixActionEdit">&#x26;</span><span class="pixActionDelete">&#xe09f;</span></span>');
+
+                                           });
+
+                                           $('.pixToInsert').on( 'click', function(){
+                                               //var img = document.createElement('img');
+                                               //img.src =  $(this).attr('src'); //'/brush/art/upload/thm/6-3-2011-Untitled_Panorama1.jpg';
+
+                                               //var selection = document.defaultView.getSelection();
+                                               //var range = selection.getRangeAt(0 );
+                                               //range.insertNode(img);
+
+                                               pasteHtmlAtCaret( '<img src="'+ $(this).attr('src') + '" />' );
+                                               //pasteHtmlAtCaret("<div><h2>hi</h2></div>");
+
+
+                                                   //console.log( "value of range: " + range );
+                                               //var cursorPosition = $('.jqte_editor').prop("selectionStart");
+
+
+                                               $( '#panelWrapper' ).remove();
+
+                                            });
+
+                                           $('#closeImageBrowserPanel').on('click', function(){
+                                                $('#imageBrowserPanel').remove();
+                                           })
+                                   }
                                 }()
                             };
                             /*

@@ -175,31 +175,53 @@ div.jqte_tool_22 a.jqte_tool_icon{
 ----------------------------------------------------------------*/
 #imageBrowserPanel
 {
-
     position: fixed;
     z-index: 100;
     top:100px;
     left:100px;
-
     border: 1px solid #000;
     background-color: rgba(0, 0, 0, 0.60);
     padding: 5px;
     border-radius: 5px;
     cursor: hand;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+
 }
 #imageBrowserPanelTitleBar{
     color: #ff3d00;
     background-color: #3b0036;
     font-weight: bold;
     padding: 10px;
-
     margin-top: -5px;
     margin-left: -5px;
     margin-right: -5px;
     margin-bottom: 5px;
     border-radius: 4px 4px 0 0;
     border-bottom: 1px solid #999;
+}
+#imageBrowserPanelThumbsPanel{
+
+    width: inherit;
+
+    /* Firefox */
+    /*height: -moz-calc(100% - 50px);*/
+    /* WebKit */
+    /*height: -webkit-calc(100% - 50px);*/
+    /* Opera */
+    /*height: -o-calc(100% - 50px);*/
+    /* Standard */
+    /*height: calc(100% - 50px);*/
+
+    overflow: hidden;
+
+    position: absolute;
+    top: 42px;
+    bottom: 15px;
+
 }
 #closeImageBrowserPanel{
     float: right;
@@ -214,12 +236,13 @@ div.jqte_tool_22 a.jqte_tool_icon{
 
 }
 .pixWrapper{
-    border:1px solid #fff;
+    border:1px solid #999;
     cursor: pointer;
     float: left;
     margin: 5px;
     position: relative;
     box-shadow: 3px 3px 5px #000;
+    background-color: rgba(0,0, 0, 0.5 );
 }
 .pixToInsert{
     position: relative;

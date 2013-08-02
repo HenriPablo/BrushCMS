@@ -76,11 +76,7 @@ $(document).ready(function () {
     });
     /* control tab */
 
-    /* handle drop of pix */
-    function addPixToEditor( event, ui ){
-        var p = ui.draggable;
-        pasteHtmlAtCaret(  '<img src="'+ p.attr('src') + '" />' )
-    }
+
 
 
     function pixDropped(event, ui) {
@@ -125,6 +121,15 @@ $(document).ready(function () {
 
 
 });
+
+
+/* handle drop of pix */
+function addPixToEditor( event, ui ){
+    var p = ui.draggable;
+    pasteHtmlAtCaret(  '<img src="'+ p.attr('src') + '" />' )
+}
+
+
 
 var contentPage = {
 

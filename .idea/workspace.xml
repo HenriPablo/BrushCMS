@@ -7,28 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bap/controllers/NavigationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/elements/form.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/elements/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/domain/Navigation.java" afterPath="$PROJECT_DIR$/src/bap/domain/Navigation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" afterPath="$PROJECT_DIR$/web/js/admin-utils/admin-layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" afterPath="$PROJECT_DIR$/web/js/colorbox/colorbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin-utils/content_page.js" afterPath="$PROJECT_DIR$/web/js/admin-utils/content_page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" afterPath="$PROJECT_DIR$/web/dev_notes/sql/data-bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" afterPath="$PROJECT_DIR$/web/js/te-editor/jquery-te-1.3.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/web/js/colorbox/jquery.colorbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation_section/elements/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation_section/elements/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/bold.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/italic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/jquery.rte.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/rte.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/rte/unordered.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BRUSH.iws" />
@@ -51,7 +39,7 @@
     <file path="/TagController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335174596" ignored="false" />
     <file path="/ContentPageDataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361335230516" ignored="false" />
     <file path="/DataBindingInitializer.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1370053735186" ignored="false" />
-    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1375411514554" ignored="false" />
+    <file path="/Dummy.txt" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1377655964277" ignored="false" />
     <file path="/ContentPageController.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361405267100" ignored="false" />
     <file path="/NavigationEditor.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361407900388" ignored="false" />
     <file path="/ContentPageDao.java" changelist="c19813d4-82cf-4bae-bf65-5bd479037c66" time="1361500645530" ignored="false" />
@@ -148,7 +136,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -202,6 +189,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -213,7 +201,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.1">
       <split-first>
         <leaf>
-          <file leaf-file-name="form.jsp" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="form.jsp" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="164" column="75" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.7719298">
@@ -306,7 +294,7 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="NavigationController.java" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="NavigationController.java" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/bap/controllers/NavigationController.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state line="122" column="50" selection-start="4090" selection-end="4090" vertical-scroll-proportion="1.2479167">
@@ -690,14 +678,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="178" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
     <property name="project.structure.proportion" value="0.106269926" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="178" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
@@ -712,21 +700,21 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="jackson-mapper-asl" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="Downloaded.Files.Path" value="jackson-mapper-asl" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
-    <property name="project.structure.side.proportion" value="0.34251103" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.side.proportion" value="0.34251103" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -895,19 +883,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -934,6 +909,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -979,17 +967,17 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" show_console_on_std_out="true" show_console_on_std_err="true">
@@ -1193,7 +1181,11 @@
       <created>1373164036688</created>
       <updated>1373164036688</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ui cleanup on content page">
+      <created>1375412484354</created>
+      <updated>1375412484354</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1339,31 +1331,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/imageBrowserPanel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="424" selection-end="424" vertical-scroll-proportion="0.3968254" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-orm.jar!/org/springframework/orm/hibernate4/support/OpenSessionInViewFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="693" selection-end="693" vertical-scroll-proportion="0.55026454" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="28" selection-start="6643" selection-end="6643" vertical-scroll-proportion="0.4047619" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="7018" selection-end="7018" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="59" selection-start="4777" selection-end="4777" vertical-scroll-proportion="0.33333334" />
@@ -1388,22 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="41" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="75" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.7719298">
-          <folding>
-            <marker date="1373221474240" expanded="true" signature="5412:5424" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation_section/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1411,18 +1362,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/elements/form.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="72" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1373692165210" expanded="true" signature="449:478" placeholder="{...}" />
-          </folding>
+        <state line="43" column="0" selection-start="1419" selection-end="1425" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/elements/list.jsp">
+    <entry file="file://$PROJECT_DIR$/integration/PropFileFetcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="83" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+        <state line="31" column="60" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/services/PropHolderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin-utils/content_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="11" selection-start="2052" selection-end="2168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="41" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1439,6 +1409,38 @@
         <state line="122" column="50" selection-start="4090" selection-end="4090" vertical-scroll-proportion="1.2479167">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/elements/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="83" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation/elements/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="72" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373692165210" expanded="true" signature="449:478" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="75" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.7719298">
+          <folding>
+            <marker date="1373221474240" expanded="true" signature="5412:5424" placeholder="{...}" />
           </folding>
         </state>
       </provider>

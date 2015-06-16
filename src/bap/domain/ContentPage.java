@@ -6,6 +6,11 @@ package bap.domain;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
+import org.hibernate.search.annotations.Analyzer;
+import org.hibernate.search.annotations.DocumentId;
+import org.hibernate.search.annotations.Field;
+import org.hibernate.search.annotations.Indexed;
+import org.hibernate.search.annotations.Store;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -21,6 +26,8 @@ import java.util.Set;
 sequenceName = "content_page_id_seq")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Table(name = "content_page")
+@Indexed
+
 public class ContentPage implements Serializable, DomainObject {
 
 	private static final long serialVersionUID = -2165847155266648763L;
@@ -83,6 +90,7 @@ public class ContentPage implements Serializable, DomainObject {
 
 	/** @return the title */
 	@Column(name = "title")
+    @Field(store = Store.YES)
 	public String getTitle() {
 		return title;
 	}
@@ -128,6 +136,7 @@ public class ContentPage implements Serializable, DomainObject {
 	/** @return the content */
 	@Column(name = "content")
 	@Basic(fetch = FetchType.LAZY)
+    @Field(store = Store.YES)
 	public String getContent() {
 		return content;
 	}
@@ -141,7 +150,7 @@ public class ContentPage implements Serializable, DomainObject {
     public  void setMainPix( Image mainPix ){
         this.mainPix = mainPix;
     }
-    @ManyToOne( cascade =  CascadeType.DETACH)
+    @ManyToOne( cascade =  CascadeType.ALL)
     @JoinTable( name = "content_page_main_pix", joinColumns = {
             @JoinColumn( name = "content_page_id")}, inverseJoinColumns = {
             @JoinColumn( name = "main_pix_id")

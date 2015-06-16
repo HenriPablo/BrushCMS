@@ -13,10 +13,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.io.IOException;
 import java.net.URLDecoder;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -35,15 +38,41 @@ public class PublicContentController {
 		this.navigationElementsDaoImpl = navigationElementsDaoImpl;
 	}
 
+    @RequestMapping("/search.html")
+
+    public final ModelAndView search( @RequestParam("q") final String searchQuery ){
+        ModelAndView mov = new ModelAndView();
+        List x = new ArrayList();
+        try {
+            x = this.contentPageDao.searchContent( searchQuery );
+        } catch (InterruptedException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
+        mov.addObject("layout", "generic");
+        mov.addObject("page", "searchResults");
+
+        mov.addObject("results", x );
+        mov.addObject("search_term", searchQuery );
+        mov.addObject("nav_elements", navigationElementsDaoImpl.navigationElements());
+        mov.addObject("page_nav_elements", navigationElementsDaoImpl.pageNavElements());
+
+        mov.setViewName("public/layouts/generic/layout");
+
+        return mov;
+    }
+
 	@RequestMapping("/index.html")
 	public final ModelAndView index( ) throws IOException{
 
 		ModelAndView mov = new ModelAndView();
 
+
         ContentPage cp = (ContentPage) this.contentPageDao.latest();
         cp.setContent( URLDecoder.decode( cp.getContent(), "UTF-8") );
 
         //URLDecoder.decode( x.getContent(),  "UTF-8" )
+
 
 
         mov.addObject("layout", "generic");

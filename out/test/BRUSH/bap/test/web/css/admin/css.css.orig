@@ -1,0 +1,478 @@
+/* v1.0 | 20080212 :: http://meyerweb.com/eric/tools/css/reset/index.html */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+body { font-family:  Gill, Trebuchet MS, Helvetica, sans-serif;
+       margin: 0 5% 0 5%;
+       background-color: #e1e1e1;
+}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0;
+	margin: 0; padding: 0;
+	border: 1px solid #999;
+	border-bottom: none;
+	width: 100%;
+	background-color: #efefef;
+
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+tr{
+	border-bottom: 1px solid #999;
+}
+td{ padding: 0.5em;
+}
+td:first-child {
+	border-right: 1px solid #999;
+	border-collapse: collapse;
+	width: 1em;
+}
+
+
+/* LARGE a href BUTTONS */
+table tr td a,
+.btn,
+.lrg_btn {
+	border: 1px solid #333;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	height: 100%;
+	background-color: #666;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	width: 100%;
+	font-weight: bold;
+}
+/* SMALL a href BUTTONS */
+.small_btn{
+	font-size: 75%;
+	width: auto;
+	padding: 2px 6px 2px 6px;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+
+/* BUTTON - LINKS */
+
+/* VIEW */
+table tr td a.view, .view{
+	border:1px solid #33a;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0255b6), to(#0032a3));
+	background-image: -moz-linear-gradient(top, #0255b6, #0032a3);
+}
+
+table tr td a.view:hover, .view:hover{
+	border: 1px solid #060;
+	background-color: #06c;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#71b0f3), to(#347cca));
+	background-image: -moz-linear-gradient(top, #71b0f3, #347cca);
+}
+
+
+/* ADD */
+table tr td a.add, .add{
+	border:1px solid #060;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6c3), to(#390));
+	background-image: -moz-linear-gradient(top, #6c3, #390);	
+}
+
+table tr td a.add:hover, .add:hover{
+	border: 1px solid #060;
+	background-color: #06c;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6c0), to(#0c0));
+	background-image: -moz-linear-gradient(top, #6c0, #0c0);
+}
+
+/* EDIT */
+table tr td a.edit, .edit{
+	color: #000;
+	border:1px solid #c90;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f90), to(#f60));
+	background-image: -moz-linear-gradient(top, #f90, #f60);	
+
+}
+table tr td a.edit:hover, .edit:hover{
+	border: 1px solid #c90;
+	background-color: #f90;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fc0), to(#f90));
+	background-image: -moz-linear-gradient(top, #fc0, #f90);
+
+}
+
+/* DELETE */
+table tr td a.delete, .delete{
+	border: 1px solid #900;
+	background-color: #f30;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c00), to(#900));
+	background-image: -moz-linear-gradient(top, #c00, #900);
+
+}
+table tr td a.delete:hover, .delete:hover{
+	border: 1px solid #900;
+	background-color: #f30;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f60), to(#f30));
+	background-image: -moz-linear-gradient(top, #f60, #f30);
+
+}
+
+.sub_div{
+	display: block;
+	background-color:#feeb9c;
+	border: 1px solid #f1c68a;
+	float: none;
+	clear: both;
+	padding: 0.5em;
+	margin: 6px auto 0px auto;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+
+/*------------------------------------------------------------------------------
+	ROUND BORDERS in px
+------------------------------------------------------------------------------*/
+.round_6{
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+.round_bottom {
+	border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+}
+
+.round_top {
+	border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+}
+/*------------------------------------------------------------------------------
+	GRADIENTS
+------------------------------------------------------------------------------*/
+/* light BLUE to dark BLUE */
+.gr_ltBlu_dkBlu {
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(4,68,128)), color-stop(1, rgb(82,185,240)));
+	background: -moz-linear-gradient( center bottom, rgb(4,68,128) 0%, rgb(82,185,240) 100%);
+}
+
+/* dark BLUE to dark BLUE */
+.gr_dkBlu_dkBlue{
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(4,98,181)), color-stop(1, rgb(0,46,102)));
+	background: -moz-linear-gradient( center bottom, rgb(4,98,181) 0%, rgb(0,46,102) 100%);
+}
+
+
+/*------------------------------------------------------------------------------
+	ADMIN NAV
+------------------------------------------------------------------------------*/
+#admin_nav{
+	margin: 0px auto 10px auto;
+	padding: 5px 0 5px 0px;
+	width: 100%;
+	display: block;
+	clear:both;
+	font-family: Century Gothic, sans-serif;
+	background-color: #0461b4;
+}
+
+/* LEVEL ONE */
+ul.dropdown{ position: relative;
+	padding-left: 8px;
+}
+ul.dropdown li{
+	font-weight: bold;
+	float: left;
+	zoom: 1;
+}
+
+ul.dropdown a:hover{ color: #fff; }
+ul.dropdown a:active{ color: #ffa500; }
+ul.dropdown li a{
+	display: block;
+	padding: 4px 8px;
+	color: #fff;
+}
+ul.dropdown li:last-child a { border-right: none; } /* Doesn't work in IE */ 
+
+ul.dropdown li:hover {
+	background: #F3D673;
+	/*background-color: #0461b4; light blue */
+	background-color:#c30;/* orangy */
+	border-left: 1px solid #c30;
+	border-right: 1px solid #c30;
+	position: relative;
+}
+
+ul.dropdown li:hover a { color: #fff; }
+
+/* LEVEL TWO */
+ul.dropdown ul{
+	width: 220px;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+ul.dropdown ul li{
+	font-weight: normal;
+	background: #0461b4;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #0461b4/*#c30*/;
+	border-right: 1px solid #0461b4 /*#c30*/;
+	float: none;
+}
+
+/* round off bottom of menu */
+ul.dropdown ul li:last-child { border: 1px solid #0461b4; border-top: none; }
+ul.dropdown ul li:last-child:hover { border-color: #c30; }
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a { border-right: none; width: 100%; display: inline-block;
+}
+
+/* LEVEL THREE */
+ul.dropdown ul ul { left: 100%; top: 0; }
+ul.dropdown li:hover > ul{ visibility: visible; }
+/* END NAV MENU STYLES */
+
+/*------------------------------------------------------------------------------
+	ADMIN - SUB-NAV
+------------------------------------------------------------------------------*/
+#sub_nav {
+	width: 90%;
+	border: 1px solid #000;
+	border-top-width: 0;
+	margin: -10px auto 1em auto;
+	padding: 0.5em;
+	background-color: #222;
+	}
+
+
+/*------------------------------------------------------------------------------
+	FORM
+------------------------------------------------------------------------------*/
+form {
+	clear: both;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 0;
+	/*width: 95%;*/
+}
+fieldset {
+	border: 0px solid #fff;
+	margin-bottom: 1em;
+	padding: 5px;
+}
+fieldset legend {
+	color: #000;
+	font-weight: bold;
+}
+fieldset fieldset {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 3px 3px;
+}
+fieldset fieldset legend {
+	font-weight: normal;
+	font-size: 110%;
+	line-height: 1.5em;
+}
+fieldset fieldset div {
+	clear: left;
+	margin: 0 5px;
+}
+form div {
+	clear: both;
+	/*
+	margin-bottom: 1em;
+	*/
+	padding: .5em;
+	vertical-align: text-top;
+}
+form .input {
+	color: #000;
+}
+form .required {
+	font-weight: bold;
+}
+form .required label:after {
+	color: #e32;
+	content: '*';
+	display:inline;
+}
+form div.submit {
+	border: 0;
+	clear: both;
+	margin-top: 10px;
+}
+label {
+	display: block;
+}
+input, textarea {
+	clear: both;
+	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+	padding: 1%;
+	width:98%;
+}
+select {
+	clear: both;
+	font-size: 100%;
+	vertical-align: text-bottom;
+	outline: none;
+}
+
+select[multiple=multiple] {
+	width: 100%;
+}
+select.select_custom{
+	width: 50%
+}
+option {
+	font-size: 100%;
+	padding: 0 3px;
+	outline: none;
+}
+input[type=checkbox] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+div.checkbox label {
+	display: inline;
+}
+input[type=radio] {
+	float:left;
+	width:auto;
+	margin: 0 3px 7px 0;
+}
+label.id_lbl{
+	width: 20px;
+	float: left;
+	padding: 0;
+}
+input.id_field{
+	border: none;
+	background: none;
+	width: 20px;
+	clear: right;
+	float: left;
+	padding: 0 0 0 0.5em;
+	font-size: 100%;
+}
+div.radio label {
+	margin: 0 0 6px 20px;
+}
+
+/* WRAPPER FOR RADIO BUTTON SETS */
+
+#dropdown li div div.radio_set, div.radio_set fieldset {
+	/*border: 1px solid #000;
+	background-color: blue; */
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+div.radio_set fieldset input.radio_btn{
+	margin: 0.25em 0.25em 0 10px;
+}
+div.radio_set fieldset label {
+	border: 0px solid red;
+	padding: 0.1em 0 0 0;
+	margin: 0.25em 0 0 0;
+}
+
+div.radio_set fieldset legend{
+	color: #000;
+	background: none;
+	padding: 0.5em 0 0.5em 0;
+	line-height: 1.5em;
+}
+
+input[type=submit], input[type=reset] {
+	display: inline;
+	font-size: 110%;
+	width: auto;
+}
+form .submit input[type=submit], form .submit input[type=reset] {
+	background:#62af56;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a8ea9c), to(#62af56));
+	background-image: -moz-linear-gradient(top, #a8ea9c, #62af56);
+	border-color: #2d6324;
+	color: #000;
+	text-shadow: #8cee7c 0px 1px 0px;
+}
+form .submit input[type=submit]:hover, form .submit input[type=reset]:hover {
+	background:#4ca83d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#85e573), to(#4ca83d));
+	background-image: -moz-linear-gradient(top, #85e573, #4ca83d);
+}
+
+
+
+input[type=submit], input[type=reset],
+div.actions ul li a,
+td.actions a {
+	font-weight:normal;
+	padding: 4px 8px;
+	background:#e6e49f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f1f1d4), to(#e6e49f));
+	background-image: -moz-linear-gradient(top, #f1f1d4, #e6e49f);
+	color:#000;
+	border:1px solid #aaac62;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	text-decoration:none;
+	text-shadow: #fff 0px 1px 0px;
+	min-width: 0;
+}
+input[type=submit]:hover,
+div.actions ul li a:hover,
+td.actions a:hover {
+	background: #f0f09a;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7e1), to(#eeeca9));
+}
+
+div.error div.error-message{
+	color: #f00;
+	font-size: 125% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-weight: bold;
+}

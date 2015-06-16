@@ -14,7 +14,8 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<div class="admin-col-single">
+<%--<h2>JS LIB: ${js_lib}</h2>--%>
+<div class="admin-col-single-small">
 
     <form:form method="post" commandName="setting" htmlEscape="true" action="${pageContext.servletContext.contextPath}${action}">
 

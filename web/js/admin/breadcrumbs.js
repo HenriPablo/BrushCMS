@@ -5,7 +5,7 @@ $(document).ready( function(){
 
     var chrumbSize = chrumbs.length;
 
-    var sep = ' :: ';
+    var sep = '&nbsp;&nbsp; &#9654; ';
     $('#breadcrumbs').empty();
 
 
@@ -22,7 +22,7 @@ $(document).ready( function(){
             sep = '';
 
         } else {
-            sep = ' :: ';
+            sep = '&nbsp;&nbsp; &#9654; ';
         }
 
         $('#breadcrumbs').append( '<span class="crumb">' + chrumbs[i] +  sep + '</span>');

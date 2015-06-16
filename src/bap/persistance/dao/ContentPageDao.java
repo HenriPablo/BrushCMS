@@ -10,10 +10,17 @@ import bap.domain.DomainObject;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.search.FullTextQuery;
+import org.hibernate.search.FullTextSession;
+import org.hibernate.search.Search;
+import org.hibernate.search.query.dsl.QueryBuilder;
+import org.hibernate.transform.AliasToBeanResultTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.awt.print.Book;
 import java.util.List;
 
 /**
@@ -32,6 +39,39 @@ public class ContentPageDao  {
 //
     public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
+    }
+
+    @Transactional
+    public  List searchContent( String term ) throws InterruptedException {
+
+        Session s = sessionFactory.getCurrentSession();
+
+        FullTextSession fullTextSession = Search.getFullTextSession( s );
+
+        fullTextSession.createIndexer().startAndWait();
+
+        QueryBuilder qb = fullTextSession.getSearchFactory()
+                .buildQueryBuilder().forEntity( ContentPage.class ).get();
+
+        org.apache.lucene.search.Query query = qb
+                .keyword()
+                .onFields("title", "content")
+                .matching( term ).createQuery();
+
+
+        //org.hibernate.Query
+        org.hibernate.search.FullTextQuery hibQuery = fullTextSession.createFullTextQuery(query, ContentPage.class);
+        hibQuery.setProjection(
+                FullTextQuery.SCORE,
+                FullTextQuery.THIS,
+                "content"
+        );
+        //hibQuery.setResultTransformer(
+        //       new AliasToBeanResultTransformer( ContentPage.class )
+        //);
+
+        List result = hibQuery.list();
+        return  result;
     }
 
 

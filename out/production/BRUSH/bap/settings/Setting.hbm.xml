@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="true" package="bap.settings">
+  <class name="bap.settings.Setting" schema="public" table="setting">
+    <id column="id" name="id" type="integer">
+      <generator class="sequence">
+        <param name="sequence">setting_id_seq</param>
+      </generator>
+    </id>
+    <property name="hint" column="hint" />
+    <property column="label" name="label"/>
+    <property name="code" column="code" />
+    <property name="value" column="value" />
+    <many-to-one class="bap.settings.SettingsGroup" column="settings_group_id" name="settingsGroup"   />
+  </class>
+
+</hibernate-mapping>

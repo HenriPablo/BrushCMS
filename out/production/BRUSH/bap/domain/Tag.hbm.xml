@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" package="bap.domain">
+  <class name="Tag" schema="public" table="tag">
+    <id column="id" name="id" type="integer">
+      <generator class="sequence">
+        <param name="sequence">tags_id_seq</param>
+      </generator>
+    </id>
+    <property column="description" name="description"/>
+  </class>
+</hibernate-mapping>

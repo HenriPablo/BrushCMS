@@ -5,8 +5,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost/brush_and_pixel</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfd9dfc5dfc6dfcbdfd8dfc3dfd9</user-password>
       <libraries>
         <library>
           <url>jar://$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc4.jar!/</url>
@@ -17,8 +15,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/brush_and_pixel</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfd9dfc5dfc6dfcbdfd8dfc3dfd9</user-password>
       <libraries>
         <library>
           <url>jar://$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc4.jar!/</url>
@@ -29,8 +25,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/brush_and_pixel</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfd9dfc5dfc6dfcbdfd8dfc3dfd9</user-password>
       <libraries>
         <library>
           <url>file://$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc4.jar</url>
@@ -39,4 +33,3 @@
     </data-source>
   </component>
 </project>
-

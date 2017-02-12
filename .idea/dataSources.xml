@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1262574757">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="myDataSource" uuid="c2ca7d72-854d-49a6-b855-aa3cea447b5b">
-      <driver-ref>postgresql</driver-ref>
+      <driver-ref>7ab7fc97-c45c-4e80-8745-8e129a3c3c05</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost/brush_and_pixel</jdbc-url>
       <libraries>
@@ -12,7 +12,7 @@
       </libraries>
     </data-source>
     <data-source source="LOCAL" name="jdbc" uuid="f8555228-e4db-4b6f-9d57-331e06e5ce73">
-      <driver-ref>postgresql</driver-ref>
+      <driver-ref>7ab7fc97-c45c-4e80-8745-8e129a3c3c05</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/brush_and_pixel</jdbc-url>
       <libraries>
@@ -22,7 +22,7 @@
       </libraries>
     </data-source>
     <data-source source="LOCAL" name="bap:resources:hibernate.cfg.xml" uuid="85a2ec01-39fc-418e-98e6-6a7519d053d8">
-      <driver-ref>postgresql</driver-ref>
+      <driver-ref>b2fc11c5-b0cb-40de-a79f-ccc22721a635</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/brush_and_pixel</jdbc-url>
       <libraries>

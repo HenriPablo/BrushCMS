@@ -7,7 +7,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 
-
+<div class="form-group">
 		<form:form method="post" commandName="article" htmlEscape="true"  action="${pageContext.servletContext.contextPath}${action}">
 
 			ID: <form:input path="id" id="id" readonly="true" cssStyle="border:none; background:none;"  />
@@ -25,25 +25,25 @@
 
 
 
-				<div id="fragment-1" class="form_fragment">
+			<div id="fragment-1" class="form_fragment">
 				<label for="Description" class="label">Meta Tag Description:</label>
-					<form:textarea path="metaDescription" cols="35" rows="2" id="Description" cssClass="synopsis" />
+					<form:textarea path="metaDescription" cols="35" rows="2" id="Description" cssClass="synopsis form-control" />
 					<br class="separator" />
 					<label for="Keywords">Meta Tag Keywords:</label>
-					<form:textarea path="metaKeywords" cols="55" rows="5" id="Keywords" cssClass="sysnopsis" />
+					<form:textarea path="metaKeywords" cols="55" rows="5" id="Keywords" cssClass="sysnopsis form-control" />
 			</div>
 
 
 			<div id="fragment-2" class="form_fragment">
 
 					<label for="Article_Title">Title:</label>
-					<form:input path="title" size="55" id="Article_Title" />
+					<form:input path="title" size="55" id="Article_Title" cssClass="form-control"/>
 
 
 					<br class="separator" />
 
 					<label for="SUBTITLE">Subtitle:</label>
-					<form:input path="subTitle" size="55" id="SUBTITLE" />
+					<form:input path="subTitle" size="55" id="SUBTITLE" cssClass="form-control" />
 
 			</div>
 
@@ -51,7 +51,7 @@
 
 			<div id="fragment-3" class="form_fragment">
 					<label for="BODY">Body:</label>
-					<form:textarea cols="80" rows="30" path="body" id="body" cssClass="body" />
+					<form:textarea cols="80" rows="30" path="body" id="body" cssClass="body form-control" />
 
 					<br class="separator" />
 					<label for="VIEW_LINK">Link name:</label>
@@ -116,3 +116,4 @@
 					<!--End of each accordion item-->
 			</div>
 		</form:form>
+</div>

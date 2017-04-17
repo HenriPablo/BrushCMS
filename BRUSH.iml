@@ -17,8 +17,8 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="bap:resources:hibernate.cfg.xml" value="85a2ec01-39fc-418e-98e6-6a7519d053d8" />
-          <unit-entry name="sessionFactory" value="c2ca7d72-854d-49a6-b855-aa3cea447b5b" />
+          <unit-entry name="bap:resources:hibernate.cfg.xml" value="8d57d966-c096-4a21-a27f-6c31dbb666c7" />
+          <unit-entry name="sessionFactory" value="dcaaa1ed-09cd-4d50-87fa-22faae63b03a" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/bap/resources/hibernate.cfg.xml" />
@@ -34,7 +34,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="true" packagePrefix="bap.test" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="hibernate-4.1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 7" level="application_server_libraries" />

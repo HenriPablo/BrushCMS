@@ -7,114 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/2017-02-12-brush-and-pixel-DATA-bak.backup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/2017-02-12-brush-and-pixel-SCHEMA-bak.backup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/2017-02-12-brush-and-pixel-bak.backup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_bluecatcode_junit_junit_4_10_extended_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp_jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_postgresql_postgresql_9_4_1205_jdbc42.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_122.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_postgresql_9_2_1002_jdbc4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/bold.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/italic.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/jquery.rte.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/rte.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/rte/unordered.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/bindinginitializers/ContentPageDataBindingInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/postgresql_postgresql_9_2_1002_jdbc4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/artifacts/web_war_exploded/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/bold.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/italic.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/jquery.rte.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/rte.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/rte/unordered.gif" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" />
@@ -227,23 +120,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/TagDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/TagDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/Setting.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/Setting.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/SettingsGroup.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/SettingsGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_9_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jdbc.properties" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/artifacts/web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/article/elements/form_article.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/BRUSH.iml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jdbc.properties" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
     </list>
     <ignored path="BRUSH.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -351,7 +241,7 @@
       <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
+            <state relative-caret-position="1998">
               <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
               <folding />
             </state>
@@ -361,14 +251,14 @@
       <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="1134">
               <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -381,8 +271,48 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1668">
+              <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-629">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_article.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2114">
+              <caret line="53" column="104" lean-forward="false" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bap/controllers/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -414,6 +344,8 @@
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
       </list>
     </option>
   </component>
@@ -447,9 +379,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
-    <option name="width" value="1596" />
-    <option name="height" value="854" />
+    <option name="y" value="54" />
+    <option name="width" value="3840" />
+    <option name="height" value="2106" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -470,7 +402,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,7 +465,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,6 +490,74 @@
               <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrushCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrushCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrushCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrushCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -609,27 +609,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bak" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -674,7 +660,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
@@ -689,6 +675,18 @@
       <recent name="$PROJECT_DIR$/web/css/public" />
       <recent name="$PROJECT_DIR$/src/bap/resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7">
     <configuration default="false" name="ContentPageDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
@@ -838,6 +836,34 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -887,6 +913,136 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -941,10 +1097,68 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BRUSH" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -961,6 +1175,34 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -971,7 +1213,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="" show_console_on_std_out="true" show_console_on_std_err="true">
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false" show_console_on_std_out="true" show_console_on_std_err="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/brush" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1113,6 +1368,10 @@
       <workItem from="1447210815610" duration="1742000" />
       <workItem from="1447296123534" duration="173000" />
       <workItem from="1486929029210" duration="26000" />
+      <workItem from="1486944673098" duration="603000" />
+      <workItem from="1490141896776" duration="184000" />
+      <workItem from="1490142085343" duration="2001000" />
+      <workItem from="1492376961408" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="dependencies type fixes">
       <created>1361405373497</created>
@@ -1272,7 +1531,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9613000" />
+    <option name="totallyTimeSpent" value="15281000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1295,17 +1554,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1596" height="854" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="54" width="3840" height="2106" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58014184" sideWeight="0.29639176" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57984996" sideWeight="0.29639176" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29188144" sideWeight="0.8624113" order="1" side_tool="true" content_ui="tabs" />
@@ -1313,36 +1570,40 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20851064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32636657" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32765958" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80876493" sideWeight="0.7036083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41425508" sideWeight="0.7036083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25516796" sideWeight="0.75177306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45088094" sideWeight="0.75177306" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24226804" sideWeight="0.47659576" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67943263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36209336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1408,40 +1669,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/searchResults.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1500,7 +1733,7 @@
         <state relative-caret-position="0">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1559,7 +1792,7 @@
         <state relative-caret-position="0">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1618,7 +1851,7 @@
         <state relative-caret-position="0">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1719,7 +1952,7 @@
         <state relative-caret-position="0">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1753,26 +1986,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="1134">
           <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1785,6 +2010,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1668">
+          <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2114">
+          <caret line="53" column="104" lean-forward="false" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bap/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1792,9 +2057,9 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="artifact" />
               <type id="library" />
               <type id="jpa-descriptors" />
-              <type id="artifact" />
               <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>

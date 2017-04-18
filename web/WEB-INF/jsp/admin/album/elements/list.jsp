@@ -11,7 +11,7 @@
 
         <div class="elementWrapper">
 
-            <div class="actionLinks">
+            <div class="actionLinks edit">
                 <a href="${pageContext.servletContext.contextPath}/admin/album/edit/${a.id}.html"
                    class="elementEdit brushFont">&#x26;</a>
             </div>
@@ -28,7 +28,7 @@
 
             </div>
 
-            <div class="actionLinks">
+            <div class="actionLinks delete">
                 <a href="${pageContext.servletContext.contextPath}/admin/album/delete/${a.id}.html"
                    class="elementDelete brushFont">&#xe09f;</a>
             </div>

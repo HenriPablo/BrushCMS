@@ -25,7 +25,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <%--END Bootstrap--%>
 
-    <link href="${pageContext.servletContext.contextPath}/js/admin-utils/admin-layout.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}/web/css/admin/admin-layout.css" rel="stylesheet">
 
     <link href="${pageContext.servletContext.contextPath}/js/colorbox/colorbox.css" rel="stylesheet">
     <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/colorbox/jquery.colorbox-min.js" charset="utf-8"></script>

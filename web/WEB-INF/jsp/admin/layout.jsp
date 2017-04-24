@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 		<title></title>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 
     <%--START Bootstrap--%>
@@ -37,6 +37,10 @@
     <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/js/admin-utils/brush_font_1/style.css" />
     <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin-utils/menu.js"></script>
     <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/admin/breadcrumbs.js"></script>
+
+    <link href="${pageContext.servletContext.contextPath}/js/smartmenus-1.0.1/css/sm-core-css.css" rel="stylesheet" />
+    <link href="${pageContext.servletContext.contextPath}/js/smartmenus-1.0.1/css/sm-clean" rel="stylesheet"/>
+    <script type="text/javascript" src="${pageContext.servletContext.contextPath}/js/smartmenus-1.0.1/jquery.smartmenus.min.js"></script>
 
 
 

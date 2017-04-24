@@ -89,7 +89,7 @@
 
 </style>
 
-<link href="${pageContext.servletContext.contextPath}/js/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.servletContext.contextPath}/js/custom-scrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css" />
 <script src="${pageContext.servletContext.contextPath}/js/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 
 <div id="elementNavBar"> Order By:</div>

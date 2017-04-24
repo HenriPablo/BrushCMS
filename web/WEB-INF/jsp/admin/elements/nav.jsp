@@ -6,7 +6,12 @@
 
 
 <div class="admin-head">
-    <ul id="menu">
+    <!-- Mobile menu toggle button (hamburger/x icon) -->
+    <input id="main-menu-state" type="checkbox" />
+    <label class="main-menu-btn" for="main-menu-state">
+        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+    </label>
+    <ul id="main-menu" class="sm sm-simple">
         <%-- NAV GROUP --%>
         <li><a href="#">navigation groups</a>
             <ul class="first-sub-menu">
@@ -103,5 +108,12 @@
 
     </ul>
 </div>
+<script>
+    $(document).ready( function () {
+        $(function() {
+            $('#main-menu').smartmenus();
+        });
+    })
+</script>
 
 

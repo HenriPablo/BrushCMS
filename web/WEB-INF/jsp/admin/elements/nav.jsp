@@ -4,13 +4,18 @@
     Author     : tomaszbrymora
 --%>
 
+<%--admin-head--%>
 
-<div class="admin-head">
+<nav class="main-nav " role="navigation">
     <!-- Mobile menu toggle button (hamburger/x icon) -->
-    <input id="main-menu-state" type="checkbox" />
+
     <label class="main-menu-btn" for="main-menu-state">
         <span class="main-menu-btn-icon"></span> Toggle main menu visibility
     </label>
+
+    <h2 class="nav-brand"><a href="#">Brand</a></h2>
+
+
     <ul id="main-menu" class="sm sm-simple">
         <%-- NAV GROUP --%>
         <li><a href="#">navigation groups</a>
@@ -107,12 +112,10 @@
         <li><a href="${pageContext.servletContext.contextPath}/">home</a></li>
 
     </ul>
-</div>
+</nav>
 <script>
     $(document).ready( function () {
-        $(function() {
             $('#main-menu').smartmenus();
-        });
     })
 </script>
 

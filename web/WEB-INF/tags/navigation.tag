@@ -11,7 +11,7 @@
 
 <div id="admin_nav" class="">
 
-	<img src="${pageContext.servletContext.contextPath}/art/public_layout/BrushAndPixel_v1.gif" alt="Brush And Pixel" style="vertical-align: middle; float: left; padding-right: 1.5em;" />
+	<img src="${pageContext.servletContext.contextPath}/art/public_layout/artistic-brush.png" alt="Brush And Pixel" style="vertical-align: middle; float: left; padding-right: 1.5em;" />
 
 	<ul id="menu">
 		<li><span style="font-weight: bold; font-size: 38px; color: #ff6600">{</span></li>

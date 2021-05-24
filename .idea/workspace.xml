@@ -5,142 +5,351 @@
       <artifact name="web:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c19813d4-82cf-4bae-bf65-5bd479037c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/NavigationSectionEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/NavigationSectionEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/SettingEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/SettingEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/SettingsGropuEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/SettingsGropuEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/TagEditor.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/propertyeditors/TagEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ImageCropperSrv.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ImageCropperSrv.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/PixThumbnailGenerator.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/PixThumbnailGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBase.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBuilder$1.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBuilder$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBuilder$Builder.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBuilder$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBuilder.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewComposit.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ViewComposit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/Viewable.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/Viewable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/AdminController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/AlbumController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/AlbumController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/CommentController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/ContentPageController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/ContentPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/ImageController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/ImageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/NavigationSectionController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/NavigationSectionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/PublicContentController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/PublicContentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/SettingsGroupController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/SettingsGroupController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/TagController.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/TagController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Album.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Album.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Comment.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/ContentPage.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/ContentPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/DomainObject.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/DomainObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/GlobalPreferences.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/GlobalPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Image.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/LocalPreferences.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/LocalPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Navigation.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Navigation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/NavigationSection.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/NavigationSection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/PreferencesInterface.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/PreferencesInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Tag.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/Tag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/TimeDate.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/domain/TimeDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/exceptions/ExceptionReport.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/exceptions/ExceptionReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/exceptions/SimpleException.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/exceptions/SimpleException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/logging/LoggerBean.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/logging/LoggerBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/loging/LoggerBean.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/loging/LoggerBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/AbstractDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/AbstractDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/AlbumDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/AlbumDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/CommentDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/CommentDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/ContentPageDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/ContentPageDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/Dao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/ImageDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/ImageDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationElementsImpl.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationElementsImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationElmentsDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationElmentsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationSectionDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/NavigationSectionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/SettingDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/SettingDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/SettingGroupDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/SettingGroupDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/TagDao.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/persistance/dao/TagDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/settings/Setting.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/settings/Setting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/settings/SettingsGroup.class" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/settings/SettingsGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/NavigationSectionEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/NavigationSectionEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/SettingEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/SettingEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/SettingsGropuEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/SettingsGropuEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/TagEditor.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/TagEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ImageCropperSrv.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ImageCropperSrv.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/PixThumbnailGenerator.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/PixThumbnailGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBase.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder$1.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder$Builder.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewComposit.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewComposit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/Viewable.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/Viewable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/AdminController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/AlbumController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/AlbumController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/CommentController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/ContentPageController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/ContentPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/ImageController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/ImageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/NavigationSectionController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/NavigationSectionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/PublicContentController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/PublicContentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/SettingsGroupController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/SettingsGroupController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/TagController.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/TagController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Album.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Album.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Comment.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/ContentPage.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/ContentPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/DomainObject.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/DomainObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/GlobalPreferences.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/GlobalPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Image.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/LocalPreferences.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/LocalPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Navigation.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Navigation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/NavigationSection.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/NavigationSection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/PreferencesInterface.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/PreferencesInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Tag.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Tag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/TimeDate.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/TimeDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/exceptions/ExceptionReport.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/exceptions/ExceptionReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/exceptions/SimpleException.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/exceptions/SimpleException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/logging/LoggerBean.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/logging/LoggerBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/loging/LoggerBean.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/loging/LoggerBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/AbstractDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/AbstractDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/AlbumDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/AlbumDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/CommentDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/CommentDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/ContentPageDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/ContentPageDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/Dao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/ImageDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/ImageDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationElementsImpl.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationElementsImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationElmentsDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationElmentsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationSectionDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationSectionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/SettingDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/SettingDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/SettingGroupDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/SettingGroupDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/TagDao.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/TagDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/Setting.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/Setting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/SettingsGroup.class" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/SettingsGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BRUSH.iml" afterPath="$PROJECT_DIR$/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/article/elements/form_article.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/BRUSH.iml" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/BRUSH.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
+      <change afterPath="$PROJECT_DIR$/bak/2021-05-24-brush-and-pixel-pgdump.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bak/brush_and_pixel_backup_Novicat.nb3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/admin/admin-layout-BAK-2020-04-15.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/LICENSE-MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/bootstrap/jquery.smartmenus.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/bootstrap/jquery.smartmenus.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/bootstrap/jquery.smartmenus.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/keyboard/jquery.smartmenus.keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/addons/keyboard/jquery.smartmenus.keyboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/_sm-blue-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/mixins/_round-corners-last-item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/mixins/_sub-items-indentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/sm-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/sm-blue.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-blue/sm-blue.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/_sm-clean-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/mixins/_round-corners-last-item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/mixins/_sub-items-indentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/sm-clean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/sm-clean.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-clean/sm-clean.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-core-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-mint/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-mint/_sm-mint-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-mint/mixins/_sub-items-indentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-mint/sm-mint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-mint/sm-mint.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-mint/sm-mint.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-simple/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-simple/_sm-simple-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-simple/mixins/_sub-items-indentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-simple/sm-simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-simple/sm-simple.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/css/sm-simple/sm-simple.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-4-navbar-fixed-bottom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-4-navbar-fixed-top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-4-navbar-static-top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-4-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-navbar-fixed-bottom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-navbar-fixed-top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-navbar-static-top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/bootstrap-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/demo/keyboard-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/jquery.smartmenus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/jquery.smartmenus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/libs/demo-assets/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/libs/demo-assets/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/libs/demo-assets/shjs/shjs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/libs/demo-assets/shjs/shjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/libs/demo-assets/themes-switcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/smartmenus/libs/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/admin/admin-layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85a2ec01-39fc-418e-98e6-6a7519d053d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85a2ec01-39fc-418e-98e6-6a7519d053d8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2ca7d72-854d-49a6-b855-aa3cea447b5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c2ca7d72-854d-49a6-b855-aa3cea447b5b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRUSH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BRUSH.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/content_page/elements/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/content_page/elements/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/elements/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/jsp/admin/layout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/tags/navigation.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/tags/navigation.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BRUSH/bap/controllers/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/AlbumEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/ImageEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/NavigationEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/NavigationSectionEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/SettingEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/SettingsGropuEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/propertyeditors/TagEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ImageCropperSrv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ImageResizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/PixThumbnailGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/ViewComposit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/admin/controllers/utilities/Viewable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/AlbumController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/ContentPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/ImageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/NavigationSectionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/PublicContentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/SettingsGroupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/controllers/TagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/ContentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/DomainObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/GlobalPreferences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/LocalPreferences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Navigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/NavigationSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/PreferencesInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/domain/TimeDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/exceptions/ExceptionReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/exceptions/SimpleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/logging/LoggerBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/loging/LoggerBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/AbstractDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/AlbumDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/CommentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/ContentPageDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/ImageDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationElementsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationElmentsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/NavigationSectionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/SettingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/SettingGroupDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/persistance/dao/TagDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/Setting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/settings/SettingsGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/artifacts/web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/dataSources.ids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/cglib_cglib_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/com_mchange_c3p0_com_springsource_com_mchange_v2_c3p0_0_9_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/commons_fileupload_commons_fileupload_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/hibernate_4_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/org_hibernate_hibernate_c3p0_4_1_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/org_hibernate_hibernate_ehcache_4_1_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/spring_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/spring_data_jpa_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/libraries/spring_mvc_3_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/scopes/scope_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/BRUSH.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/aopalliance.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/asm-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/c3p0-0.9.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/c3p0-0.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/cglib-2.2.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/cglib-2.2.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/cglib-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-fileupload-1.2.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-fileupload-1.2.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-fileupload-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-logging-1.0.4-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-logging-1.0.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/commons-logging.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/dom4j-1.6.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/ehcache-1.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/ehcache-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/ehcache-core-2.4.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/ehcache-core-2.4.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/ehcache-core-2.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-c3p0-4.1.3.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-c3p0-4.1.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-commons-annotations-4.0.1.Final-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-commons-annotations-4.0.1.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-commons-annotations-4.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.3.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.7.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.9.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-core-4.1.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-ehcache-4.1.7.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-ehcache-4.1.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-ehcache-4.1.9.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-ehcache-4.1.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/javassist-3.15.0-GA-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/javassist-3.15.0-GA-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/javassist-3.15.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/javassist-3.17.1-GA-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/javassist-3.17.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/jboss-logging-3.1.0.GA-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/jboss-logging-3.1.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/jboss-transaction-api_1.1_spec-1.0.0.Final-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/portlet-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/postgresql-9.1-901.jdbc3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/postgresql-9.1-901.jdbc3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/postgresql-9.1-901.jdbc3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/postgresql-9.2-1002.jdbc4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/servlet-api-2.4-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/servlet-api-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/slf4j-api-1.6.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/slf4j-api-1.6.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-aop.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-asm.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-aspects.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-beans.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-context-support.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-context.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-data-commons-core-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-data-jpa-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-expression.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-instrument-tomcat.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-instrument.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-jdbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-orm.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-oxm.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-test.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-tx.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-web.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/lib/spring-webmvc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/cache/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/domain/Comment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/domain/ContentPage.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/domain/Navigation.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/domain/NavigationSection.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/domain/Tag.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/persistance/dao/postgresql_insert_test.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/settings/Setting.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/bap/settings/SettingsGroup.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/bap_log4j.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/album/elements/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/album/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/album/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/article/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/category/elements/form_category.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/category/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/category/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/comment/elements/form_comment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/comment/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/comment/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/content_page/elements/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/content_page/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/content_page/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/elements/nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/elements/JCropView.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/elements/crop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/elements/form_upload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/elements/thm_view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/elements/yahoo_image_image_insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/image/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/index/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/layout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/navigation_section/elements/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/navigation_section/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/navigation_section/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/settings_group/elements/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/settings_group/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/settings_group/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/tag/elements/form_tag.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/tag/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/admin/tag/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/common/elements/form_comment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/comment/elements/form_comment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/comment/elements/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/comment/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/index/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/layouts/generic/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/layouts/generic/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/jsp/public/layouts/generic/layout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/tags/JQuery.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/tags/navigation.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/tags/show_album.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/tags/show_image_list.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/public_layout/BrushAndPixel_v1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/test_pixes/1596590.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/test_pixes/1865911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/test_pixes/1868343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/test_pixes/1871052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/test_pixes/1873354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/upload/1596590.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/upload/1873354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/art/upload/thm/1873354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/css/admin/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/css/admin/css.css.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/css/admin/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/dev_notes/sql/BandPDB.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/dev_notes/sql/data-bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/dev_notes/sql/schema-bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/dev_notes/sql/schema-bak.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/dev_notes/sql/sql.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/dev_working_art_guides/BrushAndPixel_v1_general_page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/Jcrop/css/Jcrop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/Jcrop/css/jquery.Jcrop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/Jcrop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/Jcrop/js/jquery.Jcrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/Jcrop/js/jquery.Jcrop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/Jcrop/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/colorbox/colorbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/colorbox/images/controls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/colorbox/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/colorbox/jquery.colorbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/jquery-1.4.x.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/jquery-1.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/jquery.Jcrop-0.9.8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/jquery.selectlist-0.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/selectList/css/cross-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/selectList/css/selectlist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/js/selectList/jquery.selectlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/BRUSH/bap/test/web/redirect.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/elements/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/admin/admin-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/admin/admin-layout.css" afterDir="false" />
     </list>
-    <ignored path="BRUSH.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,6 +359,9 @@
     <leftPanel />
     <rightPanel />
     <splitter proportion="0.5" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -231,95 +443,6 @@
     </line_breakpoints>
     <breakpoint_rules converted="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="BRUSH" />
-    <favorites_list name="CodeIris Favorites" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1668">
-              <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_article.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2114">
-              <caret line="53" column="104" lean-forward="false" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bap/controllers/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -334,27 +457,6 @@
       <MyDateState />
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -368,500 +470,100 @@
         <option name="mavenHome" value="/usr/share/maven" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="54" />
-    <option name="width" value="3840" />
-    <option name="height" value="2106" />
-  </component>
+  <component name="ProjectId" id="1aOnIACORElRnBodJhQjLroF1di" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrushCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="178" />
-    <property name="project.structure.proportion" value="0.106269926" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="178" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;module" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FlightLogGrails" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="969" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="969" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="179" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="178" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="969" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="project.structure.side.proportion" value="0.52459013" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="178" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="179" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="183" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="969" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="dynamic.classpath" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/css/admin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.106269926" />
+    <property name="project.structure.side.proportion" value="0.52021855" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/scss/admin" />
+      <recent name="$PROJECT_DIR$/src/bap/resources/properties" />
+      <recent name="$PROJECT_DIR$/web/css/public" />
+      <recent name="$PROJECT_DIR$/src/bap/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/css/admin" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/tags" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/jsp/admin/setting" />
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/bap/resources/properties" />
-      <recent name="$PROJECT_DIR$/web/css/public" />
-      <recent name="$PROJECT_DIR$/src/bap/resources" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7">
-    <configuration default="false" name="ContentPageDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.ContentPageDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CommentDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.CommentDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropFileFetcherTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropFileFetcherTest.readTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
-      <option name="METHOD_NAME" value="readTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropFileFetcherTest.readDbTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bap.test.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BRUSH" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="bap.test.integration" />
-      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
-      <option name="METHOD_NAME" value="readDbTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -892,364 +594,191 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="false" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+    <configuration name="CommentDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BRUSH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.CommentDaoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <envs />
-      <patterns />
-      <method />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="ContentPageDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="BRUSH" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.ContentPageDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
+    <configuration name="PropFileFetcherTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BRUSH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
+    <configuration name="PropFileFetcherTest.readDbTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BRUSH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
+      <option name="METHOD_NAME" value="readDbTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
+    <configuration name="PropFileFetcherTest.readTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BRUSH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bap.test.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bap.test.integration" />
+      <option name="MAIN_CLASS_NAME" value="bap.test.integration.PropFileFetcherTest" />
+      <option name="METHOD_NAME" value="readTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false" show_console_on_std_out="true" show_console_on_std_err="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/brush" />
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/brush" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_BRUSH" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BrushCMS" />
       </server-settings>
-      <log_file path="%IDEA_RUN:TOMCAT_HOME%/logs" checked="true" skipped="true" show_all="true" alias="pod-log" />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <output_file is_save="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Cover" />
+      <predefined_log_file enabled="true" id="Tomcat" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="44432" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
+        <option name="DEBUG_PORT" value="40965" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -1295,58 +824,114 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="web:war exploded" />
         </option>
       </method>
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readDbTest" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_BrushCMS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40965" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ContentPageDaoTest" />
+      <item itemvalue="JUnit.CommentDaoTest" />
+      <item itemvalue="JUnit.PropFileFetcherTest" />
+      <item itemvalue="JUnit.PropFileFetcherTest.readTest" />
+      <item itemvalue="JUnit.PropFileFetcherTest.readDbTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readDbTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PropFileFetcherTest.readTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CommentDaoTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ContentPageDaoTest" />
+      <list>
+        <item itemvalue="JUnit.PropFileFetcherTest" />
+        <item itemvalue="JUnit.PropFileFetcherTest.readDbTest" />
+        <item itemvalue="JUnit.PropFileFetcherTest.readTest" />
+        <item itemvalue="JUnit.CommentDaoTest" />
+        <item itemvalue="JUnit.ContentPageDaoTest" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showGraph" value="false" />
+    <option name="beanDetailsProportion" value="0.9" />
   </component>
-  <component name="SvnConfiguration" myUseAcceleration="nothing">
+  <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
@@ -1371,7 +956,23 @@
       <workItem from="1486944673098" duration="603000" />
       <workItem from="1490141896776" duration="184000" />
       <workItem from="1490142085343" duration="2001000" />
-      <workItem from="1492376961408" duration="2880000" />
+      <workItem from="1492376961408" duration="8878000" />
+      <workItem from="1492649383589" duration="4586000" />
+      <workItem from="1492987923762" duration="629000" />
+      <workItem from="1493032986844" duration="171000" />
+      <workItem from="1533607616856" duration="3000000" />
+      <workItem from="1533640777938" duration="3644000" />
+      <workItem from="1533724916051" duration="1519000" />
+      <workItem from="1534093052806" duration="135000" />
+      <workItem from="1537740812970" duration="1021000" />
+      <workItem from="1586615428302" duration="12184000" />
+      <workItem from="1586986095158" duration="6441000" />
+      <workItem from="1587167797753" duration="3360000" />
+      <workItem from="1587829900862" duration="14000" />
+      <workItem from="1587829944922" duration="905000" />
+      <workItem from="1592065816951" duration="141000" />
+      <workItem from="1592066011876" duration="212000" />
+      <workItem from="1621864729649" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="dependencies type fixes">
       <created>1361405373497</created>
@@ -1527,11 +1128,29 @@
       <option name="project" value="LOCAL" />
       <updated>1377659033618</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ui cleanup on content page">
+      <created>1492425001397</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1492425001397</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixed admin css path">
+      <created>1492599815063</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1492599815063</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added missing mCustomScrollbar js lib">
+      <created>1493033140070</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1493033140070</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15281000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1553,57 +1172,8 @@
       <is-autoscroll-to-source value="false" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="54" width="3840" height="2106" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57984996" sideWeight="0.29639176" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29188144" sideWeight="0.8624113" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.8624113" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20851064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32636657" sideWeight="0.4974227" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41425508" sideWeight="0.7036083" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45088094" sideWeight="0.75177306" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24226804" sideWeight="0.47659576" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67943263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36209336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="DBOutput" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1612,9 +1182,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -1638,7 +1205,63 @@
     <MESSAGE value="added persistance to stuff edited in Ace editor" />
     <MESSAGE value="added some ace files" />
     <MESSAGE value="ui cleanup on content page" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui cleanup on content page" />
+    <MESSAGE value="fixed admin css path" />
+    <MESSAGE value="added missing mCustomScrollbar js lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="added missing mCustomScrollbar js lib" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2552" y="135" width="651" height="853" key="#Tomcat_9" timestamp="1587907176904">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2552" y="135" width="651" height="853" key="#Tomcat_9/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907176904" />
+    <state x="2393" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586986249985">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2393" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1586986249985" />
+    <state x="2566" y="304" width="624" height="515" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592065842912">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2566" y="304" width="624" height="515" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1592065842912" />
+    <state width="1559" height="330" key="GridCell.Tab.0.bottom" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.0.center" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.0.center/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.0.left" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.0.left/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.0.right" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.0.right/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.1.bottom" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.1.center" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.1.center/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.1.left" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.1.left/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state width="1559" height="330" key="GridCell.Tab.1.right" timestamp="1587907174729">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="330" key="GridCell.Tab.1.right/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587907174729" />
+    <state x="2417" y="198" width="926" height="727" key="SettingsEditor" timestamp="1587005247451">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2417" y="198" width="926" height="727" key="SettingsEditor/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1587005247451" />
+    <state x="2034" y="59" width="1153" height="1011" key="find.popup" timestamp="1586636476420">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2034" y="59" width="1153" height="1011" key="find.popup/1920.0.1920.1080/0.34.1920.1046@1920.0.1920.1080" timestamp="1586636476420" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1646,19 +1269,15 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/bap/controllers/NavigationController.java</url>
           <line>110</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1668,399 +1287,16 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/PublicContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/searchResults.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/PublicContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/searchResults.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/PublicContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/searchResults.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-aop.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-tx.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/HibernateSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/navigation.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="73" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/search.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/ContentPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/content_page/elements/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration/SettingDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/searchResults.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/persistance/dao/ContentPageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/domain/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/PublicContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/public/layouts/generic/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1668">
-          <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/layout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/article/elements/form_article.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2114">
-          <caret line="53" column="104" lean-forward="false" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bap/controllers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
-              <type id="library" />
               <type id="jpa-descriptors" />
               <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
           <last-edited>web:war exploded</last-edited>
@@ -2116,7 +1352,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.52459013" />
+                <option value="0.52021855" />
               </list>
             </option>
           </splitter-proportions>
@@ -2136,11 +1372,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.postgresql:postgresql:9.4-1205-jdbc42</last-edited>
+          <last-edited>cglib:cglib:2.2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.52459013" />
+                <option value="0.52021855" />
               </list>
             </option>
           </splitter-proportions>

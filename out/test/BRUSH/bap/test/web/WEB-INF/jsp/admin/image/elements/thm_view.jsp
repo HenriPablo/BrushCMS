@@ -1,1 +1,0 @@
-<img src="${pageContext.servletContext.contextPath}/art/upload/thm/${image.src}" alt="${image.alt}" />
